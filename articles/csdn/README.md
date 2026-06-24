@@ -4,7 +4,7 @@
 
 > 工具：https://www.speedce.com | 中文：https://speedce.com/?lang=zh-CN
 
-**库内文章**：212 篇（已发布 2 + 生成长文 210）  
+**库内文章**：210 篇  
 **生成长文平均字数**：约 16138 字符/篇  
 **配图**：每篇 2 张正方形图（封面 + 地图示意），各提供 800×800 与 500×500 两种尺寸
 
@@ -26,21 +26,6 @@
 ...
 ![SpeedCE 节点地图示意](images/dns-troubleshooting-guide/diagram-800.png)
 ```
-
-## 已发布（CSDN 高质量推荐）
-
-| 标题 | 链接 |
-|------|------|
-| 网站慢、打不开、部分用户访问异常？站长多节点测速实战手册（SpeedCE 实操版） | https://blog.csdn.net/weixin_72303315/article/details/162210031 |
-| 2026 在线网站测速工具横评：ITDOG、BOCE、17CE、SpeedCE 等 10 款主流平台深度对比 | https://blog.csdn.net/weixin_72303315/article/details/162210199 |
-
-## 手工精品（优先发布）
-
-| 文件 | 标题 | 类别 |
-|------|------|------|
-| `vps-line-verification-guide.md` | 买 VPS 前必看：用全国三网地图验线路，识破 CN2 / 精品网宣传（SpeedCE 实操） | VPS线路 |
-| `cdn-deployment-speed-test-guide.md` | CDN 接入全攻略：切量前、切量中、故障时，多节点测速验收怎么做 | CDN |
-| `global-deployment-checklist.md` | 网站出海测速验收手册：从中国节点到全球节点的完整检查流程 | 出海 |
 
 ## 生成长文索引（按类别）
 

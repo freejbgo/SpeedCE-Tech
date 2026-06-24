@@ -16,19 +16,6 @@ CATEGORY_ORDER = [
     "故障排查", "VPS线路", "CDN", "出海", "行业", "方法论", "对比", "进阶",
 ]
 
-PUBLISHED = [
-    {
-        "title": "网站慢、打不开、部分用户访问异常？站长多节点测速实战手册（SpeedCE 实操版）",
-        "url": "https://blog.csdn.net/weixin_72303315/article/details/162210031",
-        "intro": "八大高频故障场景对号入座式排查，含 SpeedCE 实操与上线检查清单。",
-    },
-    {
-        "title": "2026 在线网站测速工具横评：ITDOG、BOCE、17CE、SpeedCE 等 10 款主流平台深度对比",
-        "url": "https://blog.csdn.net/weixin_72303315/article/details/162210199",
-        "intro": "10 款主流测速工具六维横评与分场景选型建议。",
-    },
-]
-
 
 def extract_intro(md_path: Path, max_len: int = 120) -> str:
     if not md_path.exists():
@@ -67,17 +54,11 @@ def main():
         "\n",
         f"| 项目 | 数量 |\n|------|------|\n",
         f"| 仓库内长文 | {len(articles)} 篇 |\n",
-        "| CSDN 已发布（高质量推荐） | 2 篇 |\n",
         "| 每篇配图 | 封面 + 示意图（500/800px） |\n",
         "\n",
-        "## 已发布（CSDN 高质量推荐）\n",
-        "\n",
+        "## 仓库文章目录\n",
     ]
-    for p in PUBLISHED:
-        lines.append(f"- [**{p['title']}**]({p['url']})  \n")
-        lines.append(f"  {p['intro']}\n\n")
 
-    lines.append("## 仓库文章目录\n")
     lines.append("\n> 说明：链接指向本仓库 `articles/csdn/` 下的 Markdown 原文，可直接阅读或复制到 CSDN 发布。\n")
 
     for cat in CATEGORY_ORDER:
@@ -105,7 +86,7 @@ def main():
     lines.append("| `scripts/generate_root_readme.py` | 更新本 README |\n")
     lines.append("\n## 发布建议\n\n")
     lines.append("1. 每 3–5 天发 1 篇，附 SpeedCE 实拍或生成的封面/示意图\n")
-    lines.append("2. 文内互链到已发布高质量文章 + SpeedCE 中文页\n")
+    lines.append("2. 文内互链到其他专题文章 + SpeedCE 中文页\n")
     lines.append("3. 详细索引见 [articles/csdn/README.md](articles/csdn/README.md)\n")
 
     README.write_text("".join(lines), encoding="utf-8")

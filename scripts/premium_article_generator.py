@@ -1142,32 +1142,14 @@ def main():
             "lines": lines,
         })
 
-    # README
-    manual = [
-        ("vps-line-verification-guide.md", "买 VPS 前必看：用全国三网地图验线路，识破 CN2 / 精品网宣传（SpeedCE 实操）", "VPS线路", "手工精品"),
-        ("cdn-deployment-speed-test-guide.md", "CDN 接入全攻略：切量前、切量中、故障时，多节点测速验收怎么做", "CDN", "手工精品"),
-        ("global-deployment-checklist.md", "网站出海测速验收手册：从中国节点到全球节点的完整检查流程", "出海", "手工精品"),
-    ]
-    published = [
-        ("网站慢、打不开、部分用户访问异常？站长多节点测速实战手册（SpeedCE 实操版）", "https://blog.csdn.net/weixin_72303315/article/details/162210031"),
-        ("2026 在线网站测速工具横评：ITDOG、BOCE、17CE、SpeedCE 等 10 款主流平台深度对比", "https://blog.csdn.net/weixin_72303315/article/details/162210199"),
-    ]
-
     avg_c = sum(stats) // len(stats) if stats else 0
     lines = [
         "# SpeedCE CSDN 高质量长文库\n",
-        "\n> 目标规格：每篇 **8000–15000 字** 级实战长文，对标 CSDN「高质量推荐」标准\n",
+        "\n> 目标规格：每篇 **8000–15000 字** 级实战长文\n",
         f"\n> 工具：https://www.speedce.com | 中文：https://speedce.com/?lang=zh-CN\n",
-        f"\n**库内文章**：{len(index) + len(manual) + len(published)} 篇（已发布 2 + 手工精品 3 + 生成长文 {len(index)}）\n",
+        f"\n**库内文章**：{len(index)} 篇\n",
         f"**生成长文平均字数**：约 {avg_c} 字符/篇\n",
-        "\n## 已发布（CSDN 高质量推荐）\n\n| 标题 | 链接 |\n|------|------|\n",
     ]
-    for t, u in published:
-        lines.append(f"| {t} | {u} |\n")
-
-    lines.append("\n## 手工精品（优先发布）\n\n| 文件 | 标题 | 类别 |\n|------|------|------|\n")
-    for f, t, c, _ in manual:
-        lines.append(f"| `{f}` | {t} | {c} |\n")
 
     cats = {}
     for item in index:
@@ -1181,10 +1163,9 @@ def main():
 
     lines.append("\n## 发布建议\n\n")
     lines.append("1. **规格**：每篇发布前配 3–5 张 SpeedCE 实拍地图（电信/联通/移动/全球）\n")
-    lines.append("2. **节奏**：每 3–5 天 1 篇，优先手工精品 → 故障排查 → VPS/CDN\n")
-    lines.append("3. **互链**：文内链到已发布 2 篇高质量文章\n")
+    lines.append("2. **节奏**：每 3–5 天 1 篇，优先故障排查 → VPS/CDN\n")
+    lines.append("3. **互链**：文内互链到其他专题文章 + SpeedCE 中文页\n")
     lines.append("4. **标签**：网站测速、CDN、VPS、运维、SpeedCE\n")
-    lines.append("5. **扩写**：若需对标已发布篇（15000 字+），可在手工精品基础上继续加深场景\n")
 
     (OUT / "README.md").write_text("".join(lines), encoding="utf-8")
     (OUT / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8")

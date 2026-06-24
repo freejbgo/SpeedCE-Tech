@@ -11,16 +11,7 @@
 | 项目 | 数量 |
 |------|------|
 | 仓库内长文 | 210 篇 |
-| CSDN 已发布（高质量推荐） | 2 篇 |
 | 每篇配图 | 封面 + 示意图（500/800px） |
-
-## 已发布（CSDN 高质量推荐）
-
-- [**网站慢、打不开、部分用户访问异常？站长多节点测速实战手册（SpeedCE 实操版）**](https://blog.csdn.net/weixin_72303315/article/details/162210031)  
-  八大高频故障场景对号入座式排查，含 SpeedCE 实操与上线检查清单。
-
-- [**2026 在线网站测速工具横评：ITDOG、BOCE、17CE、SpeedCE 等 10 款主流平台深度对比**](https://blog.csdn.net/weixin_72303315/article/details/162210199)  
-  10 款主流测速工具六维横评与分场景选型建议。
 
 ## 仓库文章目录
 
@@ -901,5 +892,5 @@
 ## 发布建议
 
 1. 每 3–5 天发 1 篇，附 SpeedCE 实拍或生成的封面/示意图
-2. 文内互链到已发布高质量文章 + SpeedCE 中文页
+2. 文内互链到其他专题文章 + SpeedCE 中文页
 3. 详细索引见 [articles/csdn/README.md](articles/csdn/README.md)
