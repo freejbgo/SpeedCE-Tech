@@ -4,8 +4,28 @@
 
 > 工具：https://www.speedce.com | 中文：https://speedce.com/?lang=zh-CN
 
-**库内文章**：215 篇（已发布 2 + 手工精品 3 + 生成长文 210）
-**生成长文平均字数**：约 16138 字符/篇
+**库内文章**：212 篇（已发布 2 + 生成长文 210）  
+**生成长文平均字数**：约 16138 字符/篇  
+**配图**：每篇 2 张正方形图（封面 + 地图示意），各提供 800×800 与 500×500 两种尺寸
+
+## 文章配图（210 篇 × 2 张）
+
+| 图片 | 用途 | 路径 |
+|------|------|------|
+| 封面图 | CSDN 文章头图 / 封面 | `images/{slug}/cover-800.png` 或 `cover-500.png` |
+| 示意图 | 正文插图（节点地图 + 四步流程） | `images/{slug}/diagram-800.png` 或 `diagram-500.png` |
+
+- 完整清单：`images/manifest.json`
+- 重新生成：`python3 scripts/generate_article_images.py`
+- 8 大类别配色：故障排查(红)、VPS(蓝)、CDN(紫)、出海(青)、行业(绿)、方法论(靛)、对比(金)、进阶(蓝绿)
+
+**CSDN 发布示例**（在正文开头插入）：
+
+```markdown
+![封面](images/dns-troubleshooting-guide/cover-800.png)
+...
+![SpeedCE 节点地图示意](images/dns-troubleshooting-guide/diagram-800.png)
+```
 
 ## 已发布（CSDN 高质量推荐）
 
