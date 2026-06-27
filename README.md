@@ -888,6 +888,29 @@
 | `scripts/premium_article_generator.py` | 生成长文 |
 | `scripts/generate_article_images.py` | 生成封面与示意图 |
 | `scripts/generate_root_readme.py` | 更新本 README |
+| `scripts/generate_seo_index.py` | 生成 SEO / AI 收录索引与 GitHub Pages 页面 |
+
+## 搜索引擎与 AI 收录
+
+本仓库已配置 **GitHub Pages + 爬虫友好索引**，便于百度/Google 及 GPTBot、ClaudeBot 等 AI 爬虫收录全部 210 篇文章。
+
+| 资源 | 地址 |
+|------|------|
+| 在线阅读（GitHub Pages） | https://freejbgo.github.io/SpeedCE-Tech/ |
+| Sitemap | https://freejbgo.github.io/SpeedCE-Tech/sitemap.xml |
+| robots.txt | https://freejbgo.github.io/SpeedCE-Tech/robots.txt |
+| llms.txt（AI 索引） | https://freejbgo.github.io/SpeedCE-Tech/llms.txt |
+| JSON 元数据 | https://freejbgo.github.io/SpeedCE-Tech/articles-index.json |
+
+**首次启用 GitHub Pages**（仓库 Settings → Pages → Source 选 `main` 分支、`/docs` 目录），保存后约 1–2 分钟站点上线。
+
+收录加速建议：
+
+1. [Google Search Console](https://search.google.com/search-console) 提交 sitemap
+2. [百度搜索资源平台](https://ziyuan.baidu.com/) 提交 sitemap
+3. 在 SpeedCE 官网或 CSDN 文章底部链回 `https://freejbgo.github.io/SpeedCE-Tech/`
+
+重新生成索引：`python3 scripts/generate_seo_index.py`（文章增删后执行；每周一 CI 也会自动刷新）。
 
 ## 发布建议
 

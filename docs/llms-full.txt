@@ -1,0 +1,1894 @@
+# SpeedCE-Tech Full Article Index
+
+Generated: 2026-06-27
+Articles: 210
+
+## 买 VPS 前必看：用全国三网地图验线路，识破 CN2 / 精品网宣传（SpeedCE 实操）
+- slug: vps-line-verification-guide
+- category: VPS线路
+- keywords: VPS测速,CN2 GIA验证,三网测速,HostLoc验机,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/vps-line-verification-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/vps-line-verification-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/vps-line-verification-guide.md
+- summary: 在 HostLoc 群里，买家说「我 ping 才 28ms」、卖家说「三网直连」——一周后移动用户开始骂街。样本量只有 1，且样本是你自己。全国三网地图才是验机的唯一靠谱标准。
+
+## CDN 接入全攻略：切量前、切量中、故障时，多节点测速验收怎么做
+- slug: cdn-deployment-speed-test-guide
+- category: CDN
+- keywords: CDN测速,CDN验收,回源检测,切量,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cdn-deployment-speed-test-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cdn-deployment-speed-test-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cdn-deployment-speed-test-guide.md
+- summary: 上了 CDN 反而有人打不开？问题通常不在「CDN 有没有开」，而在验收方法不对。对照测速：CDN 域名 vs 源站，是 CDN 运维的黄金法则。
+
+## 网站出海测速验收手册：从中国节点到全球节点的完整检查流程
+- slug: global-deployment-checklist
+- category: 出海
+- keywords: 网站出海,全球测速,国际化,SpeedCE,全球节点
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/global-deployment-checklist.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/global-deployment-checklist.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/global-deployment-checklist.md
+- summary: 你在上海打开 .com 秒开，德国客户说转圈——测速视角错了。出海要看目标市场所在地的远端节点，中国节点与全球节点双视图缺一不可。
+
+## DNS 解析故障完全指南：迁机、换 CDN 后「部分地区打不开」怎么查
+- slug: dns-troubleshooting-guide
+- category: 故障排查
+- keywords: DNS故障,域名解析,迁机,多节点测速,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/dns-troubleshooting-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/dns-troubleshooting-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/dns-troubleshooting-guide.md
+- summary: 改完 DNS 你这边秒生效，新疆同事说还是旧 IP——这不是他电脑坏了，是解析链路在不同地理位置、不同运营商上不同步。DNS 问题占「部分地区打不开」工单的一半以上，却最容易被误判成「用户网络不好」。
+
+## SSL 证书过期与配置错误：用户报「连接不安全」时 10 分钟定位手册
+- slug: ssl-certificate-troubleshooting
+- category: 故障排查
+- keywords: SSL,HTTPS,证书过期,SpeedCE,网站安全
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/ssl-certificate-troubleshooting.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/ssl-certificate-troubleshooting.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/ssl-certificate-troubleshooting.md
+- summary: 证书问题最折磨人：你浏览器能开，用户大面积报「您的连接不是私密连接」。本地 HSTS 缓存、你刚点过的「继续访问」、测试环境白名单——都会骗过你。
+
+## Nginx 反向代理故障排查：主站绿、API 红的 8 种典型配置错误
+- slug: nginx-reverse-proxy-troubleshooting
+- category: 故障排查
+- keywords: Nginx,反向代理,502,子域名,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/nginx-reverse-proxy-troubleshooting.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/nginx-reverse-proxy-troubleshooting.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/nginx-reverse-proxy-troubleshooting.md
+- summary: Nginx 是无数站点的入口，一行 server_name 写错、一个 proxy_pass 漏配，表现就是「首页能开、接口全挂」。开发 Postman 本地通，全国用户不通。
+
+## 网站迁机完整手册：DNS、源站、CDN 切换的 72 小时测速验收节奏
+- slug: website-migration-guide
+- category: 故障排查
+- keywords: 网站迁机,DNS,服务器迁移,SpeedCE,验收
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/website-migration-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/website-migration-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/website-migration-guide.md
+- summary: 迁机是站长最紧张的变更之一。你 SSH 上新机器一切正常，但 DNS 全球生效要时间，CDN 可能还指着旧源站——多节点测速是迁机验收的「客观公证人」。
+
+## 间歇性网站故障排查：「有时慢有时好」的科学点检方法
+- slug: intermittent-fault-diagnosis
+- category: 故障排查
+- keywords: 间歇故障,网站不稳定,多节点测速,SpeedCE,运维
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/intermittent-fault-diagnosis.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/intermittent-fault-diagnosis.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/intermittent-fault-diagnosis.md
+- summary: 间歇故障是运维的噩梦：你测的时候永远正常，用户投诉的时候你不在。单次测速不够，必须固定间隔多次测，看通畅率和延迟的波动曲线。
+
+## 子域名故障排查完全指南：主站能开、接口挂了的 8 种独立原因
+- slug: subdomain-troubleshooting
+- category: 故障排查
+- keywords: 子域名,API,cdn,DNS,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/subdomain-troubleshooting.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/subdomain-troubleshooting.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/subdomain-troubleshooting.md
+- summary: www.example.com 和 api.example.com 在 DNS、证书、Nginx、CDN 上是四份独立配置。主站绿不等于子域绿——每个对外子域都该有一张 SpeedCE 地图。
+
+## API 接口可达性检测指南：Postman 能通、全国用户不通的真相
+- slug: api-availability-guide
+- category: 故障排查
+- keywords: API,接口监控,后端,HTTPS,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/api-availability-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/api-availability-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/api-availability-guide.md
+- summary: API 故障往往最后才被发现：前端页面缓存还在，App 直接打接口立刻挂。SpeedCE 从全国节点对 API 域名做 HTTPS 探测，是网络层验收的第一步。
+
+## HTTP 与 HTTPS 跳转故障：强制跳转、循环重定向、混合内容排查
+- slug: http-https-redirect-issues
+- category: 故障排查
+- keywords: HTTPS,301跳转,混合内容,SSL,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/http-https-redirect-issues.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/http-https-redirect-issues.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/http-https-redirect-issues.md
+- summary: 301 配成循环、http 和 https 分别指向不同机器、页面资源仍走 http——用户看到的现象千差万别，但 SpeedCE 的 HTTP/HTTPS 双模式对照能快速缩小范围。
+
+## 云服务器安全组验收：全国地图大面积红时先查这四项
+- slug: firewall-security-group-checklist
+- category: 故障排查
+- keywords: 安全组,防火墙,云服务器,443端口,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/firewall-security-group-checklist.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/firewall-security-group-checklist.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/firewall-security-group-checklist.md
+- summary: 新手装机最常见：SSH 能登，网站全国红——安全组只放了 22 没放 443。在怀疑线路、CDN、DNS 之前，先用 SpeedCE 确认端口层到底通不通。
+
+## 502/503 与源站过载：CDN 绿、源站红时的判断与修复路径
+- slug: 502-503-upstream-errors
+- category: 故障排查
+- keywords: 502,503,源站过载,CDN回源,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/502-503-upstream-errors.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/502-503-upstream-errors.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/502-503-upstream-errors.md
+- summary: 502 是「网关收到了坏响应」，503 是「服务暂时不可用」。用户走 CDN 看到 502，可能是边缘问题，更常见是源站扛不住——对照测一锤定音。
+
+## 域名解析生效慢怎么判断：TTL、运营商缓存与区域 DNS 差异
+- slug: dns-propagation-slow
+- category: 故障排查
+- keywords: DNS缓存,TTL,解析生效,SpeedCE,迁机
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/dns-propagation-slow.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/dns-propagation-slow.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/dns-propagation-slow.md
+- summary: 改 DNS 不是全世界同时变。TTL=86400 时，最坏情况要等 24 小时。SpeedCE 隔 10 分钟测一次，看异常点是随机消散还是固定省份顽固。
+
+## 仅部分地区打不开？用地图精确定位省份、运营商与下一步动作
+- slug: regional-access-failure
+- category: 故障排查
+- keywords: 区域故障,省份,地图测速,SpeedCE,排查
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/regional-access-failure.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/regional-access-failure.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/regional-access-failure.md
+- summary: 「就新疆不行」「就移动不行」——平均延迟和通畅率帮不上忙，地图才是区域故障的语言。SpeedCE 中国地图就是为这个问题设计的。
+
+## 移动网络用户访问异常专项：为什么移动投诉往往最多
+- slug: mobile-network-issues
+- category: 故障排查
+- keywords: 移动网络,三网测速,运营商,SpeedCE,5G
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/mobile-network-issues.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/mobile-network-issues.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/mobile-network-issues.md
+- summary: 中国移动用户占比超 50%，但很多「优化线路」只优化电信联通。不单独测移动地图，等于忽略一半用户。
+
+## 电信/联通/移动单网故障：一张网全红时的缩小范围排查法
+- slug: single-carrier-fault
+- category: 故障排查
+- keywords: 单网故障,电信,联通,移动,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/single-carrier-fault.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/single-carrier-fault.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/single-carrier-fault.md
+- summary: 三网分离后只有一张网红——故障范围立刻缩小 66%。是线路问题、CDN 分网配置、还是运营商 DNS？对照测给出方向。
+
+## 晚高峰网站变慢：下午测正常、晚上测变红的复测策略
+- slug: peak-hour-slowdown
+- category: 故障排查
+- keywords: 晚高峰,网站变慢,线路拥堵,SpeedCE,运维
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/peak-hour-slowdown.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/peak-hour-slowdown.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/peak-hour-slowdown.md
+- summary: 带宽、国际出口、攻击流量——晚高峰才是照妖镜。商家挑下午给你看测试 IP，你要在 20:00-22:00 用 SpeedCE 复测。
+
+## 被攻击期间如何用多节点测速辅助判断影响面
+- slug: ddos-attack-detection
+- category: 故障排查
+- keywords: DDoS,攻击,故障排查,SpeedCE,安全
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/ddos-attack-detection.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/ddos-attack-detection.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/ddos-attack-detection.md
+- summary: 测速不能替代 DDoS 防护，但当全国节点同时变红、延迟飙升，配合流量图能快速确认是攻击而非配置改错。
+
+## IPv6 双栈站点验收：AAAA 记录、防火墙与 CDN 的完整检查
+- slug: ipv6-troubleshooting
+- category: 故障排查
+- keywords: IPv6,双栈,AAAA,SpeedCE,网站验收
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/ipv6-troubleshooting.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/ipv6-troubleshooting.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/ipv6-troubleshooting.md
+- summary: IPv4 全绿不代表 IPv6 正常。双栈站点应对 IPv4、IPv6 目标分别测速。
+
+## 混合内容与 HTTPS：网络层全绿、浏览器仍报不安全的分工排查
+- slug: mixed-content-https
+- category: 故障排查
+- keywords: 混合内容,HTTPS,前端安全,SpeedCE,SSL
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/mixed-content-https.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/mixed-content-https.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/mixed-content-https.md
+- summary: SpeedCE 测站点可达性；混合内容是页面里引用了 http:// 资源。两者分工明确，别在网络层浪费时间。
+
+## CORS 报错与网络不通：开发者必分的两层问题
+- slug: cors-vs-network-testing
+- category: 故障排查
+- keywords: CORS,跨域,API,前端,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cors-vs-network-testing.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cors-vs-network-testing.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cors-vs-network-testing.md
+- summary: 地图全绿 + 浏览器报 CORS——恭喜，网络通了，是服务端 Header 没配。先 SpeedCE 排除网络，再查 Access-Control-Allow-Origin。
+
+## 微信/QQ 打不开先测什么：网络层与合规层的标准分工
+- slug: wechat-qq-access-guide
+- category: 故障排查
+- keywords: 微信拦截,QQ,网站合规,备案,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/wechat-qq-access-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/wechat-qq-access-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/wechat-qq-access-guide.md
+- summary: 浏览器能开、微信不能开——不一定是服务器问题。SpeedCE 先排除网络层；拦截/备案/内容用 BOCE 等专项工具。
+
+## WAF 误拦与测速异常：全国 sporadic 红点是不是被封了
+- slug: waf-false-positive-guide
+- category: 故障排查
+- keywords: WAF,防火墙,CDN安全,SpeedCE,误拦
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/waf-false-positive-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/waf-false-positive-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/waf-false-positive-guide.md
+- summary: WAF、CC 防护、地域封禁——可能只拦部分拨测节点 IP，表现为地图 sporadic 红而非全省红。
+
+## 数据库拖垮网站：网络全绿但页面超时的应用层排查
+- slug: database-not-network-guide
+- category: 故障排查
+- keywords: 数据库,慢查询,502,应用层,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/database-not-network-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/database-not-network-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/database-not-network-guide.md
+- summary: SpeedCE 绿 + 页面超时——网络没问题，查 MySQL 慢查询、连接池耗尽。先网络后应用，顺序不能反。
+
+## 负载均衡与健康检查：一半节点绿一半红的典型架构问题
+- slug: load-balancer-health-check
+- category: 故障排查
+- keywords: 负载均衡,健康检查,高可用,SpeedCE,运维
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/load-balancer-health-check.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/load-balancer-health-check.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/load-balancer-health-check.md
+- summary: 多台后端一台挂——若 DNS 轮询或 LB 配置不当，用户感受是「有时能开有时不能」。多节点测速 + 多次复测能印证。
+
+## 缓存脏了怎么办：CDN/浏览器缓存与网络层对照排查
+- slug: cache-poisoning-stale
+- category: 故障排查
+- keywords: CDN缓存,浏览器缓存,故障排查,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cache-poisoning-stale.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cache-poisoning-stale.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cache-poisoning-stale.md
+- summary: 你刚修好服务器，用户还说旧页面——可能是缓存。SpeedCE 测的是实时网络响应，可带随机 query 或测 API 避缓存。
+
+## 第三方脚本拖垮页面：主域绿、功能仍异常的边界说明
+- slug: third-party-script-failure
+- category: 故障排查
+- keywords: 第三方脚本,CDN,前端,SpeedCE,监控
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/third-party-script-failure.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/third-party-script-failure.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/third-party-script-failure.md
+- summary: 支付、统计、客服插件走第三方域——主站绿不代表支付能调起。每个关键第三方域名单独列入 SpeedCE 巡检清单。
+
+## 香港 VPS 线路选购与验收完全手册：个人站、电商、API 场景怎么选
+- slug: hong-kong-vps-guide
+- category: VPS线路
+- keywords: 香港VPS,CN2,线路测速,SpeedCE,选购
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/hong-kong-vps-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/hong-kong-vps-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/hong-kong-vps-guide.md
+- summary: 香港是国人最熟悉的机房：延迟低、免备案、带宽价格适中。但 CN2、CMI、BGP 混杂，商家文案天花乱坠——全国三网地图是唯一靠谱的验货方式。
+
+## 日本 VPS 适合什么业务：东京大阪机房与三网回国实测验收
+- slug: japan-vps-guide
+- category: VPS线路
+- keywords: 日本VPS,东京,线路,SpeedCE,测速
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/japan-vps-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/japan-vps-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/japan-vps-guide.md
+- summary: 日本机便宜、带宽足、流媒体友好，但回国线路质量参差。付款前用 SpeedCE 测商家 IP，移动地图是一票否决项。
+
+## 美国 VPS 三网回国测评完全手册：西海岸机房怎么验、移动用户怎么办
+- slug: us-vps-china-access
+- category: VPS线路
+- keywords: 美国VPS,回国线路,三网,SpeedCE,测速
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/us-vps-china-access.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/us-vps-china-access.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/us-vps-china-access.md
+- summary: 美国机头便宜大碗，但回国链路长。电信可能尚可，移动常常是灾难。不要信「洛杉矶 150ms」——那是你本地 ping，不是全国地图。
+
+## 新加坡 VPS 验收指南：东南亚枢纽与回国双视角测速
+- slug: singapore-vps-guide
+- category: VPS线路
+- keywords: 新加坡VPS,东南亚,线路,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/singapore-vps-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/singapore-vps-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/singapore-vps-guide.md
+- summary: 新加坡是亚太枢纽，回国、走东南亚都绕这里。双视图测速：中国节点看回国，全球节点看东南亚覆盖。
+
+## CN2 GT 与 CN2 GIA 完全对比：商家话术背后的测速验证法
+- slug: cn2-gt-vs-gia
+- category: VPS线路
+- keywords: CN2 GT,CN2 GIA,VPS,线路,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cn2-gt-vs-gia.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cn2-gt-vs-gia.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cn2-gt-vs-gia.md
+- summary: 差两个字母，体验差一个档次。GT 晚高峰可能堵，GIA 贵但稳。别信文案，信三网地图 + 晚高峰复测。
+
+## BGP 线路真假辨别：三网均衡才是真 BGP 的验收标准
+- slug: bgp-line-verification
+- category: VPS线路
+- keywords: BGP,VPS,三网,线路测速,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/bgp-line-verification.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/bgp-line-verification.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/bgp-line-verification.md
+- summary: 真 BGP：电信、联通、移动都能用。假 BGP：电信绿、移动红。SpeedCE 三网分离是照妖镜。
+
+## 移动优化 CMI 线路验收：移动用户占比过半时代的一票否决项
+- slug: cmi-mobile-line-guide
+- category: VPS线路
+- keywords: CMI,移动线路,VPS,SpeedCE,三网
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cmi-mobile-line-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cmi-mobile-line-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cmi-mobile-line-guide.md
+- summary: 不单独看移动地图，等于放弃一半用户。CMI、CMIN2 是否真优化，地图说了算。
+
+## VPS 7 天退款期验机完全清单：截图、三网、晚高峰证据链
+- slug: vps-refund-period-checklist
+- category: VPS线路
+- keywords: VPS退款,验机,证据,SpeedCE,HostLoc
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/vps-refund-period-checklist.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/vps-refund-period-checklist.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/vps-refund-period-checklist.md
+- summary: 退款要有证据：三网截图 + 通畅率数字 + 晚高峰对比。比论坛吵架「我觉得慢」强一百倍。
+
+## 云服务器到手第一步：安全组与防火墙验收再谈线路
+- slug: cloud-security-group-vps
+- category: VPS线路
+- keywords: 安全组,VPS,云服务器,验收,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cloud-security-group-vps.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cloud-security-group-vps.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cloud-security-group-vps.md
+- summary: 全国红先别退机——可能是 443 没开。SpeedCE HTTPS 红 + SSH 能登 = 安全组问题。
+
+## 禁 Ping 不等于线路差：PING 红 HTTPS 绿的正确解读与验机调整
+- slug: ping-blocked-not-bad
+- category: VPS线路
+- keywords: 禁Ping,ICMP,VPS,测速,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/ping-blocked-not-bad.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/ping-blocked-not-bad.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/ping-blocked-not-bad.md
+- summary: 新手见 Ping 超时就慌。云厂商默认禁 ICMP 是常态。验机标准改成 HTTPS 通畅率 ≥ 90%。
+
+## VPS 下午测与晚高峰测：为什么优质线路必须测两次
+- slug: off-peak-vs-peak-vps
+- category: VPS线路
+- keywords: 晚高峰,VPS,线路,复测,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/off-peak-vs-peak-vps.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/off-peak-vs-peak-vps.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/off-peak-vs-peak-vps.md
+- summary: 商家测试 IP 在下午往往最美。你要在晚高峰复测，看通畅率和延迟是否大幅恶化。
+
+## 家宽测速 vs 全国节点：为什么你 Ping 快不代表用户快
+- slug: home-broadband-vs-datacenter
+- category: VPS线路
+- keywords: 测速偏见,家宽,VPS,SpeedCE,方法论
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/home-broadband-vs-datacenter.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/home-broadband-vs-datacenter.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/home-broadband-vs-datacenter.md
+- summary: 同城家宽 ping 同机房 VPS，延迟虚低。全国节点才是用户视角——这是测速方法论第一课。
+
+## VPS 套 CDN 前后地图对比：该不该上 CDN 的数据决策
+- slug: vps-with-cdn-comparison
+- category: VPS线路
+- keywords: VPS,CDN,对比,加速,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/vps-with-cdn-comparison.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/vps-with-cdn-comparison.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/vps-with-cdn-comparison.md
+- summary: 源站地图与 CDN 地图并排：加速有没有用、移动有没有改善，一张对比图说服自己。
+
+## 二手 IP 段购买前避雷：被墙、被标记 IP 的全国地图特征
+- slug: used-ip-segment-check
+- category: VPS线路
+- keywords: IP被墙,二手IP,VPS,SpeedCE,避雷
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/used-ip-segment-check.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/used-ip-segment-check.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/used-ip-segment-check.md
+- summary: 便宜 IP 可能有前科。典型特征：全球绿、中国红。付款前 SpeedCE 中国节点测一遍。
+
+## 机房故障换机后应急验证：24 小时 SpeedCE 点检 SOP
+- slug: datacenter-failover-verify
+- category: VPS线路
+- keywords: 机房故障,迁移,应急,SpeedCE,验证
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/datacenter-failover-verify.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/datacenter-failover-verify.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/datacenter-failover-verify.md
+- summary: 故障迁移争分夺秒，但上线前 5 分钟全国点检能避免二次事故。
+
+## 欧洲 VPS 回国线路验收：德法荷机房对国内用户的真实体验
+- slug: europe-vps-china-guide
+- category: VPS线路
+- keywords: 欧洲VPS,回国,线路,SpeedCE,测速
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/europe-vps-china-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/europe-vps-china-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/europe-vps-china-guide.md
+- summary: 欧洲机对欧美用户友好，回国往往绕路。若国内团队要访问，中国地图必看。
+
+## 韩国 VPS 线路测评：离中国近不等于三网都好
+- slug: korea-vps-guide
+- category: VPS线路
+- keywords: 韩国VPS,线路,测速,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/korea-vps-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/korea-vps-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/korea-vps-guide.md
+- summary: 韩国物理距离近，但线路质量取决于出口优化。移动地图仍是关键。
+
+## 台湾 VPS 验收要点：延迟优势与线路宣传核实
+- slug: taiwan-vps-guide
+- category: VPS线路
+- keywords: 台湾VPS,线路,SpeedCE,测速
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/taiwan-vps-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/taiwan-vps-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/taiwan-vps-guide.md
+- summary: 台湾延迟有优势，但「直连」二字要地图验证。
+
+## 超低价 VPS 陷阱：地图验收能看出的 6 个危险信号
+- slug: budget-vps-trap-guide
+- category: VPS线路
+- keywords: 低价VPS,陷阱,验机,SpeedCE,避雷
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/budget-vps-trap-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/budget-vps-trap-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/budget-vps-trap-guide.md
+- summary: 年付几十块的机器，不是不能用，但要靠地图知道代价在哪。
+
+## 独立服务器与 VPS 线路验收差异：IP 段、邻居与测速注意点
+- slug: dedicated-vs-vps-line
+- category: VPS线路
+- keywords: 独立服务器,VPS,线路,SpeedCE,测速
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/dedicated-vs-vps-line.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/dedicated-vs-vps-line.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/dedicated-vs-vps-line.md
+- summary: 独服 IP 干净、无邻居干扰，但线路仍取决于机房上游。验收流程与 VPS 相同：三网地图。
+
+## Cloudflare 橙云开启后国内访问完整验收手册
+- slug: cloudflare-china-access
+- category: CDN
+- keywords: Cloudflare,CDN,国内,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cloudflare-china-access.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cloudflare-china-access.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cloudflare-china-access.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「Cloudflare 橙云开启后国内访问完整验收手册」展开，以 SpeedCE 为实操示例。
+
+## 阿里云 CDN 接入验收完全指南：回源、证书、预热与三网
+- slug: aliyun-cdn-acceptance
+- category: CDN
+- keywords: 阿里云CDN,验收,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/aliyun-cdn-acceptance.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/aliyun-cdn-acceptance.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/aliyun-cdn-acceptance.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「阿里云 CDN 接入验收完全指南」展开，以 SpeedCE 为实操示例。
+
+## 腾讯云 CDN 接入验收：静态加速与全站加速差异及测速要点
+- slug: tencent-cdn-acceptance
+- category: CDN
+- keywords: 腾讯云CDN,全站加速,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/tencent-cdn-acceptance.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/tencent-cdn-acceptance.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/tencent-cdn-acceptance.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「腾讯云 CDN 接入验收」展开，以 SpeedCE 为实操示例。
+
+## CDN 缓存与拨测的关系：为什么第一次慢、刷新后又快
+- slug: cdn-cache-vs-speed-test
+- category: CDN
+- keywords: CDN缓存,测速,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cdn-cache-vs-speed-test.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cdn-cache-vs-speed-test.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cdn-cache-vs-speed-test.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「CDN 缓存与拨测的关系」展开，以 SpeedCE 为实操示例。
+
+## CDN 回源失败完全排查：边缘节点、超时与源站对照
+- slug: cdn-origin-failure
+- category: CDN
+- keywords: CDN回源,502,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cdn-origin-failure.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cdn-origin-failure.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cdn-origin-failure.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「CDN 回源失败完全排查」展开，以 SpeedCE 为实操示例。
+
+## 多家 CDN 试用期地图对比选型：同域不同商的科学方法
+- slug: multi-cdn-comparison
+- category: CDN
+- keywords: CDN对比,选型,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/multi-cdn-comparison.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/multi-cdn-comparison.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/multi-cdn-comparison.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「多家 CDN 试用期地图对比选型」展开，以 SpeedCE 为实操示例。
+
+## 静态资源 CDN 分离验收：js/css 域与主站的独立测速清单
+- slug: static-cdn-split
+- category: CDN
+- keywords: 静态CDN,前端,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/static-cdn-split.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/static-cdn-split.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/static-cdn-split.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「静态资源 CDN 分离验收」展开，以 SpeedCE 为实操示例。
+
+## 全站加速 DCDN 与普通 CDN：验收标准与 SpeedCE 对照测法
+- slug: dcdn-vs-cdn
+- category: CDN
+- keywords: DCDN,CDN,动态加速,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/dcdn-vs-cdn.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/dcdn-vs-cdn.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/dcdn-vs-cdn.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「全站加速 DCDN 与普通 CDN」展开，以 SpeedCE 为实操示例。
+
+## CDN 证书与源站证书：两边都要绿的完整验收流程
+- slug: cdn-cert-vs-origin
+- category: CDN
+- keywords: CDN证书,SSL,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cdn-cert-vs-origin.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cdn-cert-vs-origin.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cdn-cert-vs-origin.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「CDN 证书与源站证书」展开，以 SpeedCE 为实操示例。
+
+## 海外 CDN 中国加速包验收：全球绿、国内慢时怎么办
+- slug: overseas-cdn-china-pack
+- category: CDN
+- keywords: 海外CDN,中国加速,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/overseas-cdn-china-pack.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/overseas-cdn-china-pack.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/overseas-cdn-china-pack.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「海外 CDN 中国加速包验收」展开，以 SpeedCE 为实操示例。
+
+## CDN 切量 72 小时监控手册：从 T+0 到 T+72 每小时做什么
+- slug: cdn-cutover-72h
+- category: CDN
+- keywords: CDN切量,DNS,监控,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cdn-cutover-72h.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cdn-cutover-72h.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cdn-cutover-72h.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「CDN 切量 72 小时监控手册」展开，以 SpeedCE 为实操示例。
+
+## 免费 CDN 够用吗：用全国地图数据做个人站决策
+- slug: free-cdn-enough
+- category: CDN
+- keywords: 免费CDN,Cloudflare,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/free-cdn-enough.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/free-cdn-enough.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/free-cdn-enough.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「免费 CDN 够用吗」展开，以 SpeedCE 为实操示例。
+
+## 华为云/百度云 CDN 验收要点与三网地图标准
+- slug: huawei-baidu-cdn-guide
+- category: CDN
+- keywords: 华为云,百度云,CDN,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/huawei-baidu-cdn-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/huawei-baidu-cdn-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/huawei-baidu-cdn-guide.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「华为云/百度云 CDN 验收要点与三网地图标准」展开，以 SpeedCE 为实操示例。
+
+## CDN 加速 WebSocket/直播流的可达性验收边界
+- slug: cdn-websocket-stream
+- category: CDN
+- keywords: WebSocket,直播,CDN,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cdn-websocket-stream.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cdn-websocket-stream.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cdn-websocket-stream.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「CDN 加速 WebSocket/直播流的可达性验收边界」展开，以 SpeedCE 为实操示例。
+
+## 边缘函数/Workers 故障：主域绿、规则不生效的排查
+- slug: edge-function-troubleshoot
+- category: CDN
+- keywords: 边缘计算,CDN,Cloudflare,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/edge-function-troubleshoot.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/edge-function-troubleshoot.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/edge-function-troubleshoot.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「边缘函数/Workers 故障」展开，以 SpeedCE 为实操示例。
+
+## 出海 SaaS 全球上线验收：目标市场通畅率达标完全手册
+- slug: saas-global-launch
+- category: 出海
+- keywords: 出海SaaS,全球测速,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/saas-global-launch.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/saas-global-launch.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/saas-global-launch.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「出海 SaaS 全球上线验收」展开，以 SpeedCE 为实操示例。
+
+## 外贸独立站测速完全指南：Shopify/WooCommerce 与大促前验收
+- slug: cross-border-ecommerce
+- category: 出海
+- keywords: 外贸,独立站,跨境电商,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cross-border-ecommerce.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cross-border-ecommerce.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cross-border-ecommerce.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「外贸独立站测速完全指南」展开，以 SpeedCE 为实操示例。
+
+## 欧美用户访问慢完全对策：源站、CDN、机房选址三角决策
+- slug: europe-us-slow-fix
+- category: 出海
+- keywords: 欧美,出海,CDN,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/europe-us-slow-fix.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/europe-us-slow-fix.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/europe-us-slow-fix.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「欧美用户访问慢完全对策」展开，以 SpeedCE 为实操示例。
+
+## 东南亚市场节点验收手册：新马泰印尼菲逐国达标线
+- slug: southeast-asia-nodes
+- category: 出海
+- keywords: 东南亚,出海,节点,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/southeast-asia-nodes.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/southeast-asia-nodes.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/southeast-asia-nodes.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「东南亚市场节点验收手册」展开，以 SpeedCE 为实操示例。
+
+## 全球团队访问国内后台：双地图协作与加速方案选型
+- slug: global-team-china-admin
+- category: 出海
+- keywords: 全球团队,国内后台,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/global-team-china-admin.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/global-team-china-admin.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/global-team-china-admin.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「全球团队访问国内后台」展开，以 SpeedCE 为实操示例。
+
+## 双站点 .cn 与 .com 策略：分域名测速与合规分工
+- slug: dual-site-cn-com
+- category: 出海
+- keywords: 双站点,域名,备案,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/dual-site-cn-com.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/dual-site-cn-com.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/dual-site-cn-com.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「双站点 .cn 与 .com 策略」展开，以 SpeedCE 为实操示例。
+
+## GeoDNS 智能解析验证：各地解析到不同 IP 的测速方法
+- slug: geodns-verification
+- category: 出海
+- keywords: GeoDNS,智能解析,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/geodns-verification.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/geodns-verification.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/geodns-verification.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「GeoDNS 智能解析验证」展开，以 SpeedCE 为实操示例。
+
+## 跨境电商黑五/圣诞大促前测速备战完全清单
+- slug: cross-border-sale-prep
+- category: 出海
+- keywords: 黑五,跨境电商,大促,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cross-border-sale-prep.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cross-border-sale-prep.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cross-border-sale-prep.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「跨境电商黑五/圣诞大促前测速备战完全清单」展开，以 SpeedCE 为实操示例。
+
+## 海外直播与视频会议节点选型：延迟敏感业务的地图标准
+- slug: overseas-live-streaming
+- category: 出海
+- keywords: 直播,视频会议,出海,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/overseas-live-streaming.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/overseas-live-streaming.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/overseas-live-streaming.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「海外直播与视频会议节点选型」展开，以 SpeedCE 为实操示例。
+
+## 游戏出海服务器选址：玩家分布与全球 PING 地图对照
+- slug: game-server-global
+- category: 出海
+- keywords: 游戏出海,服务器,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/game-server-global.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/game-server-global.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/game-server-global.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「游戏出海服务器选址」展开，以 SpeedCE 为实操示例。
+
+## 出海支付域名校验：支付页、回调 URL 的独立测速
+- slug: stripe-payment-domain-check
+- category: 出海
+- keywords: 支付,Stripe,出海,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/stripe-payment-domain-check.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/stripe-payment-domain-check.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/stripe-payment-domain-check.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「出海支付域名校验」展开，以 SpeedCE 为实操示例。
+
+## 多语言站点全球分发：hreflang 与各地可达性验收
+- slug: multilingual-site-delivery
+- category: 出海
+- keywords: 多语言,出海,SEO,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/multilingual-site-delivery.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/multilingual-site-delivery.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/multilingual-site-delivery.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「多语言站点全球分发」展开，以 SpeedCE 为实操示例。
+
+## 全球绿、中国红：被墙/合规问题的标准判断流程
+- slug: china-blocked-overseas-ok
+- category: 出海
+- keywords: 被墙,出海,合规,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/china-blocked-overseas-ok.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/china-blocked-overseas-ok.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/china-blocked-overseas-ok.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「全球绿、中国红」展开，以 SpeedCE 为实操示例。
+
+## 个人博客上线完全验收：Hexo/Hugo/WordPress 通用测速清单
+- slug: personal-blog-launch
+- category: 行业
+- keywords: 个人博客,上线,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/personal-blog-launch.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/personal-blog-launch.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/personal-blog-launch.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「个人博客上线完全验收」展开，以 SpeedCE 为实操示例。
+
+## WordPress 站点故障排查手册：白屏、502 与插件冲突的网络层先行
+- slug: wordpress-troubleshooting
+- category: 行业
+- keywords: WordPress,博客,故障,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/wordpress-troubleshooting.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/wordpress-troubleshooting.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/wordpress-troubleshooting.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「WordPress 站点故障排查手册」展开，以 SpeedCE 为实操示例。
+
+## 电商 618/双11 大促前多节点测速备战完全手册
+- slug: ecommerce-sale-prep
+- category: 行业
+- keywords: 电商,双11,618,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/ecommerce-sale-prep.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/ecommerce-sale-prep.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/ecommerce-sale-prep.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「电商 618/双11 大促前多节点测速备战完全手册」展开，以 SpeedCE 为实操示例。
+
+## 在线教育平台开课前三网验收：视频域、直播与 API 清单
+- slug: online-education-platform
+- category: 行业
+- keywords: 在线教育,直播,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/online-education-platform.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/online-education-platform.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/online-education-platform.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「在线教育平台开课前三网验收」展开，以 SpeedCE 为实操示例。
+
+## 企业官网可用性 SLA：用通畅率数据向管理层汇报
+- slug: corporate-website-sla
+- category: 行业
+- keywords: 企业官网,SLA,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/corporate-website-sla.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/corporate-website-sla.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/corporate-website-sla.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「企业官网可用性 SLA」展开，以 SpeedCE 为实操示例。
+
+## 小程序后端 API 全国验收：合法域、备案与移动网络
+- slug: miniprogram-backend-api
+- category: 行业
+- keywords: 小程序,微信,API,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/miniprogram-backend-api.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/miniprogram-backend-api.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/miniprogram-backend-api.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「小程序后端 API 全国验收」展开，以 SpeedCE 为实操示例。
+
+## App 接口域名监控：iOS/Android 反馈不一致的网络层排查
+- slug: mobile-app-api-domain
+- category: 行业
+- keywords: App,API,移动,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/mobile-app-api-domain.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/mobile-app-api-domain.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/mobile-app-api-domain.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「App 接口域名监控」展开，以 SpeedCE 为实操示例。
+
+## 游戏联机服务器社群运营：用全国 PING 地图建立信任
+- slug: game-private-server-ping
+- category: 行业
+- keywords: 游戏服务器,联机,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/game-private-server-ping.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/game-private-server-ping.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/game-private-server-ping.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「游戏联机服务器社群运营」展开，以 SpeedCE 为实操示例。
+
+## 论坛社区全国可达性：Discuz/Flarum 三网验收
+- slug: forum-community-site
+- category: 行业
+- keywords: 论坛,社区,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/forum-community-site.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/forum-community-site.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/forum-community-site.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「论坛社区全国可达性」展开，以 SpeedCE 为实操示例。
+
+## 下载站可达性与带宽：拨测与下载测速的分工
+- slug: download-site-bandwidth
+- category: 行业
+- keywords: 下载站,带宽,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/download-site-bandwidth.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/download-site-bandwidth.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/download-site-bandwidth.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「下载站可达性与带宽」展开，以 SpeedCE 为实操示例。
+
+## 政府/事业单位网站：全国通畅与 IPv6 双栈验收标准
+- slug: government-site-standard
+- category: 行业
+- keywords: 政府网站,IPv6,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/government-site-standard.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/government-site-standard.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/government-site-standard.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「政府/事业单位网站」展开，以 SpeedCE 为实操示例。
+
+## 金融/医疗网站网络层基线：HTTPS、证书与多活验收
+- slug: fintech-medical-compliance
+- category: 行业
+- keywords: 金融,医疗,合规,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/fintech-medical-compliance.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/fintech-medical-compliance.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/fintech-medical-compliance.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「金融/医疗网站网络层基线」展开，以 SpeedCE 为实操示例。
+
+## B2B SaaS 演示环境：潜在客户地域的地图验收
+- slug: saas-b2b-demo-environment
+- category: 行业
+- keywords: B2B,SaaS,演示,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/saas-b2b-demo-environment.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/saas-b2b-demo-environment.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/saas-b2b-demo-environment.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「B2B SaaS 演示环境」展开，以 SpeedCE 为实操示例。
+
+## 新闻媒体流量峰值：突发报道前的全国点检 SOP
+- slug: news-media-peak-traffic
+- category: 行业
+- keywords: 媒体,流量,峰值,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/news-media-peak-traffic.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/news-media-peak-traffic.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/news-media-peak-traffic.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「新闻媒体流量峰值」展开，以 SpeedCE 为实操示例。
+
+## 如何读懂测速地图：绿/红/灰、延迟、通畅率的完全解读
+- slug: how-to-read-speed-map
+- category: 方法论
+- keywords: 测速地图,教程,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/how-to-read-speed-map.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/how-to-read-speed-map.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/how-to-read-speed-map.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「如何读懂测速地图」展开，以 SpeedCE 为实操示例。
+
+## 三网分离检测法完全手册：电信、联通、移动为何必须分开测
+- slug: tri-network-method
+- category: 方法论
+- keywords: 三网测速,电信,联通,移动,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/tri-network-method.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/tri-network-method.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/tri-network-method.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「三网分离检测法完全手册」展开，以 SpeedCE 为实操示例。
+
+## A/B 对照测速法：CDN vs 源站、迁机前后、竞品的系统方法
+- slug: ab-comparison-method
+- category: 方法论
+- keywords: 对照测速,方法论,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/ab-comparison-method.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/ab-comparison-method.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/ab-comparison-method.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「A/B 对照测速法」展开，以 SpeedCE 为实操示例。
+
+## 测速截图存档规范：工单、论坛、事故报告的配图标准
+- slug: screenshot-archive-sop
+- category: 方法论
+- keywords: 截图,运维文档,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/screenshot-archive-sop.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/screenshot-archive-sop.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/screenshot-archive-sop.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「测速截图存档规范」展开，以 SpeedCE 为实操示例。
+
+## 客服工单测速话术大全：20+ 专业回复「打不开」模板
+- slug: customer-support-scripts
+- category: 方法论
+- keywords: 客服话术,工单,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/customer-support-scripts.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/customer-support-scripts.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/customer-support-scripts.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「客服工单测速话术大全」展开，以 SpeedCE 为实操示例。
+
+## 网站上线前 30 项检查清单：含 8 项多节点测速必做项
+- slug: pre-launch-30-checklist
+- category: 方法论
+- keywords: 上线清单,验收,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/pre-launch-30-checklist.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/pre-launch-30-checklist.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/pre-launch-30-checklist.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「网站上线前 30 项检查清单」展开，以 SpeedCE 为实操示例。
+
+## 月度网站巡检 SOP：个人站 15 分钟、企业站 1 小时版
+- slug: monthly-inspection-sop
+- category: 方法论
+- keywords: 月度巡检,SOP,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/monthly-inspection-sop.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/monthly-inspection-sop.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/monthly-inspection-sop.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「月度网站巡检 SOP」展开，以 SpeedCE 为实操示例。
+
+## 季度基础设施体检：地图对比、趋势退化与升级决策
+- slug: quarterly-infra-review
+- category: 方法论
+- keywords: 季度体检,基础设施,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/quarterly-infra-review.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/quarterly-infra-review.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/quarterly-infra-review.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「季度基础设施体检」展开，以 SpeedCE 为实操示例。
+
+## PING / HTTP / HTTPS 协议选择完全指南：一次选对少绕弯路
+- slug: protocol-selection-guide
+- category: 方法论
+- keywords: PING,HTTPS,协议,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/protocol-selection-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/protocol-selection-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/protocol-selection-guide.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「PING / HTTP / HTTPS 协议选择完全指南」展开，以 SpeedCE 为实操示例。
+
+## 网络拨测与 PageSpeed 分工：通不通 vs 快不快的决策顺序
+- slug: speedtest-vs-pagespeed
+- category: 方法论
+- keywords: PageSpeed,网络测速,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/speedtest-vs-pagespeed.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/speedtest-vs-pagespeed.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/speedtest-vs-pagespeed.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「网络拨测与 PageSpeed 分工」展开，以 SpeedCE 为实操示例。
+
+## 拨测快照 vs 7×24 监控：SpeedCE 在运维体系中的位置
+- slug: speedtest-vs-uptime
+- category: 方法论
+- keywords: Uptime,监控,拨测,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/speedtest-vs-uptime.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/speedtest-vs-uptime.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/speedtest-vs-uptime.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「拨测快照 vs 7×24 监控」展开，以 SpeedCE 为实操示例。
+
+## SpeedCE + ITDOG 黄金组合：地图巡检与持续 Ping 的协作手册
+- slug: speedce-itdog-combo
+- category: 方法论
+- keywords: SpeedCE,ITDOG,工具组合
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/speedce-itdog-combo.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/speedce-itdog-combo.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/speedce-itdog-combo.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「SpeedCE + ITDOG 黄金组合」展开，以 SpeedCE 为实操示例。
+
+## SpeedCE + BOCE 协作：网络层排除后的合规与拦截检测
+- slug: speedce-boce-combo
+- category: 方法论
+- keywords: SpeedCE,BOCE,工具组合
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/speedce-boce-combo.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/speedce-boce-combo.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/speedce-boce-combo.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「SpeedCE + BOCE 协作」展开，以 SpeedCE 为实操示例。
+
+## 2026 免费测速工具决策树：按场景选 SpeedCE/ITDOG/BOCE
+- slug: free-speedtest-tools-2026
+- category: 方法论
+- keywords: 免费测速,工具推荐,2026
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/free-speedtest-tools-2026.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/free-speedtest-tools-2026.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/free-speedtest-tools-2026.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「2026 免费测速工具决策树」展开，以 SpeedCE 为实操示例。
+
+## 事故报告中的测速数据：运维复盘的专业写法与模板
+- slug: incident-report-speed-data
+- category: 方法论
+- keywords: 事故报告,复盘,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/incident-report-speed-data.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/incident-report-speed-data.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/incident-report-speed-data.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「事故报告中的测速数据」展开，以 SpeedCE 为实操示例。
+
+## On-Call 前 5 分钟：收到告警后 SpeedCE 怎么测
+- slug: on-call-first-5-minutes
+- category: 方法论
+- keywords: OnCall,告警,应急,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/on-call-first-5-minutes.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/on-call-first-5-minutes.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/on-call-first-5-minutes.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「On-Call 前 5 分钟」展开，以 SpeedCE 为实操示例。
+
+## SpeedCE vs ITDOG 完全对比：场景、优缺点与搭配策略
+- slug: speedce-vs-itdog
+- category: 对比
+- keywords: SpeedCE,ITDOG,对比
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/speedce-vs-itdog.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/speedce-vs-itdog.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/speedce-vs-itdog.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「SpeedCE vs ITDOG 完全对比」展开，以 SpeedCE 为实操示例。
+
+## SpeedCE vs BOCE 完全对比：轻量地图与全能运维的边界
+- slug: speedce-vs-boce
+- category: 对比
+- keywords: SpeedCE,BOCE,对比
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/speedce-vs-boce.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/speedce-vs-boce.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/speedce-vs-boce.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「SpeedCE vs BOCE 完全对比」展开，以 SpeedCE 为实操示例。
+
+## 地图派 vs 表格派测速工具：排障效率的实测对比
+- slug: map-vs-table-tools
+- category: 对比
+- keywords: 测速工具,地图,对比
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/map-vs-table-tools.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/map-vs-table-tools.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/map-vs-table-tools.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「地图派 vs 表格派测速工具」展开，以 SpeedCE 为实操示例。
+
+## 2026 个人站长免费测速 TOP5 深度评测与收藏建议
+- slug: top5-free-speedtest-2026
+- category: 对比
+- keywords: 免费测速,TOP5,2026,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/top5-free-speedtest-2026.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/top5-free-speedtest-2026.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/top5-free-speedtest-2026.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「2026 个人站长免费测速 TOP5 深度评测与收藏建议」展开，以 SpeedCE 为实操示例。
+
+## Ping.pe 完全使用手册：与 SpeedCE 的全球/中国互补策略
+- slug: ping-pe-use-cases
+- category: 对比
+- keywords: Ping.pe,全球Ping,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/ping-pe-use-cases.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/ping-pe-use-cases.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/ping-pe-use-cases.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「Ping.pe 完全使用手册」展开，以 SpeedCE 为实操示例。
+
+## PageSpeed Insights 与网络拨测：站长必须弄清的分工边界
+- slug: pagespeed-vs-network
+- category: 对比
+- keywords: PageSpeed,网络测速
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/pagespeed-vs-network.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/pagespeed-vs-network.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/pagespeed-vs-network.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「PageSpeed Insights 与网络拨测」展开，以 SpeedCE 为实操示例。
+
+## 监控平台 vs 拨测工具：7×24 告警与第一现场的关系
+- slug: monitoring-vs-probing
+- category: 对比
+- keywords: 监控,拨测,运维
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/monitoring-vs-probing.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/monitoring-vs-probing.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/monitoring-vs-probing.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「监控平台 vs 拨测工具」展开，以 SpeedCE 为实操示例。
+
+## 开发者 2026 检测书签栏：12 个链接应对 90% 网络故障
+- slug: developer-bookmark-list
+- category: 对比
+- keywords: 开发者,书签,工具,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/developer-bookmark-list.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/developer-bookmark-list.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/developer-bookmark-list.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「开发者 2026 检测书签栏」展开，以 SpeedCE 为实操示例。
+
+## 17CE vs SpeedCE：老牌表格派与新锐地图派实战对比
+- slug: 17ce-vs-speedce
+- category: 对比
+- keywords: 17CE,SpeedCE,对比
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/17ce-vs-speedce.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/17ce-vs-speedce.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/17ce-vs-speedce.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「17CE vs SpeedCE」展开，以 SpeedCE 为实操示例。
+
+## VSPING vs SpeedCE：污染检测与网络可达性的配合
+- slug: vsping-vs-speedce
+- category: 对比
+- keywords: VSPING,SpeedCE,对比
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/vsping-vs-speedce.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/vsping-vs-speedce.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/vsping-vs-speedce.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「VSPING vs SpeedCE」展开，以 SpeedCE 为实操示例。
+
+## 多子域清单巡检法：一张表管理所有对外域名的月度测速
+- slug: subdomain-inventory-method
+- category: 进阶
+- keywords: 子域名,巡检,清单,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/subdomain-inventory-method.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/subdomain-inventory-method.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/subdomain-inventory-method.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「多子域清单巡检法」展开，以 SpeedCE 为实操示例。
+
+## 竞品站点对标测速：同赛道地图对比说服管理层升级
+- slug: competitor-benchmark
+- category: 进阶
+- keywords: 竞品,对标,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/competitor-benchmark.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/competitor-benchmark.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/competitor-benchmark.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「竞品站点对标测速」展开，以 SpeedCE 为实操示例。
+
+## 迁机前后对比汇报模板：给老板和客户看的双地图 PPT
+- slug: migration-before-after-report
+- category: 进阶
+- keywords: 迁机,汇报,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/migration-before-after-report.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/migration-before-after-report.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/migration-before-after-report.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「迁机前后对比汇报模板」展开，以 SpeedCE 为实操示例。
+
+## ICP 备案通过后全国可达性验收：解析、证书与合规
+- slug: icp-filing-launch-check
+- category: 进阶
+- keywords: ICP备案,上线,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/icp-filing-launch-check.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/icp-filing-launch-check.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/icp-filing-launch-check.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「ICP 备案通过后全国可达性验收」展开，以 SpeedCE 为实操示例。
+
+## 新域名冷启动 72 小时：注册、解析、证书与地图验收节奏
+- slug: new-domain-cold-start
+- category: 进阶
+- keywords: 新域名,DNS,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/new-domain-cold-start.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/new-domain-cold-start.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/new-domain-cold-start.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「新域名冷启动 72 小时」展开，以 SpeedCE 为实操示例。
+
+## 春节流量保障：移动暴增前的全国三网点检手册
+- slug: spring-festival-traffic
+- category: 进阶
+- keywords: 春节,流量,移动,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/spring-festival-traffic.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/spring-festival-traffic.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/spring-festival-traffic.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「春节流量保障」展开，以 SpeedCE 为实操示例。
+
+## 双11/618 大促测速时间表：T-7 到 T+0 的完整节奏
+- slug: double11-618-prep
+- category: 进阶
+- keywords: 双11,618,大促,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/double11-618-prep.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/double11-618-prep.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/double11-618-prep.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「双11/618 大促测速时间表」展开，以 SpeedCE 为实操示例。
+
+## 2026 站长浏览器工具栏终极配置：测速/监控/性能 12 链接
+- slug: ultimate-toolbar-2026
+- category: 进阶
+- keywords: 站长工具,收藏夹,2026,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/ultimate-toolbar-2026.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/ultimate-toolbar-2026.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/ultimate-toolbar-2026.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「2026 站长浏览器工具栏终极配置」展开，以 SpeedCE 为实操示例。
+
+## 新疆/西藏/西北片区访问优化：地图验收与 CDN 策略
+- slug: xinjiang-tibet-access-guide
+- category: 进阶
+- keywords: 新疆,西北,区域优化,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/xinjiang-tibet-access-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/xinjiang-tibet-access-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/xinjiang-tibet-access-guide.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「新疆/西藏/西北片区访问优化」展开，以 SpeedCE 为实操示例。
+
+## 东北三省访问质量验收：寒区线路与 CDN 节点覆盖
+- slug: northeast-china-access-guide
+- category: 进阶
+- keywords: 东北,区域,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/northeast-china-access-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/northeast-china-access-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/northeast-china-access-guide.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「东北三省访问质量验收」展开，以 SpeedCE 为实操示例。
+
+## 粤浙沪京基准延迟：经济发达省份的地图达标参考线
+- slug: guangdong-zhejiang-baseline
+- category: 进阶
+- keywords: 广东,浙江,延迟,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/guangdong-zhejiang-baseline.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/guangdong-zhejiang-baseline.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/guangdong-zhejiang-baseline.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「粤浙沪京基准延迟」展开，以 SpeedCE 为实操示例。
+
+## 变更管理中的测速门禁：改 DNS/证书/Nginx 必测制度
+- slug: change-management-speedtest
+- category: 进阶
+- keywords: 变更管理,测速,运维,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/change-management-speedtest.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/change-management-speedtest.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/change-management-speedtest.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「变更管理中的测速门禁」展开，以 SpeedCE 为实操示例。
+
+## 数据库连接超时与网站超时：网络绿、页面仍慢的完整分层排查
+- slug: mysql-connection-timeout
+- category: 故障排查
+- keywords: MySQL,数据库,超时,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/mysql-connection-timeout.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/mysql-connection-timeout.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/mysql-connection-timeout.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「数据库连接超时与网站超时」展开，以 SpeedCE 为实操示例。
+
+## Redis 连接失败对网站的影响：何时该先测网络再查缓存
+- slug: redis-connection-issues
+- category: 故障排查
+- keywords: Redis,缓存,故障,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/redis-connection-issues.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/redis-connection-issues.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/redis-connection-issues.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「Redis 连接失败对网站的影响」展开，以 SpeedCE 为实操示例。
+
+## Docker 端口映射错误：容器内正常、全国用户打不开的验收
+- slug: docker-port-mapping
+- category: 故障排查
+- keywords: Docker,端口,容器,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/docker-port-mapping.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/docker-port-mapping.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/docker-port-mapping.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「Docker 端口映射错误」展开，以 SpeedCE 为实操示例。
+
+## Kubernetes Ingress 故障：集群内正常、公网域名红的排查
+- slug: k8s-ingress-troubleshoot
+- category: 故障排查
+- keywords: Kubernetes,Ingress,K8s,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/k8s-ingress-troubleshoot.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/k8s-ingress-troubleshoot.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/k8s-ingress-troubleshoot.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「Kubernetes Ingress 故障」展开，以 SpeedCE 为实操示例。
+
+## Let's Encrypt 限流与续签失败：HTTPS 突然全国红的证书向排查
+- slug: lets-encrypt-rate-limit
+- category: 故障排查
+- keywords: Let's Encrypt,证书,HTTPS,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/lets-encrypt-rate-limit.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/lets-encrypt-rate-limit.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/lets-encrypt-rate-limit.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「Let's Encrypt 限流与续签失败」展开，以 SpeedCE 为实操示例。
+
+## SNI 不匹配错误：多证书同 IP 时部分节点 HTTPS 异常
+- slug: sni-mismatch-error
+- category: 故障排查
+- keywords: SNI,SSL,HTTPS,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/sni-mismatch-error.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/sni-mismatch-error.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/sni-mismatch-error.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「SNI 不匹配错误」展开，以 SpeedCE 为实操示例。
+
+## TLS 版本过低：老客户端与新安全策略导致的区域性 HTTPS 失败
+- slug: tls-version-too-low
+- category: 故障排查
+- keywords: TLS,HTTPS,安全,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/tls-version-too-low.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/tls-version-too-low.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/tls-version-too-low.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「TLS 版本过低」展开，以 SpeedCE 为实操示例。
+
+## 压缩配置与超时：大响应体导致的「能通但极慢」
+- slug: gzip-brotli-compression
+- category: 故障排查
+- keywords: Gzip,Brotli,Nginx,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/gzip-brotli-compression.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/gzip-brotli-compression.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/gzip-brotli-compression.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「压缩配置与超时」展开，以 SpeedCE 为实操示例。
+
+## Vultr 各机房线路验收：按业务选东京/新加坡/洛杉矶
+- slug: vultr-line-guide
+- category: VPS线路
+- keywords: Vultr,VPS,线路,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/vultr-line-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/vultr-line-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/vultr-line-guide.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「Vultr 各机房线路验收」展开，以 SpeedCE 为实操示例。
+
+## 搬瓦工 CN2/GIA 套餐验机：经典商家地图验收法
+- slug: bandwagonhost-guide
+- category: VPS线路
+- keywords: 搬瓦工,BandwagonHost,CN2,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/bandwagonhost-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/bandwagonhost-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/bandwagonhost-guide.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「搬瓦工 CN2/GIA 套餐验机」展开，以 SpeedCE 为实操示例。
+
+## RackNerd / DMIT 等热门商家：退款期地图验机模板
+- slug: racknerd-dmit-guide
+- category: VPS线路
+- keywords: RackNerd,DMIT,VPS,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/racknerd-dmit-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/racknerd-dmit-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/racknerd-dmit-guide.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「RackNerd / DMIT 等热门商家」展开，以 SpeedCE 为实操示例。
+
+## AWS Lightsail 对国内访问：全球绿、中国慢的常见形态
+- slug: aws-lightsail-china
+- category: VPS线路
+- keywords: AWS,Lightsail,云服务器,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/aws-lightsail-china.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/aws-lightsail-china.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/aws-lightsail-china.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「AWS Lightsail 对国内访问」展开，以 SpeedCE 为实操示例。
+
+## 甲骨文云免费 tier 验收：零成本机器的地图标准
+- slug: oracle-cloud-free
+- category: VPS线路
+- keywords: Oracle Cloud,免费VPS,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/oracle-cloud-free.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/oracle-cloud-free.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/oracle-cloud-free.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「甲骨文云免费 tier 验收」展开，以 SpeedCE 为实操示例。
+
+## GCP / Azure 回国访问：企业云对国内团队的地图评估
+- slug: gcp-azure-china-access
+- category: VPS线路
+- keywords: GCP,Azure,云,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/gcp-azure-china-access.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/gcp-azure-china-access.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/gcp-azure-china-access.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「GCP / Azure 回国访问」展开，以 SpeedCE 为实操示例。
+
+## AWS CloudFront 中国访问：全球分发与国内体验双验收
+- slug: aws-cloudfront-china
+- category: CDN
+- keywords: CloudFront,AWS,CDN,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/aws-cloudfront-china.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/aws-cloudfront-china.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/aws-cloudfront-china.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「AWS CloudFront 中国访问」展开，以 SpeedCE 为实操示例。
+
+## Fastly CDN 验收：边缘规则与源站对照测速
+- slug: fastly-cdn-guide
+- category: CDN
+- keywords: Fastly,CDN,边缘,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/fastly-cdn-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/fastly-cdn-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/fastly-cdn-guide.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「Fastly CDN 验收」展开，以 SpeedCE 为实操示例。
+
+## Bunny CDN 性价比线路：全球节点地图验收
+- slug: bunny-cdn-guide
+- category: CDN
+- keywords: BunnyCDN,CDN,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/bunny-cdn-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/bunny-cdn-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/bunny-cdn-guide.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「Bunny CDN 性价比线路」展开，以 SpeedCE 为实操示例。
+
+## 七牛云 CDN 接入：国内站长常用方案的测速验收
+- slug: qiniu-cdn-guide
+- category: CDN
+- keywords: 七牛云,CDN,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/qiniu-cdn-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/qiniu-cdn-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/qiniu-cdn-guide.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「七牛云 CDN 接入」展开，以 SpeedCE 为实操示例。
+
+## 又拍云 CDN 验收：图片站与静态加速地图标准
+- slug: upyun-cdn-guide
+- category: CDN
+- keywords: 又拍云,CDN,图片站,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/upyun-cdn-guide.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/upyun-cdn-guide.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/upyun-cdn-guide.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「又拍云 CDN 验收」展开，以 SpeedCE 为实操示例。
+
+## Shopify 店铺全球可达性：主题、支付与应用域的分层测速
+- slug: shopify-speedtest
+- category: 出海
+- keywords: Shopify,外贸,独立站,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/shopify-speedtest.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/shopify-speedtest.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/shopify-speedtest.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「Shopify 店铺全球可达性」展开，以 SpeedCE 为实操示例。
+
+## WooCommerce 出海验收：插件、支付网关与主域地图清单
+- slug: woocommerce-global
+- category: 出海
+- keywords: WooCommerce,WordPress,出海,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/woocommerce-global.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/woocommerce-global.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/woocommerce-global.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「WooCommerce 出海验收」展开，以 SpeedCE 为实操示例。
+
+## Notion 类协作工具自托管：全球团队访问验收
+- slug: notion-saas-availability
+- category: 出海
+- keywords: SaaS,协作,自托管,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/notion-saas-availability.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/notion-saas-availability.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/notion-saas-availability.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「Notion 类协作工具自托管」展开，以 SpeedCE 为实操示例。
+
+## 全球 API 限流与 Geo 封禁：地图绿但仍 403 的边界
+- slug: api-rate-limit-global
+- category: 出海
+- keywords: API,限流,出海,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/api-rate-limit-global.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/api-rate-limit-global.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/api-rate-limit-global.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「全球 API 限流与 Geo 封禁」展开，以 SpeedCE 为实操示例。
+
+## 中东与非洲节点验收：新兴市场的地图达标策略
+- slug: middle-east-africa-nodes
+- category: 出海
+- keywords: 中东,非洲,出海,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/middle-east-africa-nodes.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/middle-east-africa-nodes.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/middle-east-africa-nodes.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「中东与非洲节点验收」展开，以 SpeedCE 为实操示例。
+
+## 拉美节点验收：巴西、墨西哥重点市场地图标准
+- slug: latin-america-nodes
+- category: 出海
+- keywords: 拉美,巴西,出海,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/latin-america-nodes.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/latin-america-nodes.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/latin-america-nodes.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「拉美节点验收」展开，以 SpeedCE 为实操示例。
+
+## Hexo / Hugo 静态站上线路验收：GitHub Pages 与自建对比
+- slug: hexo-hugo-static-site
+- category: 行业
+- keywords: Hexo,Hugo,静态站,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/hexo-hugo-static-site.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/hexo-hugo-static-site.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/hexo-hugo-static-site.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Hexo / Hugo 静态站上线路验收」展开，以 SpeedCE 为实操示例。
+
+## Next.js / Nuxt SSR 部署验收：Node 服务与 CDN 分层测速
+- slug: nextjs-nuxt-ssr-deploy
+- category: 行业
+- keywords: Next.js,Nuxt,SSR,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/nextjs-nuxt-ssr-deploy.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/nextjs-nuxt-ssr-deploy.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/nextjs-nuxt-ssr-deploy.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Next.js / Nuxt SSR 部署验收」展开，以 SpeedCE 为实操示例。
+
+## Laravel / PHP 站点上线：FPM、Nginx 与全国 HTTPS 验收
+- slug: laravel-php-deploy
+- category: 行业
+- keywords: Laravel,PHP,上线,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/laravel-php-deploy.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/laravel-php-deploy.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/laravel-php-deploy.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Laravel / PHP 站点上线」展开，以 SpeedCE 为实操示例。
+
+## Spring Boot API 全国验收：网关、证书与子域清单
+- slug: java-spring-boot-api
+- category: 行业
+- keywords: Spring Boot,Java,API,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/java-spring-boot-api.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/java-spring-boot-api.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/java-spring-boot-api.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Spring Boot API 全国验收」展开，以 SpeedCE 为实操示例。
+
+## Django / Flask 部署测速：WSGI 与应用层分工
+- slug: python-django-flask
+- category: 行业
+- keywords: Django,Flask,Python,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/python-django-flask.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/python-django-flask.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/python-django-flask.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Django / Flask 部署测速」展开，以 SpeedCE 为实操示例。
+
+## 点播视频站验收：播放域、CDN 与 API 三域测速
+- slug: video-on-demand-site
+- category: 行业
+- keywords: 视频,点播,CDN,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/video-on-demand-site.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/video-on-demand-site.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/video-on-demand-site.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「点播视频站验收」展开，以 SpeedCE 为实操示例。
+
+## 招聘官网高峰验收：校招季前的全国点检
+- slug: recruitment-careers-site
+- category: 行业
+- keywords: 招聘,企业官网,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/recruitment-careers-site.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/recruitment-careers-site.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/recruitment-careers-site.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「招聘官网高峰验收」展开，以 SpeedCE 为实操示例。
+
+## 医院预约系统网络基线：高峰与移动用户验收
+- slug: hospital-appointment-system
+- category: 行业
+- keywords: 医疗,预约,移动,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/hospital-appointment-system.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/hospital-appointment-system.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/hospital-appointment-system.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「医院预约系统网络基线」展开，以 SpeedCE 为实操示例。
+
+## On-Call Runbook 中的测速章节：告警后 5 分钟 SOP
+- slug: oncall-runbook-speedtest
+- category: 方法论
+- keywords: OnCall,Runbook,应急,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/oncall-runbook-speedtest.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/oncall-runbook-speedtest.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/oncall-runbook-speedtest.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「On-Call Runbook 中的测速章节」展开，以 SpeedCE 为实操示例。
+
+## 无责复盘中的测速证据：时间线与地图如何写进 Postmortem
+- slug: postmortem-blameless
+- category: 方法论
+- keywords: Postmortem,复盘,运维,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/postmortem-blameless.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/postmortem-blameless.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/postmortem-blameless.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「无责复盘中的测速证据」展开，以 SpeedCE 为实操示例。
+
+## 月度 SLA 报告模板：用通畅率数据汇报老板
+- slug: sla-report-monthly
+- category: 方法论
+- keywords: SLA,报告,运维,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/sla-report-monthly.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/sla-report-monthly.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/sla-report-monthly.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「月度 SLA 报告模板」展开，以 SpeedCE 为实操示例。
+
+## 给云厂商/CDN 工单附证据：截图规范与描述模板
+- slug: vendor-ticket-evidence
+- category: 方法论
+- keywords: 工单,云厂商,CDN,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/vendor-ticket-evidence.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/vendor-ticket-evidence.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/vendor-ticket-evidence.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「给云厂商/CDN 工单附证据」展开，以 SpeedCE 为实操示例。
+
+## 新运维入职第一天：SpeedCE 与工具链培训手册
+- slug: team-onboarding-speedce
+- category: 方法论
+- keywords: 入职,培训,运维,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/team-onboarding-speedce.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/team-onboarding-speedce.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/team-onboarding-speedce.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「新运维入职第一天」展开，以 SpeedCE 为实操示例。
+
+## CESU.ai vs SpeedCE：新兴工具站与地图派实测对比
+- slug: cesu-vs-speedce
+- category: 对比
+- keywords: CESU,SpeedCE,对比
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cesu-vs-speedce.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cesu-vs-speedce.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cesu-vs-speedce.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「CESU.ai vs SpeedCE」展开，以 SpeedCE 为实操示例。
+
+## 站长之家工具生态 vs SpeedCE：Ping/测速/Whois 分工
+- slug: chinaz-toolkit-review
+- category: 对比
+- keywords: 站长之家,工具,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/chinaz-toolkit-review.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/chinaz-toolkit-review.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/chinaz-toolkit-review.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「站长之家工具生态 vs SpeedCE」展开，以 SpeedCE 为实操示例。
+
+## 阿里云云拨测 vs SpeedCE：同云用户如何搭配
+- slug: aliyun-boce-vs-speedce
+- category: 对比
+- keywords: 阿里云,拨测,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/aliyun-boce-vs-speedce.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/aliyun-boce-vs-speedce.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/aliyun-boce-vs-speedce.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「阿里云云拨测 vs SpeedCE」展开，以 SpeedCE 为实操示例。
+
+## 河南/湖北中部省份访问优化：地图特征与 CDN 策略
+- slug: province-henan-hubei
+- category: 进阶
+- keywords: 河南,湖北,区域,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/province-henan-hubei.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/province-henan-hubei.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/province-henan-hubei.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「河南/湖北中部省份访问优化」展开，以 SpeedCE 为实操示例。
+
+## 川渝地区访问验收：西南节点与线路特征
+- slug: province-sichuan-chongqing
+- category: 进阶
+- keywords: 四川,重庆,西南,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/province-sichuan-chongqing.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/province-sichuan-chongqing.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/province-sichuan-chongqing.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「川渝地区访问验收」展开，以 SpeedCE 为实操示例。
+
+## 闽粤台贸相关站点：东南沿海地图验收要点
+- slug: province-fujian-taiwan-trade
+- category: 进阶
+- keywords: 福建,广东,东南,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/province-fujian-taiwan-trade.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/province-fujian-taiwan-trade.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/province-fujian-taiwan-trade.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「闽粤台贸相关站点」展开，以 SpeedCE 为实操示例。
+
+## 京津冀鲁访问基线：华北片区地图达标参考
+- slug: province-shandong-hebei
+- category: 进阶
+- keywords: 山东,河北,华北,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/province-shandong-hebei.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/province-shandong-hebei.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/province-shandong-hebei.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「京津冀鲁访问基线」展开，以 SpeedCE 为实操示例。
+
+## 云贵地区访问：西南边陲地图与移动网络
+- slug: province-yunnan-guizhou
+- category: 进阶
+- keywords: 云南,贵州,西南,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/province-yunnan-guizhou.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/province-yunnan-guizhou.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/province-yunnan-guizhou.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「云贵地区访问」展开，以 SpeedCE 为实操示例。
+
+## 海南自贸相关站点：岛屿地理与访问特征验收
+- slug: hainan-special-zone
+- category: 进阶
+- keywords: 海南,区域,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/hainan-special-zone.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/hainan-special-zone.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/hainan-special-zone.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「海南自贸相关站点」展开，以 SpeedCE 为实操示例。
+
+## 内蒙古/东北三省：高寒地区线路与冬季高峰
+- slug: inner-mongolia-northeast
+- category: 进阶
+- keywords: 内蒙古,东北,区域,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/inner-mongolia-northeast.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/inner-mongolia-northeast.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/inner-mongolia-northeast.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「内蒙古/东北三省」展开，以 SpeedCE 为实操示例。
+
+## 新闻发布与热点峰值：突发流量前的 30 分钟点检
+- slug: cctv-news-peak
+- category: 进阶
+- keywords: 新闻,峰值,流量,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/cctv-news-peak.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/cctv-news-peak.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/cctv-news-peak.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「新闻发布与热点峰值」展开，以 SpeedCE 为实操示例。
+
+## 九月开学季：教育类站点流量保障测速
+- slug: school-start-september
+- category: 进阶
+- keywords: 开学季,教育,流量,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/school-start-september.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/school-start-september.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/school-start-september.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「九月开学季」展开，以 SpeedCE 为实操示例。
+
+## 国庆黄金周流量：全国移动用户暴增前点检
+- slug: national-holiday-golden-week
+- category: 进阶
+- keywords: 国庆,黄金周,流量,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/national-holiday-golden-week.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/national-holiday-golden-week.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/national-holiday-golden-week.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「国庆黄金周流量」展开，以 SpeedCE 为实操示例。
+
+## 年终基础设施报告：12 个月地图存档如何汇总
+- slug: year-end-summary-report
+- category: 进阶
+- keywords: 年终,报告,运维,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/year-end-summary-report.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/year-end-summary-report.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/year-end-summary-report.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「年终基础设施报告」展开，以 SpeedCE 为实操示例。
+
+## WebSocket / WSS 长连接：SpeedCE HTTPS 与实时业务边界
+- slug: websocket-wss-check
+- category: 故障排查
+- keywords: WebSocket,WSS,实时,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/websocket-wss-check.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/websocket-wss-check.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/websocket-wss-check.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「WebSocket / WSS 长连接」展开，以 SpeedCE 为实操示例。
+
+## gRPC / HTTP2 网关：REST 可达与 gRPC 故障分工
+- slug: grpc-gateway-check
+- category: 故障排查
+- keywords: gRPC,HTTP2,API,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/grpc-gateway-check.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/grpc-gateway-check.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/grpc-gateway-check.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「gRPC / HTTP2 网关」展开，以 SpeedCE 为实操示例。
+
+## OAuth 回调域名校验：登录失败的网络层先行排查
+- slug: oauth-callback-domain
+- category: 故障排查
+- keywords: OAuth,登录,回调,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/oauth-callback-domain.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/oauth-callback-domain.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/oauth-callback-domain.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「OAuth 回调域名校验」展开，以 SpeedCE 为实操示例。
+
+## 支付回调 URL 可达性：全国节点对回调域的验收
+- slug: payment-callback-url
+- category: 故障排查
+- keywords: 支付,回调,电商,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/payment-callback-url.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/payment-callback-url.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/payment-callback-url.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「支付回调 URL 可达性」展开，以 SpeedCE 为实操示例。
+
+## 邮件内链接追踪域：营销邮件点击失败的网络排查
+- slug: email-link-tracking
+- category: 故障排查
+- keywords: 邮件,营销,域名,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/email-link-tracking.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/email-link-tracking.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/email-link-tracking.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「邮件内链接追踪域」展开，以 SpeedCE 为实操示例。
+
+## 托管机房 vs 公有云：同一业务选型后的地图验收差异
+- slug: colocation-vs-cloud
+- category: VPS线路
+- keywords: 托管,公有云,选型,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/colocation-vs-cloud.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/colocation-vs-cloud.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/colocation-vs-cloud.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「托管机房 vs 公有云」展开，以 SpeedCE 为实操示例。
+
+## 物理机专线接入：企业专线用户的地图验收
+- slug: bare-metal-dedicated-line
+- category: VPS线路
+- keywords: 专线,物理机,企业,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/bare-metal-dedicated-line.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/bare-metal-dedicated-line.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/bare-metal-dedicated-line.md
+- summary: 多节点测速是现代站长必备技能。 本文围绕「物理机专线接入」展开，以 SpeedCE 为实操示例。
+
+## 图片 CDN 与 WebP/AVIF：静态域全国验收
+- slug: image-cdn-webp-avif
+- category: CDN
+- keywords: 图片CDN,WebP,前端,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/image-cdn-webp-avif.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/image-cdn-webp-avif.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/image-cdn-webp-avif.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「图片 CDN 与 WebP/AVIF」展开，以 SpeedCE 为实操示例。
+
+## 字体 CDN 与 Google Fonts：国内加载失败的测速分工
+- slug: font-cdn-google-china
+- category: CDN
+- keywords: 字体,Google Fonts,CDN,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/font-cdn-google-china.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/font-cdn-google-china.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/font-cdn-google-china.md
+- summary: CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「字体 CDN 与 Google Fonts」展开，以 SpeedCE 为实操示例。
+
+## App Store 审核期间服务器：海外审核节点可达性
+- slug: app-store-review-server
+- category: 出海
+- keywords: App Store,审核,出海,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/app-store-review-server.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/app-store-review-server.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/app-store-review-server.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「App Store 审核期间服务器」展开，以 SpeedCE 为实操示例。
+
+## GDPR 与 Cookie 墙：欧洲用户访问的网络层基线
+- slug: gdpr-cookie-wall
+- category: 出海
+- keywords: GDPR,欧洲,合规,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/gdpr-cookie-wall.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/gdpr-cookie-wall.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/gdpr-cookie-wall.md
+- summary: 全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「GDPR 与 Cookie 墙」展开，以 SpeedCE 为实操示例。
+
+## Discuz 论坛分享链：主站与分享域的分层测速
+- slug: discuz-qzone-share
+- category: 行业
+- keywords: Discuz,论坛,分享,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/discuz-qzone-share.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/discuz-qzone-share.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/discuz-qzone-share.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Discuz 论坛分享链」展开，以 SpeedCE 为实操示例。
+
+## Typecho / Emlog 轻量博客：小站也要做的全国验收
+- slug: typecho-emlog-blog
+- category: 行业
+- keywords: Typecho,Emlog,博客,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/typecho-emlog-blog.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/typecho-emlog-blog.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/typecho-emlog-blog.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Typecho / Emlog 轻量博客」展开，以 SpeedCE 为实操示例。
+
+## Ghost 博客部署：Headless 与主题域测速
+- slug: ghost-blog-deploy
+- category: 行业
+- keywords: Ghost,博客,部署,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/ghost-blog-deploy.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/ghost-blog-deploy.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/ghost-blog-deploy.md
+- summary: 不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Ghost 博客部署」展开，以 SpeedCE 为实操示例。
+
+## 正则匹配子域发现：漏测域名的自动化清单思路
+- slug: regex-domain-inventory
+- category: 方法论
+- keywords: 子域,清单,自动化,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/regex-domain-inventory.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/regex-domain-inventory.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/regex-domain-inventory.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「正则匹配子域发现」展开，以 SpeedCE 为实操示例。
+
+## 日历提醒巡检：把测速写进 Google Calendar / 飞书
+- slug: calendar-reminder-inspect
+- category: 方法论
+- keywords: 日历,提醒,巡检,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/calendar-reminder-inspect.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/calendar-reminder-inspect.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/calendar-reminder-inspect.md
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「日历提醒巡检」展开，以 SpeedCE 为实操示例。
+
+## GTmetrix vs SpeedCE：性能测试与网络拨测分工
+- slug: gtmetrix-vs-speedce
+- category: 对比
+- keywords: GTmetrix,测速,对比
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/gtmetrix-vs-speedce.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/gtmetrix-vs-speedce.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/gtmetrix-vs-speedce.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「GTmetrix vs SpeedCE」展开，以 SpeedCE 为实操示例。
+
+## WebPageTest vs SpeedCE：何时用哪个
+- slug: webpagetest-vs-speedce
+- category: 对比
+- keywords: WebPageTest,测速,对比
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/webpagetest-vs-speedce.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/webpagetest-vs-speedce.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/webpagetest-vs-speedce.md
+- summary: 没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「WebPageTest vs SpeedCE」展开，以 SpeedCE 为实操示例。
+
+## 运维交接文档中的测速基线：离职前必须留下的地图包
+- slug: multi-team-handover
+- category: 进阶
+- keywords: 交接,文档,运维,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/multi-team-handover.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/multi-team-handover.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/multi-team-handover.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「运维交接文档中的测速基线」展开，以 SpeedCE 为实操示例。
+
+## 收购技术尽调：目标站点全国可达性快速评估
+- slug: acquisition-due-diligence
+- category: 进阶
+- keywords: 尽调,收购,评估,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/acquisition-due-diligence.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/acquisition-due-diligence.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/acquisition-due-diligence.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「收购技术尽调」展开，以 SpeedCE 为实操示例。
+
+## 渗透测试前网络暴露面：对外域名测速清单
+- slug: penetration-test-prep
+- category: 进阶
+- keywords: 安全,渗透,域名,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/penetration-test-prep.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/penetration-test-prep.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/penetration-test-prep.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「渗透测试前网络暴露面」展开，以 SpeedCE 为实操示例。
+
+## 灾备演练：切换 DR 站点后的全国 SpeedCE 点检
+- slug: disaster-recovery-drill
+- category: 进阶
+- keywords: 灾备,演练,DR,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/disaster-recovery-drill.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/disaster-recovery-drill.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/disaster-recovery-drill.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「灾备演练」展开，以 SpeedCE 为实操示例。
+
+## 零停机发布：蓝绿/金丝雀发布中的地图对照
+- slug: zero-downtime-deploy
+- category: 进阶
+- keywords: 蓝绿,金丝雀,发布,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/zero-downtime-deploy.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/zero-downtime-deploy.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/zero-downtime-deploy.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「零停机发布」展开，以 SpeedCE 为实操示例。
+
+## Status Page 搭建：测速数据如何支撑公开状态页
+- slug: status-page-setup
+- category: 进阶
+- keywords: Status Page,监控,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/status-page-setup.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/status-page-setup.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/status-page-setup.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「Status Page 搭建」展开，以 SpeedCE 为实操示例。
+
+## 给客户季报附地图：B2B 服务商的测速汇报模板
+- slug: client-report-quarterly
+- category: 进阶
+- keywords: 客户报告,B2B,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/client-report-quarterly.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/client-report-quarterly.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/client-report-quarterly.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「给客户季报附地图」展开，以 SpeedCE 为实操示例。
+
+## 百度/Google 爬虫与站长可达性：SEO 视角的测速
+- slug: seo-crawl-baidu-google
+- category: 进阶
+- keywords: SEO,爬虫,收录,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/seo-crawl-baidu-google.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/seo-crawl-baidu-google.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/seo-crawl-baidu-google.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「百度/Google 爬虫与站长可达性」展开，以 SpeedCE 为实操示例。
+
+## 联盟营销追踪域：全国可达对转化链的影响
+- slug: affiliate-tracking-domain
+- category: 进阶
+- keywords: 联盟营销,追踪,域名,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/affiliate-tracking-domain.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/affiliate-tracking-domain.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/affiliate-tracking-domain.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「联盟营销追踪域」展开，以 SpeedCE 为实操示例。
+
+## 短链域名验收：跳转链路的全国节点测试
+- slug: short-link-domain-check
+- category: 进阶
+- keywords: 短链,跳转,域名,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/short-link-domain-check.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/short-link-domain-check.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/short-link-domain-check.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「短链域名验收」展开，以 SpeedCE 为实操示例。
+
+## 投放落地页：广告上线前 10 分钟全国点检
+- slug: landing-page-campaign
+- category: 进阶
+- keywords: 落地页,投放,广告,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/landing-page-campaign.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/landing-page-campaign.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/landing-page-campaign.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「投放落地页」展开，以 SpeedCE 为实操示例。
+
+## A/B 测试分流域：实验组域名的独立地图验收
+- slug: ab-test-traffic-split
+- category: 进阶
+- keywords: AB测试,分流,SpeedCE
+- pages: https://freejbgo.github.io/SpeedCE-Tech/articles/ab-test-traffic-split.html
+- github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/csdn/ab-test-traffic-split.md
+- raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/ab-test-traffic-split.md
+- summary: 进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「A/B 测试分流域」展开，以 SpeedCE 为实操示例。
