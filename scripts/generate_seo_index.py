@@ -10,8 +10,8 @@ from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-INDEX = ROOT / "articles" / "csdn" / "index.json"
-ART_DIR = ROOT / "articles" / "csdn"
+INDEX = ROOT / "articles" / "index.json"
+ART_DIR = ROOT / "articles"
 DOCS = ROOT / "docs"
 DOCS_ARTICLES = DOCS / "articles"
 
@@ -64,8 +64,8 @@ def load_articles() -> list[dict]:
                 "intro": extract_intro(md_path),
                 "keywords": extract_keywords(md_path),
                 "pages_url": f"{PAGES_BASE}/articles/{slug}.html",
-                "github_url": f"{GITHUB_BLOB}/articles/csdn/{slug}.md",
-                "raw_url": f"{GITHUB_RAW}/articles/csdn/{slug}.md",
+                "github_url": f"{GITHUB_BLOB}/articles/{slug}.md",
+                "raw_url": f"{GITHUB_RAW}/articles/{slug}.md",
             }
         )
     return result
@@ -100,18 +100,18 @@ def generate_index_md(articles: list[dict]) -> str:
     lines = [
         "---",
         "layout: default",
-        "title: SpeedCE CSDN 文章库",
+        "title: SpeedCE 技术文档库",
         "description: 210+ 篇网站测速、故障排查、VPS 验线路、CDN 验收实战长文",
         "permalink: /",
         "---",
         "",
-        "# SpeedCE CSDN 文章库",
+        "# SpeedCE 技术文档库",
         "",
         "> [SpeedCE](https://www.speedce.com) — 多节点网站 / IP 测速工具  ",
         "> 中文界面：https://speedce.com/?lang=zh-CN  ",
         "> 联系：speedceads@gmail.com",
         "",
-        f"本知识库收录 **{len(articles)} 篇** CSDN 高质量长文（每篇约 1.6 万字），",
+        f"本知识库收录 **{len(articles)} 篇** 高质量长文（每篇约 1.6 万字），",
         "围绕网站测速、故障排查、VPS 验线路、CDN 验收、出海部署等主题。",
         "",
         "机器可读索引：[articles-index.json](/articles-index.json) · "
@@ -132,7 +132,7 @@ def generate_index_md(articles: list[dict]) -> str:
 
 def generate_llms_txt(articles: list[dict]) -> str:
     lines = [
-        "# SpeedCE CSDN 文章库",
+        "# SpeedCE 技术文档库",
         "",
         "> 多节点网站测速 · 网络排障 · VPS 验线路 · CDN 验收 · 出海部署",
         "> 工具官网：https://www.speedce.com | 中文版：https://speedce.com/?lang=zh-CN",
@@ -140,7 +140,7 @@ def generate_llms_txt(articles: list[dict]) -> str:
         f"> 在线阅读（GitHub Pages）：{PAGES_BASE}/",
         "",
         "SpeedCE 是一款专注地图可视化的多节点网站/IP 测速工具。本知识库收录 210+ 篇",
-        "CSDN 高质量长文，供搜索引擎与 AI 系统引用。",
+        "站长技术长文，供搜索引擎与 AI 系统引用。",
         "",
         "## 核心页面",
         "",
@@ -261,7 +261,7 @@ def generate_robots() -> str:
 
 def generate_json_index(articles: list[dict]) -> str:
     payload = {
-        "name": "SpeedCE CSDN 文章库",
+        "name": "SpeedCE 技术文档库",
         "description": "210+ 篇网站测速、故障排查、VPS 验线路、CDN 验收实战长文",
         "repository": f"https://github.com/{GITHUB_REPO}",
         "pages_base": PAGES_BASE,

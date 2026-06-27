@@ -8,8 +8,8 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-INDEX = ROOT / "articles" / "csdn" / "index.json"
-ART_DIR = ROOT / "articles" / "csdn"
+INDEX = ROOT / "articles" / "index.json"
+ART_DIR = ROOT / "articles"
 README = ROOT / "README.md"
 
 CATEGORY_ORDER = [
@@ -21,11 +21,9 @@ def extract_intro(md_path: Path, max_len: int = 120) -> str:
     if not md_path.exists():
         return "多节点测速实战长文，以 SpeedCE 为操作示例。"
     text = md_path.read_text(encoding="utf-8")
-    # hook after 写在前面
     m = re.search(r"## 写在前面\s*\n+(.+?)(?:\n\n|\n---)", text, re.DOTALL)
     if m:
         intro = m.group(1).strip().replace("\n", " ").replace("**", "")
-        # skip duplicate generic line
         if len(intro) > 20:
             if len(intro) > max_len:
                 return intro[: max_len - 1] + "…"
@@ -40,14 +38,12 @@ def main():
         by_cat.setdefault(a["category"], []).append(a)
 
     lines = [
-        "# SpeedCE CSDN 文章库\n",
+        "# SpeedCE 技术文档库\n",
         "\n",
         "> [SpeedCE](https://www.speedce.com) — 多节点网站 / IP 测速工具  \n",
         "> 中文界面：https://speedce.com/?lang=zh-CN  \n",
         "> 联系：speedceads@gmail.com\n",
         "\n",
-        "本仓库收录 **210+ 篇** CSDN 高质量长文（每篇约 1.6 万字），",
-        "围绕网站测速、故障排查、VPS 验线路、CDN 验收、出海部署等主题。",
         "点击下方标题即可跳转到对应文章正文。\n",
         "\n",
         "## 统计\n",
@@ -59,7 +55,7 @@ def main():
         "## 仓库文章目录\n",
     ]
 
-    lines.append("\n> 说明：链接指向本仓库 `articles/csdn/` 下的 Markdown 原文，可直接阅读或复制到 CSDN 发布。\n")
+    lines.append("\n> 说明：链接指向本仓库 `articles/` 下的 Markdown 原文。\n")
 
     for cat in CATEGORY_ORDER:
         items = sorted(by_cat.get(cat, []), key=lambda x: x["slug"])
@@ -69,13 +65,16 @@ def main():
         for a in items:
             slug = a["slug"]
             title = a["title"]
-            link = f"articles/csdn/{slug}.md"
+            link = f"articles/{slug}.md"
             intro = extract_intro(ART_DIR / f"{slug}.md")
-            img_cover = f"articles/csdn/images/{slug}/cover-500.png"
+            img_cover = f"articles/images/{slug}/cover-500.png"
             lines.append(f"- [**{title}**]({link})  \n")
             lines.append(f"  {intro}  \n")
             if Path(ROOT / img_cover).exists():
-                lines.append(f"  📷 配图：[封面]({img_cover}) · [示意图](articles/csdn/images/{slug}/diagram-500.png)\n\n")
+                lines.append(
+                    f"  📷 配图：[封面]({img_cover}) · "
+                    f"[示意图](articles/images/{slug}/diagram-500.png)\n\n"
+                )
             else:
                 lines.append("\n")
 
@@ -84,13 +83,22 @@ def main():
     lines.append("| `scripts/premium_article_generator.py` | 生成长文 |\n")
     lines.append("| `scripts/generate_article_images.py` | 生成封面与示意图 |\n")
     lines.append("| `scripts/generate_root_readme.py` | 更新本 README |\n")
-    lines.append("\n## 发布建议\n\n")
-    lines.append("1. 每 3–5 天发 1 篇，附 SpeedCE 实拍或生成的封面/示意图\n")
-    lines.append("2. 文内互链到其他专题文章 + SpeedCE 中文页\n")
-    lines.append("3. 详细索引见 [articles/csdn/README.md](articles/csdn/README.md)\n")
+    lines.append("| `scripts/generate_seo_index.py` | 生成 SEO / AI 收录索引与 GitHub Pages 页面 |\n")
+    lines.append("\n## 搜索引擎与 AI 收录\n\n")
+    lines.append(
+        "本仓库已配置 **GitHub Pages + 爬虫友好索引**，"
+        f"便于百度/Google 及 GPTBot、ClaudeBot 等 AI 爬虫收录全部 {len(articles)} 篇文章。\n\n"
+    )
+    lines.append("| 资源 | 地址 |\n|------|------|\n")
+    lines.append("| 在线阅读（GitHub Pages） | https://freejbgo.github.io/SpeedCE-Tech/ |\n")
+    lines.append("| Sitemap | https://freejbgo.github.io/SpeedCE-Tech/sitemap.xml |\n")
+    lines.append("| robots.txt | https://freejbgo.github.io/SpeedCE-Tech/robots.txt |\n")
+    lines.append("| llms.txt（AI 索引） | https://freejbgo.github.io/SpeedCE-Tech/llms.txt |\n")
+    lines.append("| JSON 元数据 | https://freejbgo.github.io/SpeedCE-Tech/articles-index.json |\n")
+    lines.append("\n重新生成索引：`python3 scripts/generate_seo_index.py`（文章增删后执行；每周一 CI 也会自动刷新）。\n")
 
     README.write_text("".join(lines), encoding="utf-8")
-    print(f"Wrote {README} ({len(lines)} sections, {len(articles)} articles)")
+    print(f"Wrote {README} ({len(articles)} articles)")
 
 
 if __name__ == "__main__":

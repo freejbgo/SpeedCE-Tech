@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "articles/csdn/**"
+      - "articles/**"
       - "scripts/generate_seo_index.py"
 
 permissions:

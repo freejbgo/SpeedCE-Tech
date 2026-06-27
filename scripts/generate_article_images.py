@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate 2 square images (800x800) per CSDN article."""
+"""Generate 2 square images (800x800) per article."""
 
 from __future__ import annotations
 
@@ -11,8 +11,8 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
-INDEX = ROOT / "articles" / "csdn" / "index.json"
-OUT_DIR = ROOT / "articles" / "csdn" / "images"
+INDEX = ROOT / "articles" / "index.json"
+OUT_DIR = ROOT / "articles" / "images"
 SIZE = 800
 
 FONT_PATH = "/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"
