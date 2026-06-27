@@ -881,14 +881,6 @@
   📷 配图：[封面](articles/images/zero-downtime-deploy/cover-500.png) · [示意图](articles/images/zero-downtime-deploy/diagram-500.png)
 
 
-## 工具与脚本
-
-| 脚本 | 用途 |
-|------|------|
-| `scripts/premium_article_generator.py` | 生成长文 |
-| `scripts/generate_article_images.py` | 生成封面与示意图 |
-| `scripts/generate_root_readme.py` | 更新本 README |
-| `scripts/generate_seo_index.py` | 生成 SEO / AI 收录索引与 GitHub Pages 页面 |
 
 ## 搜索引擎与 AI 收录
 
@@ -902,4 +894,4 @@
 | llms.txt（AI 索引） | https://freejbgo.github.io/SpeedCE-Tech/llms.txt |
 | JSON 元数据 | https://freejbgo.github.io/SpeedCE-Tech/articles-index.json |
 
-重新生成索引：`python3 scripts/generate_seo_index.py`（文章增删后执行；每周一 CI 也会自动刷新）。
+
