@@ -4,7 +4,7 @@ title: "全球绿、中国红：被墙/合规问题的标准判断流程"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「全球绿、中国红」展开，以 SpeedCE 为实操示例。"
 keywords: 被墙,出海,合规,SpeedCE
-permalink: /articles/china-blocked-overseas-ok.html
+permalink: articles/china-blocked-overseas-ok.html
 ---
 
 # 全球绿、中国红：被墙/合规问题的标准判断流程

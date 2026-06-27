@@ -4,7 +4,7 @@ title: "中东与非洲节点验收：新兴市场的地图达标策略"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「中东与非洲节点验收」展开，以 SpeedCE 为实操示例。"
 keywords: 中东,非洲,出海,SpeedCE
-permalink: /articles/middle-east-africa-nodes.html
+permalink: articles/middle-east-africa-nodes.html
 ---
 
 # 中东与非洲节点验收：新兴市场的地图达标策略

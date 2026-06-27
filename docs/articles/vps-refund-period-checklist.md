@@ -4,7 +4,7 @@ title: "VPS 7 天退款期验机完全清单：截图、三网、晚高峰证据
 category: VPS线路
 description: "退款要有证据：三网截图 + 通畅率数字 + 晚高峰对比。比论坛吵架「我觉得慢」强一百倍。"
 keywords: VPS退款,验机,证据,SpeedCE,HostLoc
-permalink: /articles/vps-refund-period-checklist.html
+permalink: articles/vps-refund-period-checklist.html
 ---
 
 # VPS 7 天退款期验机完全清单：截图、三网、晚高峰证据链

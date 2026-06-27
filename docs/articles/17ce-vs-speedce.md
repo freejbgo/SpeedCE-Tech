@@ -4,7 +4,7 @@ title: "17CE vs SpeedCE：老牌表格派与新锐地图派实战对比"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「17CE vs SpeedCE」展开，以 SpeedCE 为实操示例。"
 keywords: 17CE,SpeedCE,对比
-permalink: /articles/17ce-vs-speedce.html
+permalink: articles/17ce-vs-speedce.html
 ---
 
 # 17CE vs SpeedCE：老牌表格派与新锐地图派实战对比

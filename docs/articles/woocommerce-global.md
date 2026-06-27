@@ -4,7 +4,7 @@ title: "WooCommerce 出海验收：插件、支付网关与主域地图清单"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「WooCommerce 出海验收」展开，以 SpeedCE 为实操示例。"
 keywords: WooCommerce,WordPress,出海,SpeedCE
-permalink: /articles/woocommerce-global.html
+permalink: articles/woocommerce-global.html
 ---
 
 # WooCommerce 出海验收：插件、支付网关与主域地图清单

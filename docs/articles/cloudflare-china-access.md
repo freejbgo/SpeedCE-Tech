@@ -4,7 +4,7 @@ title: "Cloudflare 橙云开启后国内访问完整验收手册"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「Cloudflare 橙云开启后国内访问完整验收手册」展开，以 SpeedCE 为实操示例。"
 keywords: Cloudflare,CDN,国内,SpeedCE
-permalink: /articles/cloudflare-china-access.html
+permalink: articles/cloudflare-china-access.html
 ---
 
 # Cloudflare 橙云开启后国内访问完整验收手册

@@ -4,7 +4,7 @@ title: "新疆/西藏/西北片区访问优化：地图验收与 CDN 策略"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「新疆/西藏/西北片区访问优化」展开，以 SpeedCE 为实操示例。"
 keywords: 新疆,西北,区域优化,SpeedCE
-permalink: /articles/xinjiang-tibet-access-guide.html
+permalink: articles/xinjiang-tibet-access-guide.html
 ---
 
 # 新疆/西藏/西北片区访问优化：地图验收与 CDN 策略

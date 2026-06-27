@@ -4,7 +4,7 @@ title: "开发者 2026 检测书签栏：12 个链接应对 90% 网络故障"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「开发者 2026 检测书签栏」展开，以 SpeedCE 为实操示例。"
 keywords: 开发者,书签,工具,SpeedCE
-permalink: /articles/developer-bookmark-list.html
+permalink: articles/developer-bookmark-list.html
 ---
 
 # 开发者 2026 检测书签栏：12 个链接应对 90% 网络故障

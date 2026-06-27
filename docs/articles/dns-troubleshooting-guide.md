@@ -4,7 +4,7 @@ title: "DNS 解析故障完全指南：迁机、换 CDN 后「部分地区打不
 category: 故障排查
 description: "改完 DNS 你这边秒生效，新疆同事说还是旧 IP——这不是他电脑坏了，是解析链路在不同地理位置、不同运营商上不同步。DNS 问题占「部分地区打不开」工单的一半以上，却最容易被误判成「用户网络不好」。"
 keywords: DNS故障,域名解析,迁机,多节点测速,SpeedCE
-permalink: /articles/dns-troubleshooting-guide.html
+permalink: articles/dns-troubleshooting-guide.html
 ---
 
 # DNS 解析故障完全指南：迁机、换 CDN 后「部分地区打不开」怎么查

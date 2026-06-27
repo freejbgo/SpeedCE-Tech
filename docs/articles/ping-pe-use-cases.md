@@ -4,7 +4,7 @@ title: "Ping.pe 完全使用手册：与 SpeedCE 的全球/中国互补策略"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「Ping.pe 完全使用手册」展开，以 SpeedCE 为实操示例。"
 keywords: Ping.pe,全球Ping,SpeedCE
-permalink: /articles/ping-pe-use-cases.html
+permalink: articles/ping-pe-use-cases.html
 ---
 
 # Ping.pe 完全使用手册：与 SpeedCE 的全球/中国互补策略

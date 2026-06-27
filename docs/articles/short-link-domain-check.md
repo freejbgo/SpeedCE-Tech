@@ -4,7 +4,7 @@ title: "短链域名验收：跳转链路的全国节点测试"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「短链域名验收」展开，以 SpeedCE 为实操示例。"
 keywords: 短链,跳转,域名,SpeedCE
-permalink: /articles/short-link-domain-check.html
+permalink: articles/short-link-domain-check.html
 ---
 
 # 短链域名验收：跳转链路的全国节点测试

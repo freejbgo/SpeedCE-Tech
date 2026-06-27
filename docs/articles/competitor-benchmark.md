@@ -4,7 +4,7 @@ title: "竞品站点对标测速：同赛道地图对比说服管理层升级"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「竞品站点对标测速」展开，以 SpeedCE 为实操示例。"
 keywords: 竞品,对标,SpeedCE
-permalink: /articles/competitor-benchmark.html
+permalink: articles/competitor-benchmark.html
 ---
 
 # 竞品站点对标测速：同赛道地图对比说服管理层升级

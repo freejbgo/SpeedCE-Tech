@@ -4,7 +4,7 @@ title: "CDN 证书与源站证书：两边都要绿的完整验收流程"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「CDN 证书与源站证书」展开，以 SpeedCE 为实操示例。"
 keywords: CDN证书,SSL,SpeedCE
-permalink: /articles/cdn-cert-vs-origin.html
+permalink: articles/cdn-cert-vs-origin.html
 ---
 
 # CDN 证书与源站证书：两边都要绿的完整验收流程

@@ -4,7 +4,7 @@ title: "云贵地区访问：西南边陲地图与移动网络"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「云贵地区访问」展开，以 SpeedCE 为实操示例。"
 keywords: 云南,贵州,西南,SpeedCE
-permalink: /articles/province-yunnan-guizhou.html
+permalink: articles/province-yunnan-guizhou.html
 ---
 
 # 云贵地区访问：西南边陲地图与移动网络

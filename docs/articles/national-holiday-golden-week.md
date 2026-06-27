@@ -4,7 +4,7 @@ title: "国庆黄金周流量：全国移动用户暴增前点检"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「国庆黄金周流量」展开，以 SpeedCE 为实操示例。"
 keywords: 国庆,黄金周,流量,SpeedCE
-permalink: /articles/national-holiday-golden-week.html
+permalink: articles/national-holiday-golden-week.html
 ---
 
 # 国庆黄金周流量：全国移动用户暴增前点检

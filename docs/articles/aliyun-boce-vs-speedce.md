@@ -4,7 +4,7 @@ title: "阿里云云拨测 vs SpeedCE：同云用户如何搭配"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「阿里云云拨测 vs SpeedCE」展开，以 SpeedCE 为实操示例。"
 keywords: 阿里云,拨测,SpeedCE
-permalink: /articles/aliyun-boce-vs-speedce.html
+permalink: articles/aliyun-boce-vs-speedce.html
 ---
 
 # 阿里云云拨测 vs SpeedCE：同云用户如何搭配

@@ -4,7 +4,7 @@ title: "网站出海测速验收手册：从中国节点到全球节点的完整
 category: 出海
 description: "你在上海打开 .com 秒开，德国客户说转圈——测速视角错了。出海要看目标市场所在地的远端节点，中国节点与全球节点双视图缺一不可。"
 keywords: 网站出海,全球测速,国际化,SpeedCE,全球节点
-permalink: /articles/global-deployment-checklist.html
+permalink: articles/global-deployment-checklist.html
 ---
 
 # 网站出海测速验收手册：从中国节点到全球节点的完整检查流程

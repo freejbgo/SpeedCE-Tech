@@ -4,7 +4,7 @@ title: "子域名故障排查完全指南：主站能开、接口挂了的 8 种
 category: 故障排查
 description: "www.example.com 和 api.example.com 在 DNS、证书、Nginx、CDN 上是四份独立配置。主站绿不等于子域绿——每个对外子域都该有一张 SpeedCE 地图。"
 keywords: 子域名,API,cdn,DNS,SpeedCE
-permalink: /articles/subdomain-troubleshooting.html
+permalink: articles/subdomain-troubleshooting.html
 ---
 
 # 子域名故障排查完全指南：主站能开、接口挂了的 8 种独立原因

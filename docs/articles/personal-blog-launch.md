@@ -4,7 +4,7 @@ title: "个人博客上线完全验收：Hexo/Hugo/WordPress 通用测速清单"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「个人博客上线完全验收」展开，以 SpeedCE 为实操示例。"
 keywords: 个人博客,上线,SpeedCE
-permalink: /articles/personal-blog-launch.html
+permalink: articles/personal-blog-launch.html
 ---
 
 # 个人博客上线完全验收：Hexo/Hugo/WordPress 通用测速清单

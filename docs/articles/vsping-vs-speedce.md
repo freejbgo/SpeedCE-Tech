@@ -4,7 +4,7 @@ title: "VSPING vs SpeedCE：污染检测与网络可达性的配合"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「VSPING vs SpeedCE」展开，以 SpeedCE 为实操示例。"
 keywords: VSPING,SpeedCE,对比
-permalink: /articles/vsping-vs-speedce.html
+permalink: articles/vsping-vs-speedce.html
 ---
 
 # VSPING vs SpeedCE：污染检测与网络可达性的配合

@@ -4,7 +4,7 @@ title: "GeoDNS 智能解析验证：各地解析到不同 IP 的测速方法"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「GeoDNS 智能解析验证」展开，以 SpeedCE 为实操示例。"
 keywords: GeoDNS,智能解析,SpeedCE
-permalink: /articles/geodns-verification.html
+permalink: articles/geodns-verification.html
 ---
 
 # GeoDNS 智能解析验证：各地解析到不同 IP 的测速方法

@@ -4,7 +4,7 @@ title: "七牛云 CDN 接入：国内站长常用方案的测速验收"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「七牛云 CDN 接入」展开，以 SpeedCE 为实操示例。"
 keywords: 七牛云,CDN,SpeedCE
-permalink: /articles/qiniu-cdn-guide.html
+permalink: articles/qiniu-cdn-guide.html
 ---
 
 # 七牛云 CDN 接入：国内站长常用方案的测速验收

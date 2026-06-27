@@ -84,7 +84,7 @@ def write_jekyll_article(article: dict) -> None:
         category: {article['category']}
         description: {json.dumps(article['intro'], ensure_ascii=False)}
         keywords: {article['keywords']}
-        permalink: /articles/{article['slug']}.html
+        permalink: articles/{article['slug']}.html
         ---
 
         """
@@ -114,8 +114,8 @@ def generate_index_md(articles: list[dict]) -> str:
         f"本知识库收录 **{len(articles)} 篇** 高质量长文（每篇约 1.6 万字），",
         "围绕网站测速、故障排查、VPS 验线路、CDN 验收、出海部署等主题。",
         "",
-        "机器可读索引：[articles-index.json](/articles-index.json) · "
-        "[llms.txt](/llms.txt) · [sitemap.xml](/sitemap.xml)",
+        f"机器可读索引：[articles-index.json]({PAGES_BASE}/articles-index.json) · "
+        f"[llms.txt]({PAGES_BASE}/llms.txt) · [sitemap.xml]({PAGES_BASE}/sitemap.xml)",
         "",
     ]
     for cat in CATEGORY_ORDER:
@@ -125,7 +125,7 @@ def generate_index_md(articles: list[dict]) -> str:
         lines.append(f"## {cat}（{len(items)} 篇）")
         lines.append("")
         for a in items:
-            lines.append(f"- [{a['title']}](/articles/{a['slug']}.html)")
+            lines.append(f"- [{a['title']}]({PAGES_BASE}/articles/{a['slug']}.html)")
         lines.append("")
     return "\n".join(lines)
 

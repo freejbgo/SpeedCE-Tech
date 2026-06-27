@@ -4,7 +4,7 @@ title: "CDN 切量 72 小时监控手册：从 T+0 到 T+72 每小时做什么"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「CDN 切量 72 小时监控手册」展开，以 SpeedCE 为实操示例。"
 keywords: CDN切量,DNS,监控,SpeedCE
-permalink: /articles/cdn-cutover-72h.html
+permalink: articles/cdn-cutover-72h.html
 ---
 
 # CDN 切量 72 小时监控手册：从 T+0 到 T+72 每小时做什么

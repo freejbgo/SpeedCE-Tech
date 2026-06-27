@@ -4,7 +4,7 @@ title: "邮件内链接追踪域：营销邮件点击失败的网络排查"
 category: 故障排查
 description: "多节点测速是现代站长必备技能。 本文围绕「邮件内链接追踪域」展开，以 SpeedCE 为实操示例。"
 keywords: 邮件,营销,域名,SpeedCE
-permalink: /articles/email-link-tracking.html
+permalink: articles/email-link-tracking.html
 ---
 
 # 邮件内链接追踪域：营销邮件点击失败的网络排查

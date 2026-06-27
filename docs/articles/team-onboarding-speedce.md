@@ -4,7 +4,7 @@ title: "新运维入职第一天：SpeedCE 与工具链培训手册"
 category: 方法论
 description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「新运维入职第一天」展开，以 SpeedCE 为实操示例。"
 keywords: 入职,培训,运维,SpeedCE
-permalink: /articles/team-onboarding-speedce.html
+permalink: articles/team-onboarding-speedce.html
 ---
 
 # 新运维入职第一天：SpeedCE 与工具链培训手册

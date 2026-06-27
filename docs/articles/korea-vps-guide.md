@@ -4,7 +4,7 @@ title: "韩国 VPS 线路测评：离中国近不等于三网都好"
 category: VPS线路
 description: "韩国物理距离近，但线路质量取决于出口优化。移动地图仍是关键。"
 keywords: 韩国VPS,线路,测速,SpeedCE
-permalink: /articles/korea-vps-guide.html
+permalink: articles/korea-vps-guide.html
 ---
 
 # 韩国 VPS 线路测评：离中国近不等于三网都好

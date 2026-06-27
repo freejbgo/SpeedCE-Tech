@@ -4,7 +4,7 @@ title: "Django / Flask 部署测速：WSGI 与应用层分工"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Django / Flask 部署测速」展开，以 SpeedCE 为实操示例。"
 keywords: Django,Flask,Python,SpeedCE
-permalink: /articles/python-django-flask.html
+permalink: articles/python-django-flask.html
 ---
 
 # Django / Flask 部署测速：WSGI 与应用层分工

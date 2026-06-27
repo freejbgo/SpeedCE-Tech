@@ -4,7 +4,7 @@ title: "超低价 VPS 陷阱：地图验收能看出的 6 个危险信号"
 category: VPS线路
 description: "年付几十块的机器，不是不能用，但要靠地图知道代价在哪。"
 keywords: 低价VPS,陷阱,验机,SpeedCE,避雷
-permalink: /articles/budget-vps-trap-guide.html
+permalink: articles/budget-vps-trap-guide.html
 ---
 
 # 超低价 VPS 陷阱：地图验收能看出的 6 个危险信号

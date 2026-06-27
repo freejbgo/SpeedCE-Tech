@@ -4,7 +4,7 @@ title: "金融/医疗网站网络层基线：HTTPS、证书与多活验收"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「金融/医疗网站网络层基线」展开，以 SpeedCE 为实操示例。"
 keywords: 金融,医疗,合规,SpeedCE
-permalink: /articles/fintech-medical-compliance.html
+permalink: articles/fintech-medical-compliance.html
 ---
 
 # 金融/医疗网站网络层基线：HTTPS、证书与多活验收

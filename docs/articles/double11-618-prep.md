@@ -4,7 +4,7 @@ title: "双11/618 大促测速时间表：T-7 到 T+0 的完整节奏"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「双11/618 大促测速时间表」展开，以 SpeedCE 为实操示例。"
 keywords: 双11,618,大促,SpeedCE
-permalink: /articles/double11-618-prep.html
+permalink: articles/double11-618-prep.html
 ---
 
 # 双11/618 大促测速时间表：T-7 到 T+0 的完整节奏

@@ -4,7 +4,7 @@ title: "多语言站点全球分发：hreflang 与各地可达性验收"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「多语言站点全球分发」展开，以 SpeedCE 为实操示例。"
 keywords: 多语言,出海,SEO,SpeedCE
-permalink: /articles/multilingual-site-delivery.html
+permalink: articles/multilingual-site-delivery.html
 ---
 
 # 多语言站点全球分发：hreflang 与各地可达性验收

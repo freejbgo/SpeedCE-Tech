@@ -4,7 +4,7 @@ title: "渗透测试前网络暴露面：对外域名测速清单"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「渗透测试前网络暴露面」展开，以 SpeedCE 为实操示例。"
 keywords: 安全,渗透,域名,SpeedCE
-permalink: /articles/penetration-test-prep.html
+permalink: articles/penetration-test-prep.html
 ---
 
 # 渗透测试前网络暴露面：对外域名测速清单

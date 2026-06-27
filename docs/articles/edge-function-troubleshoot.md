@@ -4,7 +4,7 @@ title: "边缘函数/Workers 故障：主域绿、规则不生效的排查"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「边缘函数/Workers 故障」展开，以 SpeedCE 为实操示例。"
 keywords: 边缘计算,CDN,Cloudflare,SpeedCE
-permalink: /articles/edge-function-troubleshoot.html
+permalink: articles/edge-function-troubleshoot.html
 ---
 
 # 边缘函数/Workers 故障：主域绿、规则不生效的排查

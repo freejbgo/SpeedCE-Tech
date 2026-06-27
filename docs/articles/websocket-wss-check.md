@@ -4,7 +4,7 @@ title: "WebSocket / WSS 长连接：SpeedCE HTTPS 与实时业务边界"
 category: 故障排查
 description: "多节点测速是现代站长必备技能。 本文围绕「WebSocket / WSS 长连接」展开，以 SpeedCE 为实操示例。"
 keywords: WebSocket,WSS,实时,SpeedCE
-permalink: /articles/websocket-wss-check.html
+permalink: articles/websocket-wss-check.html
 ---
 
 # WebSocket / WSS 长连接：SpeedCE HTTPS 与实时业务边界

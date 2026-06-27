@@ -4,7 +4,7 @@ title: "日历提醒巡检：把测速写进 Google Calendar / 飞书"
 category: 方法论
 description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「日历提醒巡检」展开，以 SpeedCE 为实操示例。"
 keywords: 日历,提醒,巡检,SpeedCE
-permalink: /articles/calendar-reminder-inspect.html
+permalink: articles/calendar-reminder-inspect.html
 ---
 
 # 日历提醒巡检：把测速写进 Google Calendar / 飞书

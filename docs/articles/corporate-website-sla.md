@@ -4,7 +4,7 @@ title: "企业官网可用性 SLA：用通畅率数据向管理层汇报"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「企业官网可用性 SLA」展开，以 SpeedCE 为实操示例。"
 keywords: 企业官网,SLA,SpeedCE
-permalink: /articles/corporate-website-sla.html
+permalink: articles/corporate-website-sla.html
 ---
 
 # 企业官网可用性 SLA：用通畅率数据向管理层汇报

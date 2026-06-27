@@ -4,7 +4,7 @@ title: "家宽测速 vs 全国节点：为什么你 Ping 快不代表用户快"
 category: VPS线路
 description: "同城家宽 ping 同机房 VPS，延迟虚低。全国节点才是用户视角——这是测速方法论第一课。"
 keywords: 测速偏见,家宽,VPS,SpeedCE,方法论
-permalink: /articles/home-broadband-vs-datacenter.html
+permalink: articles/home-broadband-vs-datacenter.html
 ---
 
 # 家宽测速 vs 全国节点：为什么你 Ping 快不代表用户快

@@ -4,7 +4,7 @@ title: "Redis 连接失败对网站的影响：何时该先测网络再查缓存
 category: 故障排查
 description: "多节点测速是现代站长必备技能。 本文围绕「Redis 连接失败对网站的影响」展开，以 SpeedCE 为实操示例。"
 keywords: Redis,缓存,故障,SpeedCE
-permalink: /articles/redis-connection-issues.html
+permalink: articles/redis-connection-issues.html
 ---
 
 # Redis 连接失败对网站的影响：何时该先测网络再查缓存

@@ -4,7 +4,7 @@ title: "投放落地页：广告上线前 10 分钟全国点检"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「投放落地页」展开，以 SpeedCE 为实操示例。"
 keywords: 落地页,投放,广告,SpeedCE
-permalink: /articles/landing-page-campaign.html
+permalink: articles/landing-page-campaign.html
 ---
 
 # 投放落地页：广告上线前 10 分钟全国点检

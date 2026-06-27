@@ -4,7 +4,7 @@ title: "河南/湖北中部省份访问优化：地图特征与 CDN 策略"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「河南/湖北中部省份访问优化」展开，以 SpeedCE 为实操示例。"
 keywords: 河南,湖北,区域,SpeedCE
-permalink: /articles/province-henan-hubei.html
+permalink: articles/province-henan-hubei.html
 ---
 
 # 河南/湖北中部省份访问优化：地图特征与 CDN 策略

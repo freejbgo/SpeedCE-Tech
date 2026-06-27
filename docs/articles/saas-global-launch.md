@@ -4,7 +4,7 @@ title: "出海 SaaS 全球上线验收：目标市场通畅率达标完全手册
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「出海 SaaS 全球上线验收」展开，以 SpeedCE 为实操示例。"
 keywords: 出海SaaS,全球测速,SpeedCE
-permalink: /articles/saas-global-launch.html
+permalink: articles/saas-global-launch.html
 ---
 
 # 出海 SaaS 全球上线验收：目标市场通畅率达标完全手册

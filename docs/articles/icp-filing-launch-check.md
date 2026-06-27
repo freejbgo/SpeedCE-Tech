@@ -4,7 +4,7 @@ title: "ICP 备案通过后全国可达性验收：解析、证书与合规"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「ICP 备案通过后全国可达性验收」展开，以 SpeedCE 为实操示例。"
 keywords: ICP备案,上线,SpeedCE
-permalink: /articles/icp-filing-launch-check.html
+permalink: articles/icp-filing-launch-check.html
 ---
 
 # ICP 备案通过后全国可达性验收：解析、证书与合规

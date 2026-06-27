@@ -4,7 +4,7 @@ title: "季度基础设施体检：地图对比、趋势退化与升级决策"
 category: 方法论
 description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「季度基础设施体检」展开，以 SpeedCE 为实操示例。"
 keywords: 季度体检,基础设施,SpeedCE
-permalink: /articles/quarterly-infra-review.html
+permalink: articles/quarterly-infra-review.html
 ---
 
 # 季度基础设施体检：地图对比、趋势退化与升级决策

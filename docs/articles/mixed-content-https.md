@@ -4,7 +4,7 @@ title: "混合内容与 HTTPS：网络层全绿、浏览器仍报不安全的分
 category: 故障排查
 description: "SpeedCE 测站点可达性；混合内容是页面里引用了 http:// 资源。两者分工明确，别在网络层浪费时间。"
 keywords: 混合内容,HTTPS,前端安全,SpeedCE,SSL
-permalink: /articles/mixed-content-https.html
+permalink: articles/mixed-content-https.html
 ---
 
 # 混合内容与 HTTPS：网络层全绿、浏览器仍报不安全的分工排查

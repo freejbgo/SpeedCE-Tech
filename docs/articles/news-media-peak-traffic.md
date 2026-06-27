@@ -4,7 +4,7 @@ title: "新闻媒体流量峰值：突发报道前的全国点检 SOP"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「新闻媒体流量峰值」展开，以 SpeedCE 为实操示例。"
 keywords: 媒体,流量,峰值,SpeedCE
-permalink: /articles/news-media-peak-traffic.html
+permalink: articles/news-media-peak-traffic.html
 ---
 
 # 新闻媒体流量峰值：突发报道前的全国点检 SOP

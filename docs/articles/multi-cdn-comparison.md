@@ -4,7 +4,7 @@ title: "多家 CDN 试用期地图对比选型：同域不同商的科学方法"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「多家 CDN 试用期地图对比选型」展开，以 SpeedCE 为实操示例。"
 keywords: CDN对比,选型,SpeedCE
-permalink: /articles/multi-cdn-comparison.html
+permalink: articles/multi-cdn-comparison.html
 ---
 
 # 多家 CDN 试用期地图对比选型：同域不同商的科学方法

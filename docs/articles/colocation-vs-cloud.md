@@ -4,7 +4,7 @@ title: "托管机房 vs 公有云：同一业务选型后的地图验收差异"
 category: VPS线路
 description: "多节点测速是现代站长必备技能。 本文围绕「托管机房 vs 公有云」展开，以 SpeedCE 为实操示例。"
 keywords: 托管,公有云,选型,SpeedCE
-permalink: /articles/colocation-vs-cloud.html
+permalink: articles/colocation-vs-cloud.html
 ---
 
 # 托管机房 vs 公有云：同一业务选型后的地图验收差异

@@ -4,7 +4,7 @@ title: "多子域清单巡检法：一张表管理所有对外域名的月度测
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「多子域清单巡检法」展开，以 SpeedCE 为实操示例。"
 keywords: 子域名,巡检,清单,SpeedCE
-permalink: /articles/subdomain-inventory-method.html
+permalink: articles/subdomain-inventory-method.html
 ---
 
 # 多子域清单巡检法：一张表管理所有对外域名的月度测速

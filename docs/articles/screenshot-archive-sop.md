@@ -4,7 +4,7 @@ title: "测速截图存档规范：工单、论坛、事故报告的配图标准
 category: 方法论
 description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「测速截图存档规范」展开，以 SpeedCE 为实操示例。"
 keywords: 截图,运维文档,SpeedCE
-permalink: /articles/screenshot-archive-sop.html
+permalink: articles/screenshot-archive-sop.html
 ---
 
 # 测速截图存档规范：工单、论坛、事故报告的配图标准

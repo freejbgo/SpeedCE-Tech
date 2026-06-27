@@ -4,7 +4,7 @@ title: "数据库拖垮网站：网络全绿但页面超时的应用层排查"
 category: 故障排查
 description: "SpeedCE 绿 + 页面超时——网络没问题，查 MySQL 慢查询、连接池耗尽。先网络后应用，顺序不能反。"
 keywords: 数据库,慢查询,502,应用层,SpeedCE
-permalink: /articles/database-not-network-guide.html
+permalink: articles/database-not-network-guide.html
 ---
 
 # 数据库拖垮网站：网络全绿但页面超时的应用层排查

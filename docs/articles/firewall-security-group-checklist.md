@@ -4,7 +4,7 @@ title: "云服务器安全组验收：全国地图大面积红时先查这四项
 category: 故障排查
 description: "新手装机最常见：SSH 能登，网站全国红——安全组只放了 22 没放 443。在怀疑线路、CDN、DNS 之前，先用 SpeedCE 确认端口层到底通不通。"
 keywords: 安全组,防火墙,云服务器,443端口,SpeedCE
-permalink: /articles/firewall-security-group-checklist.html
+permalink: articles/firewall-security-group-checklist.html
 ---
 
 # 云服务器安全组验收：全国地图大面积红时先查这四项

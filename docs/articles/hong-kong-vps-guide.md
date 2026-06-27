@@ -4,7 +4,7 @@ title: "香港 VPS 线路选购与验收完全手册：个人站、电商、API 
 category: VPS线路
 description: "香港是国人最熟悉的机房：延迟低、免备案、带宽价格适中。但 CN2、CMI、BGP 混杂，商家文案天花乱坠——全国三网地图是唯一靠谱的验货方式。"
 keywords: 香港VPS,CN2,线路测速,SpeedCE,选购
-permalink: /articles/hong-kong-vps-guide.html
+permalink: articles/hong-kong-vps-guide.html
 ---
 
 # 香港 VPS 线路选购与验收完全手册：个人站、电商、API 场景怎么选

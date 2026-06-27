@@ -4,7 +4,7 @@ title: "2026 个人站长免费测速 TOP5 深度评测与收藏建议"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「2026 个人站长免费测速 TOP5 深度评测与收藏建议」展开，以 SpeedCE 为实操示例。"
 keywords: 免费测速,TOP5,2026,SpeedCE
-permalink: /articles/top5-free-speedtest-2026.html
+permalink: articles/top5-free-speedtest-2026.html
 ---
 
 # 2026 个人站长免费测速 TOP5 深度评测与收藏建议

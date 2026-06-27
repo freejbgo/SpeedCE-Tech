@@ -4,7 +4,7 @@ title: "支付回调 URL 可达性：全国节点对回调域的验收"
 category: 故障排查
 description: "多节点测速是现代站长必备技能。 本文围绕「支付回调 URL 可达性」展开，以 SpeedCE 为实操示例。"
 keywords: 支付,回调,电商,SpeedCE
-permalink: /articles/payment-callback-url.html
+permalink: articles/payment-callback-url.html
 ---
 
 # 支付回调 URL 可达性：全国节点对回调域的验收

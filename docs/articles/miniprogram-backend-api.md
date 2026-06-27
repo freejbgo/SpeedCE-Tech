@@ -4,7 +4,7 @@ title: "小程序后端 API 全国验收：合法域、备案与移动网络"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「小程序后端 API 全国验收」展开，以 SpeedCE 为实操示例。"
 keywords: 小程序,微信,API,SpeedCE
-permalink: /articles/miniprogram-backend-api.html
+permalink: articles/miniprogram-backend-api.html
 ---
 
 # 小程序后端 API 全国验收：合法域、备案与移动网络

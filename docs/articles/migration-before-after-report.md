@@ -4,7 +4,7 @@ title: "迁机前后对比汇报模板：给老板和客户看的双地图 PPT"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「迁机前后对比汇报模板」展开，以 SpeedCE 为实操示例。"
 keywords: 迁机,汇报,SpeedCE
-permalink: /articles/migration-before-after-report.html
+permalink: articles/migration-before-after-report.html
 ---
 
 # 迁机前后对比汇报模板：给老板和客户看的双地图 PPT

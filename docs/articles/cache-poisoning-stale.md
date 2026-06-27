@@ -4,7 +4,7 @@ title: "缓存脏了怎么办：CDN/浏览器缓存与网络层对照排查"
 category: 故障排查
 description: "你刚修好服务器，用户还说旧页面——可能是缓存。SpeedCE 测的是实时网络响应，可带随机 query 或测 API 避缓存。"
 keywords: CDN缓存,浏览器缓存,故障排查,SpeedCE
-permalink: /articles/cache-poisoning-stale.html
+permalink: articles/cache-poisoning-stale.html
 ---
 
 # 缓存脏了怎么办：CDN/浏览器缓存与网络层对照排查

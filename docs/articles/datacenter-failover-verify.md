@@ -4,7 +4,7 @@ title: "机房故障换机后应急验证：24 小时 SpeedCE 点检 SOP"
 category: VPS线路
 description: "故障迁移争分夺秒，但上线前 5 分钟全国点检能避免二次事故。"
 keywords: 机房故障,迁移,应急,SpeedCE,验证
-permalink: /articles/datacenter-failover-verify.html
+permalink: articles/datacenter-failover-verify.html
 ---
 
 # 机房故障换机后应急验证：24 小时 SpeedCE 点检 SOP

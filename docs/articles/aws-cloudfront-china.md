@@ -4,7 +4,7 @@ title: "AWS CloudFront 中国访问：全球分发与国内体验双验收"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「AWS CloudFront 中国访问」展开，以 SpeedCE 为实操示例。"
 keywords: CloudFront,AWS,CDN,SpeedCE
-permalink: /articles/aws-cloudfront-china.html
+permalink: articles/aws-cloudfront-china.html
 ---
 
 # AWS CloudFront 中国访问：全球分发与国内体验双验收

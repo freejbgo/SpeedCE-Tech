@@ -4,7 +4,7 @@ title: "联盟营销追踪域：全国可达对转化链的影响"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「联盟营销追踪域」展开，以 SpeedCE 为实操示例。"
 keywords: 联盟营销,追踪,域名,SpeedCE
-permalink: /articles/affiliate-tracking-domain.html
+permalink: articles/affiliate-tracking-domain.html
 ---
 
 # 联盟营销追踪域：全国可达对转化链的影响

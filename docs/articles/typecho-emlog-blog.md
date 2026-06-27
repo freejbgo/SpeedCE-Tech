@@ -4,7 +4,7 @@ title: "Typecho / Emlog 轻量博客：小站也要做的全国验收"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Typecho / Emlog 轻量博客」展开，以 SpeedCE 为实操示例。"
 keywords: Typecho,Emlog,博客,SpeedCE
-permalink: /articles/typecho-emlog-blog.html
+permalink: articles/typecho-emlog-blog.html
 ---
 
 # Typecho / Emlog 轻量博客：小站也要做的全国验收

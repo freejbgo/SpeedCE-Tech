@@ -4,7 +4,7 @@ title: "又拍云 CDN 验收：图片站与静态加速地图标准"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「又拍云 CDN 验收」展开，以 SpeedCE 为实操示例。"
 keywords: 又拍云,CDN,图片站,SpeedCE
-permalink: /articles/upyun-cdn-guide.html
+permalink: articles/upyun-cdn-guide.html
 ---
 
 # 又拍云 CDN 验收：图片站与静态加速地图标准

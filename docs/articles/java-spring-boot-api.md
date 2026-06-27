@@ -4,7 +4,7 @@ title: "Spring Boot API 全国验收：网关、证书与子域清单"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Spring Boot API 全国验收」展开，以 SpeedCE 为实操示例。"
 keywords: Spring Boot,Java,API,SpeedCE
-permalink: /articles/java-spring-boot-api.html
+permalink: articles/java-spring-boot-api.html
 ---
 
 # Spring Boot API 全国验收：网关、证书与子域清单

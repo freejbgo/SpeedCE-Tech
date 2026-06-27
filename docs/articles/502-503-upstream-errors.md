@@ -4,7 +4,7 @@ title: "502/503 与源站过载：CDN 绿、源站红时的判断与修复路径
 category: 故障排查
 description: "502 是「网关收到了坏响应」，503 是「服务暂时不可用」。用户走 CDN 看到 502，可能是边缘问题，更常见是源站扛不住——对照测一锤定音。"
 keywords: 502,503,源站过载,CDN回源,SpeedCE
-permalink: /articles/502-503-upstream-errors.html
+permalink: articles/502-503-upstream-errors.html
 ---
 
 # 502/503 与源站过载：CDN 绿、源站红时的判断与修复路径

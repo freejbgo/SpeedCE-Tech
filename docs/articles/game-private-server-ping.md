@@ -4,7 +4,7 @@ title: "游戏联机服务器社群运营：用全国 PING 地图建立信任"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「游戏联机服务器社群运营」展开，以 SpeedCE 为实操示例。"
 keywords: 游戏服务器,联机,SpeedCE
-permalink: /articles/game-private-server-ping.html
+permalink: articles/game-private-server-ping.html
 ---
 
 # 游戏联机服务器社群运营：用全国 PING 地图建立信任

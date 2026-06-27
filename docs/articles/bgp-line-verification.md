@@ -4,7 +4,7 @@ title: "BGP 线路真假辨别：三网均衡才是真 BGP 的验收标准"
 category: VPS线路
 description: "真 BGP：电信、联通、移动都能用。假 BGP：电信绿、移动红。SpeedCE 三网分离是照妖镜。"
 keywords: BGP,VPS,三网,线路测速,SpeedCE
-permalink: /articles/bgp-line-verification.html
+permalink: articles/bgp-line-verification.html
 ---
 
 # BGP 线路真假辨别：三网均衡才是真 BGP 的验收标准

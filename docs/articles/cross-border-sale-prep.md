@@ -4,7 +4,7 @@ title: "跨境电商黑五/圣诞大促前测速备战完全清单"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「跨境电商黑五/圣诞大促前测速备战完全清单」展开，以 SpeedCE 为实操示例。"
 keywords: 黑五,跨境电商,大促,SpeedCE
-permalink: /articles/cross-border-sale-prep.html
+permalink: articles/cross-border-sale-prep.html
 ---
 
 # 跨境电商黑五/圣诞大促前测速备战完全清单

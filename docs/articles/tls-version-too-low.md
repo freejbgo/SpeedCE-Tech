@@ -4,7 +4,7 @@ title: "TLS 版本过低：老客户端与新安全策略导致的区域性 HTTP
 category: 故障排查
 description: "多节点测速是现代站长必备技能。 本文围绕「TLS 版本过低」展开，以 SpeedCE 为实操示例。"
 keywords: TLS,HTTPS,安全,SpeedCE
-permalink: /articles/tls-version-too-low.html
+permalink: articles/tls-version-too-low.html
 ---
 
 # TLS 版本过低：老客户端与新安全策略导致的区域性 HTTPS 失败

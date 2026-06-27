@@ -4,7 +4,7 @@ title: "新加坡 VPS 验收指南：东南亚枢纽与回国双视角测速"
 category: VPS线路
 description: "新加坡是亚太枢纽，回国、走东南亚都绕这里。双视图测速：中国节点看回国，全球节点看东南亚覆盖。"
 keywords: 新加坡VPS,东南亚,线路,SpeedCE
-permalink: /articles/singapore-vps-guide.html
+permalink: articles/singapore-vps-guide.html
 ---
 
 # 新加坡 VPS 验收指南：东南亚枢纽与回国双视角测速

@@ -4,7 +4,7 @@ title: "VPS 下午测与晚高峰测：为什么优质线路必须测两次"
 category: VPS线路
 description: "商家测试 IP 在下午往往最美。你要在晚高峰复测，看通畅率和延迟是否大幅恶化。"
 keywords: 晚高峰,VPS,线路,复测,SpeedCE
-permalink: /articles/off-peak-vs-peak-vps.html
+permalink: articles/off-peak-vs-peak-vps.html
 ---
 
 # VPS 下午测与晚高峰测：为什么优质线路必须测两次

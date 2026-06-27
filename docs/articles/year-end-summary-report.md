@@ -4,7 +4,7 @@ title: "年终基础设施报告：12 个月地图存档如何汇总"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「年终基础设施报告」展开，以 SpeedCE 为实操示例。"
 keywords: 年终,报告,运维,SpeedCE
-permalink: /articles/year-end-summary-report.html
+permalink: articles/year-end-summary-report.html
 ---
 
 # 年终基础设施报告：12 个月地图存档如何汇总

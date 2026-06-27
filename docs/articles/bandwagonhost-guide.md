@@ -4,7 +4,7 @@ title: "搬瓦工 CN2/GIA 套餐验机：经典商家地图验收法"
 category: VPS线路
 description: "多节点测速是现代站长必备技能。 本文围绕「搬瓦工 CN2/GIA 套餐验机」展开，以 SpeedCE 为实操示例。"
 keywords: 搬瓦工,BandwagonHost,CN2,SpeedCE
-permalink: /articles/bandwagonhost-guide.html
+permalink: articles/bandwagonhost-guide.html
 ---
 
 # 搬瓦工 CN2/GIA 套餐验机：经典商家地图验收法

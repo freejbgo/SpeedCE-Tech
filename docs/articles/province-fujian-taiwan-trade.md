@@ -4,7 +4,7 @@ title: "闽粤台贸相关站点：东南沿海地图验收要点"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「闽粤台贸相关站点」展开，以 SpeedCE 为实操示例。"
 keywords: 福建,广东,东南,SpeedCE
-permalink: /articles/province-fujian-taiwan-trade.html
+permalink: articles/province-fujian-taiwan-trade.html
 ---
 
 # 闽粤台贸相关站点：东南沿海地图验收要点

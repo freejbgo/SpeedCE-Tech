@@ -4,7 +4,7 @@ title: "云服务器到手第一步：安全组与防火墙验收再谈线路"
 category: VPS线路
 description: "全国红先别退机——可能是 443 没开。SpeedCE HTTPS 红 + SSH 能登 = 安全组问题。"
 keywords: 安全组,VPS,云服务器,验收,SpeedCE
-permalink: /articles/cloud-security-group-vps.html
+permalink: articles/cloud-security-group-vps.html
 ---
 
 # 云服务器到手第一步：安全组与防火墙验收再谈线路

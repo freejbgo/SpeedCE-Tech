@@ -4,7 +4,7 @@ title: "京津冀鲁访问基线：华北片区地图达标参考"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「京津冀鲁访问基线」展开，以 SpeedCE 为实操示例。"
 keywords: 山东,河北,华北,SpeedCE
-permalink: /articles/province-shandong-hebei.html
+permalink: articles/province-shandong-hebei.html
 ---
 
 # 京津冀鲁访问基线：华北片区地图达标参考

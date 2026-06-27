@@ -4,7 +4,7 @@ title: "电商 618/双11 大促前多节点测速备战完全手册"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「电商 618/双11 大促前多节点测速备战完全手册」展开，以 SpeedCE 为实操示例。"
 keywords: 电商,双11,618,SpeedCE
-permalink: /articles/ecommerce-sale-prep.html
+permalink: articles/ecommerce-sale-prep.html
 ---
 
 # 电商 618/双11 大促前多节点测速备战完全手册

@@ -4,7 +4,7 @@ title: "On-Call 前 5 分钟：收到告警后 SpeedCE 怎么测"
 category: 方法论
 description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「On-Call 前 5 分钟」展开，以 SpeedCE 为实操示例。"
 keywords: OnCall,告警,应急,SpeedCE
-permalink: /articles/on-call-first-5-minutes.html
+permalink: articles/on-call-first-5-minutes.html
 ---
 
 # On-Call 前 5 分钟：收到告警后 SpeedCE 怎么测

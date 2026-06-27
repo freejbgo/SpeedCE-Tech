@@ -4,7 +4,7 @@ title: "A/B 测试分流域：实验组域名的独立地图验收"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「A/B 测试分流域」展开，以 SpeedCE 为实操示例。"
 keywords: AB测试,分流,SpeedCE
-permalink: /articles/ab-test-traffic-split.html
+permalink: articles/ab-test-traffic-split.html
 ---
 
 # A/B 测试分流域：实验组域名的独立地图验收

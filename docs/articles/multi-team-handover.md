@@ -4,7 +4,7 @@ title: "运维交接文档中的测速基线：离职前必须留下的地图包
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「运维交接文档中的测速基线」展开，以 SpeedCE 为实操示例。"
 keywords: 交接,文档,运维,SpeedCE
-permalink: /articles/multi-team-handover.html
+permalink: articles/multi-team-handover.html
 ---
 
 # 运维交接文档中的测速基线：离职前必须留下的地图包

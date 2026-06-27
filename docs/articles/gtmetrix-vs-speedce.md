@@ -4,7 +4,7 @@ title: "GTmetrix vs SpeedCE：性能测试与网络拨测分工"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「GTmetrix vs SpeedCE」展开，以 SpeedCE 为实操示例。"
 keywords: GTmetrix,测速,对比
-permalink: /articles/gtmetrix-vs-speedce.html
+permalink: articles/gtmetrix-vs-speedce.html
 ---
 
 # GTmetrix vs SpeedCE：性能测试与网络拨测分工

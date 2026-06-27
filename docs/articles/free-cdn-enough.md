@@ -4,7 +4,7 @@ title: "免费 CDN 够用吗：用全国地图数据做个人站决策"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「免费 CDN 够用吗」展开，以 SpeedCE 为实操示例。"
 keywords: 免费CDN,Cloudflare,SpeedCE
-permalink: /articles/free-cdn-enough.html
+permalink: articles/free-cdn-enough.html
 ---
 
 # 免费 CDN 够用吗：用全国地图数据做个人站决策

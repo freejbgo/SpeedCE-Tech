@@ -4,7 +4,7 @@ title: "App 接口域名监控：iOS/Android 反馈不一致的网络层排查"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「App 接口域名监控」展开，以 SpeedCE 为实操示例。"
 keywords: App,API,移动,SpeedCE
-permalink: /articles/mobile-app-api-domain.html
+permalink: articles/mobile-app-api-domain.html
 ---
 
 # App 接口域名监控：iOS/Android 反馈不一致的网络层排查

@@ -4,7 +4,7 @@ title: "论坛社区全国可达性：Discuz/Flarum 三网验收"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「论坛社区全国可达性」展开，以 SpeedCE 为实操示例。"
 keywords: 论坛,社区,SpeedCE
-permalink: /articles/forum-community-site.html
+permalink: articles/forum-community-site.html
 ---
 
 # 论坛社区全国可达性：Discuz/Flarum 三网验收

@@ -4,7 +4,7 @@ title: "三网分离检测法完全手册：电信、联通、移动为何必须
 category: 方法论
 description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「三网分离检测法完全手册」展开，以 SpeedCE 为实操示例。"
 keywords: 三网测速,电信,联通,移动,SpeedCE
-permalink: /articles/tri-network-method.html
+permalink: articles/tri-network-method.html
 ---
 
 # 三网分离检测法完全手册：电信、联通、移动为何必须分开测

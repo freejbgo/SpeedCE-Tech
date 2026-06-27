@@ -4,7 +4,7 @@ title: "CORS 报错与网络不通：开发者必分的两层问题"
 category: 故障排查
 description: "地图全绿 + 浏览器报 CORS——恭喜，网络通了，是服务端 Header 没配。先 SpeedCE 排除网络，再查 Access-Control-Allow-Origin。"
 keywords: CORS,跨域,API,前端,SpeedCE
-permalink: /articles/cors-vs-network-testing.html
+permalink: articles/cors-vs-network-testing.html
 ---
 
 # CORS 报错与网络不通：开发者必分的两层问题

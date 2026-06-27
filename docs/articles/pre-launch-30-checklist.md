@@ -4,7 +4,7 @@ title: "网站上线前 30 项检查清单：含 8 项多节点测速必做项"
 category: 方法论
 description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「网站上线前 30 项检查清单」展开，以 SpeedCE 为实操示例。"
 keywords: 上线清单,验收,SpeedCE
-permalink: /articles/pre-launch-30-checklist.html
+permalink: articles/pre-launch-30-checklist.html
 ---
 
 # 网站上线前 30 项检查清单：含 8 项多节点测速必做项

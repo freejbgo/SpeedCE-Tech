@@ -4,7 +4,7 @@ title: "gRPC / HTTP2 网关：REST 可达与 gRPC 故障分工"
 category: 故障排查
 description: "多节点测速是现代站长必备技能。 本文围绕「gRPC / HTTP2 网关」展开，以 SpeedCE 为实操示例。"
 keywords: gRPC,HTTP2,API,SpeedCE
-permalink: /articles/grpc-gateway-check.html
+permalink: articles/grpc-gateway-check.html
 ---
 
 # gRPC / HTTP2 网关：REST 可达与 gRPC 故障分工

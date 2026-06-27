@@ -4,7 +4,7 @@ title: "间歇性网站故障排查：「有时慢有时好」的科学点检方
 category: 故障排查
 description: "间歇故障是运维的噩梦：你测的时候永远正常，用户投诉的时候你不在。单次测速不够，必须固定间隔多次测，看通畅率和延迟的波动曲线。"
 keywords: 间歇故障,网站不稳定,多节点测速,SpeedCE,运维
-permalink: /articles/intermittent-fault-diagnosis.html
+permalink: articles/intermittent-fault-diagnosis.html
 ---
 
 # 间歇性网站故障排查：「有时慢有时好」的科学点检方法

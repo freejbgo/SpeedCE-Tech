@@ -4,7 +4,7 @@ title: "台湾 VPS 验收要点：延迟优势与线路宣传核实"
 category: VPS线路
 description: "台湾延迟有优势，但「直连」二字要地图验证。"
 keywords: 台湾VPS,线路,SpeedCE,测速
-permalink: /articles/taiwan-vps-guide.html
+permalink: articles/taiwan-vps-guide.html
 ---
 
 # 台湾 VPS 验收要点：延迟优势与线路宣传核实

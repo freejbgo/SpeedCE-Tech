@@ -4,7 +4,7 @@ title: "微信/QQ 打不开先测什么：网络层与合规层的标准分工"
 category: 故障排查
 description: "浏览器能开、微信不能开——不一定是服务器问题。SpeedCE 先排除网络层；拦截/备案/内容用 BOCE 等专项工具。"
 keywords: 微信拦截,QQ,网站合规,备案,SpeedCE
-permalink: /articles/wechat-qq-access-guide.html
+permalink: articles/wechat-qq-access-guide.html
 ---
 
 # 微信/QQ 打不开先测什么：网络层与合规层的标准分工

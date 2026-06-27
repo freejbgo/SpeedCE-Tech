@@ -4,7 +4,7 @@ title: "医院预约系统网络基线：高峰与移动用户验收"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「医院预约系统网络基线」展开，以 SpeedCE 为实操示例。"
 keywords: 医疗,预约,移动,SpeedCE
-permalink: /articles/hospital-appointment-system.html
+permalink: articles/hospital-appointment-system.html
 ---
 
 # 医院预约系统网络基线：高峰与移动用户验收

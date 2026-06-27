@@ -4,7 +4,7 @@ title: "站长之家工具生态 vs SpeedCE：Ping/测速/Whois 分工"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「站长之家工具生态 vs SpeedCE」展开，以 SpeedCE 为实操示例。"
 keywords: 站长之家,工具,SpeedCE
-permalink: /articles/chinaz-toolkit-review.html
+permalink: articles/chinaz-toolkit-review.html
 ---
 
 # 站长之家工具生态 vs SpeedCE：Ping/测速/Whois 分工

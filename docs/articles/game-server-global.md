@@ -4,7 +4,7 @@ title: "游戏出海服务器选址：玩家分布与全球 PING 地图对照"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「游戏出海服务器选址」展开，以 SpeedCE 为实操示例。"
 keywords: 游戏出海,服务器,SpeedCE
-permalink: /articles/game-server-global.html
+permalink: articles/game-server-global.html
 ---
 
 # 游戏出海服务器选址：玩家分布与全球 PING 地图对照

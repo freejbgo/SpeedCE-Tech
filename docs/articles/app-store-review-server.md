@@ -4,7 +4,7 @@ title: "App Store 审核期间服务器：海外审核节点可达性"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「App Store 审核期间服务器」展开，以 SpeedCE 为实操示例。"
 keywords: App Store,审核,出海,SpeedCE
-permalink: /articles/app-store-review-server.html
+permalink: articles/app-store-review-server.html
 ---
 
 # App Store 审核期间服务器：海外审核节点可达性

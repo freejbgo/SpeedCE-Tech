@@ -4,7 +4,7 @@ title: "事故报告中的测速数据：运维复盘的专业写法与模板"
 category: 方法论
 description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「事故报告中的测速数据」展开，以 SpeedCE 为实操示例。"
 keywords: 事故报告,复盘,SpeedCE
-permalink: /articles/incident-report-speed-data.html
+permalink: articles/incident-report-speed-data.html
 ---
 
 # 事故报告中的测速数据：运维复盘的专业写法与模板

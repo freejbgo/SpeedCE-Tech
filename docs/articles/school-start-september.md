@@ -4,7 +4,7 @@ title: "九月开学季：教育类站点流量保障测速"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「九月开学季」展开，以 SpeedCE 为实操示例。"
 keywords: 开学季,教育,流量,SpeedCE
-permalink: /articles/school-start-september.html
+permalink: articles/school-start-september.html
 ---
 
 # 九月开学季：教育类站点流量保障测速

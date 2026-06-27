@@ -4,7 +4,7 @@ title: "变更管理中的测速门禁：改 DNS/证书/Nginx 必测制度"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「变更管理中的测速门禁」展开，以 SpeedCE 为实操示例。"
 keywords: 变更管理,测速,运维,SpeedCE
-permalink: /articles/change-management-speedtest.html
+permalink: articles/change-management-speedtest.html
 ---
 
 # 变更管理中的测速门禁：改 DNS/证书/Nginx 必测制度

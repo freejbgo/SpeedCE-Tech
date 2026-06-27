@@ -4,7 +4,7 @@ title: "海南自贸相关站点：岛屿地理与访问特征验收"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「海南自贸相关站点」展开，以 SpeedCE 为实操示例。"
 keywords: 海南,区域,SpeedCE
-permalink: /articles/hainan-special-zone.html
+permalink: articles/hainan-special-zone.html
 ---
 
 # 海南自贸相关站点：岛屿地理与访问特征验收

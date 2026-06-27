@@ -4,7 +4,7 @@ title: "HTTP 与 HTTPS 跳转故障：强制跳转、循环重定向、混合内
 category: 故障排查
 description: "301 配成循环、http 和 https 分别指向不同机器、页面资源仍走 http——用户看到的现象千差万别，但 SpeedCE 的 HTTP/HTTPS 双模式对照能快速缩小范围。"
 keywords: HTTPS,301跳转,混合内容,SSL,SpeedCE
-permalink: /articles/http-https-redirect-issues.html
+permalink: articles/http-https-redirect-issues.html
 ---
 
 # HTTP 与 HTTPS 跳转故障：强制跳转、循环重定向、混合内容排查

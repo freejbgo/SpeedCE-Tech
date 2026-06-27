@@ -4,7 +4,7 @@ title: "下载站可达性与带宽：拨测与下载测速的分工"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「下载站可达性与带宽」展开，以 SpeedCE 为实操示例。"
 keywords: 下载站,带宽,SpeedCE
-permalink: /articles/download-site-bandwidth.html
+permalink: articles/download-site-bandwidth.html
 ---
 
 # 下载站可达性与带宽：拨测与下载测速的分工

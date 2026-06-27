@@ -4,7 +4,7 @@ title: "WAF 误拦与测速异常：全国 sporadic 红点是不是被封了"
 category: 故障排查
 description: "WAF、CC 防护、地域封禁——可能只拦部分拨测节点 IP，表现为地图 sporadic 红而非全省红。"
 keywords: WAF,防火墙,CDN安全,SpeedCE,误拦
-permalink: /articles/waf-false-positive-guide.html
+permalink: articles/waf-false-positive-guide.html
 ---
 
 # WAF 误拦与测速异常：全国 sporadic 红点是不是被封了

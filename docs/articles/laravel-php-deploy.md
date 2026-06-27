@@ -4,7 +4,7 @@ title: "Laravel / PHP 站点上线：FPM、Nginx 与全国 HTTPS 验收"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Laravel / PHP 站点上线」展开，以 SpeedCE 为实操示例。"
 keywords: Laravel,PHP,上线,SpeedCE
-permalink: /articles/laravel-php-deploy.html
+permalink: articles/laravel-php-deploy.html
 ---
 
 # Laravel / PHP 站点上线：FPM、Nginx 与全国 HTTPS 验收

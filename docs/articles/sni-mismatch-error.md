@@ -4,7 +4,7 @@ title: "SNI 不匹配错误：多证书同 IP 时部分节点 HTTPS 异常"
 category: 故障排查
 description: "多节点测速是现代站长必备技能。 本文围绕「SNI 不匹配错误」展开，以 SpeedCE 为实操示例。"
 keywords: SNI,SSL,HTTPS,SpeedCE
-permalink: /articles/sni-mismatch-error.html
+permalink: articles/sni-mismatch-error.html
 ---
 
 # SNI 不匹配错误：多证书同 IP 时部分节点 HTTPS 异常

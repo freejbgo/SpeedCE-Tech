@@ -4,7 +4,7 @@ title: "Discuz 论坛分享链：主站与分享域的分层测速"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「Discuz 论坛分享链」展开，以 SpeedCE 为实操示例。"
 keywords: Discuz,论坛,分享,SpeedCE
-permalink: /articles/discuz-qzone-share.html
+permalink: articles/discuz-qzone-share.html
 ---
 
 # Discuz 论坛分享链：主站与分享域的分层测速

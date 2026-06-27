@@ -4,7 +4,7 @@ title: "数据库连接超时与网站超时：网络绿、页面仍慢的完整
 category: 故障排查
 description: "多节点测速是现代站长必备技能。 本文围绕「数据库连接超时与网站超时」展开，以 SpeedCE 为实操示例。"
 keywords: MySQL,数据库,超时,SpeedCE
-permalink: /articles/mysql-connection-timeout.html
+permalink: articles/mysql-connection-timeout.html
 ---
 
 # 数据库连接超时与网站超时：网络绿、页面仍慢的完整分层排查

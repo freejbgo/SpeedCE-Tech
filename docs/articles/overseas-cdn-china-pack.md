@@ -4,7 +4,7 @@ title: "海外 CDN 中国加速包验收：全球绿、国内慢时怎么办"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「海外 CDN 中国加速包验收」展开，以 SpeedCE 为实操示例。"
 keywords: 海外CDN,中国加速,SpeedCE
-permalink: /articles/overseas-cdn-china-pack.html
+permalink: articles/overseas-cdn-china-pack.html
 ---
 
 # 海外 CDN 中国加速包验收：全球绿、国内慢时怎么办

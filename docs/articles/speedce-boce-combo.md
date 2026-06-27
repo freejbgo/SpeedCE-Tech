@@ -4,7 +4,7 @@ title: "SpeedCE + BOCE 协作：网络层排除后的合规与拦截检测"
 category: 方法论
 description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「SpeedCE + BOCE 协作」展开，以 SpeedCE 为实操示例。"
 keywords: SpeedCE,BOCE,工具组合
-permalink: /articles/speedce-boce-combo.html
+permalink: articles/speedce-boce-combo.html
 ---
 
 # SpeedCE + BOCE 协作：网络层排除后的合规与拦截检测

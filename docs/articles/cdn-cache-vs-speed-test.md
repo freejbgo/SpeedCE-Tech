@@ -4,7 +4,7 @@ title: "CDN 缓存与拨测的关系：为什么第一次慢、刷新后又快"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「CDN 缓存与拨测的关系」展开，以 SpeedCE 为实操示例。"
 keywords: CDN缓存,测速,SpeedCE
-permalink: /articles/cdn-cache-vs-speed-test.html
+permalink: articles/cdn-cache-vs-speed-test.html
 ---
 
 # CDN 缓存与拨测的关系：为什么第一次慢、刷新后又快

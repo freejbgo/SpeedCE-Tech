@@ -4,7 +4,7 @@ title: "CDN 加速 WebSocket/直播流的可达性验收边界"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「CDN 加速 WebSocket/直播流的可达性验收边界」展开，以 SpeedCE 为实操示例。"
 keywords: WebSocket,直播,CDN,SpeedCE
-permalink: /articles/cdn-websocket-stream.html
+permalink: articles/cdn-websocket-stream.html
 ---
 
 # CDN 加速 WebSocket/直播流的可达性验收边界

@@ -4,7 +4,7 @@ title: "OAuth 回调域名校验：登录失败的网络层先行排查"
 category: 故障排查
 description: "多节点测速是现代站长必备技能。 本文围绕「OAuth 回调域名校验」展开，以 SpeedCE 为实操示例。"
 keywords: OAuth,登录,回调,SpeedCE
-permalink: /articles/oauth-callback-domain.html
+permalink: articles/oauth-callback-domain.html
 ---
 
 # OAuth 回调域名校验：登录失败的网络层先行排查

@@ -4,7 +4,7 @@ title: "甲骨文云免费 tier 验收：零成本机器的地图标准"
 category: VPS线路
 description: "多节点测速是现代站长必备技能。 本文围绕「甲骨文云免费 tier 验收」展开，以 SpeedCE 为实操示例。"
 keywords: Oracle Cloud,免费VPS,SpeedCE
-permalink: /articles/oracle-cloud-free.html
+permalink: articles/oracle-cloud-free.html
 ---
 
 # 甲骨文云免费 tier 验收：零成本机器的地图标准

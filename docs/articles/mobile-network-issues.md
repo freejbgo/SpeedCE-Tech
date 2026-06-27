@@ -4,7 +4,7 @@ title: "移动网络用户访问异常专项：为什么移动投诉往往最多
 category: 故障排查
 description: "中国移动用户占比超 50%，但很多「优化线路」只优化电信联通。不单独测移动地图，等于忽略一半用户。"
 keywords: 移动网络,三网测速,运营商,SpeedCE,5G
-permalink: /articles/mobile-network-issues.html
+permalink: articles/mobile-network-issues.html
 ---
 
 # 移动网络用户访问异常专项：为什么移动投诉往往最多

@@ -4,7 +4,7 @@ title: "收购技术尽调：目标站点全国可达性快速评估"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「收购技术尽调」展开，以 SpeedCE 为实操示例。"
 keywords: 尽调,收购,评估,SpeedCE
-permalink: /articles/acquisition-due-diligence.html
+permalink: articles/acquisition-due-diligence.html
 ---
 
 # 收购技术尽调：目标站点全国可达性快速评估

@@ -4,7 +4,7 @@ title: "内蒙古/东北三省：高寒地区线路与冬季高峰"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「内蒙古/东北三省」展开，以 SpeedCE 为实操示例。"
 keywords: 内蒙古,东北,区域,SpeedCE
-permalink: /articles/inner-mongolia-northeast.html
+permalink: articles/inner-mongolia-northeast.html
 ---
 
 # 内蒙古/东北三省：高寒地区线路与冬季高峰

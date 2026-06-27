@@ -4,7 +4,7 @@ title: "压缩配置与超时：大响应体导致的「能通但极慢」"
 category: 故障排查
 description: "多节点测速是现代站长必备技能。 本文围绕「压缩配置与超时」展开，以 SpeedCE 为实操示例。"
 keywords: Gzip,Brotli,Nginx,SpeedCE
-permalink: /articles/gzip-brotli-compression.html
+permalink: articles/gzip-brotli-compression.html
 ---
 
 # 压缩配置与超时：大响应体导致的「能通但极慢」

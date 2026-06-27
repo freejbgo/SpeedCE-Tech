@@ -4,7 +4,7 @@ title: "欧美用户访问慢完全对策：源站、CDN、机房选址三角决
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「欧美用户访问慢完全对策」展开，以 SpeedCE 为实操示例。"
 keywords: 欧美,出海,CDN,SpeedCE
-permalink: /articles/europe-us-slow-fix.html
+permalink: articles/europe-us-slow-fix.html
 ---
 
 # 欧美用户访问慢完全对策：源站、CDN、机房选址三角决策

@@ -4,7 +4,7 @@ title: "Kubernetes Ingress 故障：集群内正常、公网域名红的排查"
 category: 故障排查
 description: "多节点测速是现代站长必备技能。 本文围绕「Kubernetes Ingress 故障」展开，以 SpeedCE 为实操示例。"
 keywords: Kubernetes,Ingress,K8s,SpeedCE
-permalink: /articles/k8s-ingress-troubleshoot.html
+permalink: articles/k8s-ingress-troubleshoot.html
 ---
 
 # Kubernetes Ingress 故障：集群内正常、公网域名红的排查

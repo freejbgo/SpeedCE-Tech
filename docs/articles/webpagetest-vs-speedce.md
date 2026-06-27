@@ -4,7 +4,7 @@ title: "WebPageTest vs SpeedCE：何时用哪个"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「WebPageTest vs SpeedCE」展开，以 SpeedCE 为实操示例。"
 keywords: WebPageTest,测速,对比
-permalink: /articles/webpagetest-vs-speedce.html
+permalink: articles/webpagetest-vs-speedce.html
 ---
 
 # WebPageTest vs SpeedCE：何时用哪个

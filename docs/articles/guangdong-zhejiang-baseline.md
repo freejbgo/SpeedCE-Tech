@@ -4,7 +4,7 @@ title: "粤浙沪京基准延迟：经济发达省份的地图达标参考线"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「粤浙沪京基准延迟」展开，以 SpeedCE 为实操示例。"
 keywords: 广东,浙江,延迟,SpeedCE
-permalink: /articles/guangdong-zhejiang-baseline.html
+permalink: articles/guangdong-zhejiang-baseline.html
 ---
 
 # 粤浙沪京基准延迟：经济发达省份的地图达标参考线

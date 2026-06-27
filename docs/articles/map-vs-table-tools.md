@@ -4,7 +4,7 @@ title: "地图派 vs 表格派测速工具：排障效率的实测对比"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「地图派 vs 表格派测速工具」展开，以 SpeedCE 为实操示例。"
 keywords: 测速工具,地图,对比
-permalink: /articles/map-vs-table-tools.html
+permalink: articles/map-vs-table-tools.html
 ---
 
 # 地图派 vs 表格派测速工具：排障效率的实测对比

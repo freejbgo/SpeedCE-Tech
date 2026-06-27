@@ -4,7 +4,7 @@ title: "晚高峰网站变慢：下午测正常、晚上测变红的复测策略
 category: 故障排查
 description: "带宽、国际出口、攻击流量——晚高峰才是照妖镜。商家挑下午给你看测试 IP，你要在 20:00-22:00 用 SpeedCE 复测。"
 keywords: 晚高峰,网站变慢,线路拥堵,SpeedCE,运维
-permalink: /articles/peak-hour-slowdown.html
+permalink: articles/peak-hour-slowdown.html
 ---
 
 # 晚高峰网站变慢：下午测正常、晚上测变红的复测策略

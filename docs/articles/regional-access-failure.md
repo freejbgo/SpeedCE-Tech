@@ -4,7 +4,7 @@ title: "仅部分地区打不开？用地图精确定位省份、运营商与下
 category: 故障排查
 description: "「就新疆不行」「就移动不行」——平均延迟和通畅率帮不上忙，地图才是区域故障的语言。SpeedCE 中国地图就是为这个问题设计的。"
 keywords: 区域故障,省份,地图测速,SpeedCE,排查
-permalink: /articles/regional-access-failure.html
+permalink: articles/regional-access-failure.html
 ---
 
 # 仅部分地区打不开？用地图精确定位省份、运营商与下一步动作

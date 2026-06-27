@@ -4,7 +4,7 @@ title: "物理机专线接入：企业专线用户的地图验收"
 category: VPS线路
 description: "多节点测速是现代站长必备技能。 本文围绕「物理机专线接入」展开，以 SpeedCE 为实操示例。"
 keywords: 专线,物理机,企业,SpeedCE
-permalink: /articles/bare-metal-dedicated-line.html
+permalink: articles/bare-metal-dedicated-line.html
 ---
 
 # 物理机专线接入：企业专线用户的地图验收

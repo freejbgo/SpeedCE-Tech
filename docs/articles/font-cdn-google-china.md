@@ -4,7 +4,7 @@ title: "字体 CDN 与 Google Fonts：国内加载失败的测速分工"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「字体 CDN 与 Google Fonts」展开，以 SpeedCE 为实操示例。"
 keywords: 字体,Google Fonts,CDN,SpeedCE
-permalink: /articles/font-cdn-google-china.html
+permalink: articles/font-cdn-google-china.html
 ---
 
 # 字体 CDN 与 Google Fonts：国内加载失败的测速分工

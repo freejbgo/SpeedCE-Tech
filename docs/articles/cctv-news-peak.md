@@ -4,7 +4,7 @@ title: "新闻发布与热点峰值：突发流量前的 30 分钟点检"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「新闻发布与热点峰值」展开，以 SpeedCE 为实操示例。"
 keywords: 新闻,峰值,流量,SpeedCE
-permalink: /articles/cctv-news-peak.html
+permalink: articles/cctv-news-peak.html
 ---
 
 # 新闻发布与热点峰值：突发流量前的 30 分钟点检

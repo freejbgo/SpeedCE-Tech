@@ -4,7 +4,7 @@ title: "RackNerd / DMIT 等热门商家：退款期地图验机模板"
 category: VPS线路
 description: "多节点测速是现代站长必备技能。 本文围绕「RackNerd / DMIT 等热门商家」展开，以 SpeedCE 为实操示例。"
 keywords: RackNerd,DMIT,VPS,SpeedCE
-permalink: /articles/racknerd-dmit-guide.html
+permalink: articles/racknerd-dmit-guide.html
 ---
 
 # RackNerd / DMIT 等热门商家：退款期地图验机模板

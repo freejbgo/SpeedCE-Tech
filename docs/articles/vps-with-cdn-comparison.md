@@ -4,7 +4,7 @@ title: "VPS 套 CDN 前后地图对比：该不该上 CDN 的数据决策"
 category: VPS线路
 description: "源站地图与 CDN 地图并排：加速有没有用、移动有没有改善，一张对比图说服自己。"
 keywords: VPS,CDN,对比,加速,SpeedCE
-permalink: /articles/vps-with-cdn-comparison.html
+permalink: articles/vps-with-cdn-comparison.html
 ---
 
 # VPS 套 CDN 前后地图对比：该不该上 CDN 的数据决策

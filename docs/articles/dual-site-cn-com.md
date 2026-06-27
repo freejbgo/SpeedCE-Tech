@@ -4,7 +4,7 @@ title: "双站点 .cn 与 .com 策略：分域名测速与合规分工"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「双站点 .cn 与 .com 策略」展开，以 SpeedCE 为实操示例。"
 keywords: 双站点,域名,备案,SpeedCE
-permalink: /articles/dual-site-cn-com.html
+permalink: articles/dual-site-cn-com.html
 ---
 
 # 双站点 .cn 与 .com 策略：分域名测速与合规分工

@@ -4,7 +4,7 @@ title: "API 接口可达性检测指南：Postman 能通、全国用户不通的
 category: 故障排查
 description: "API 故障往往最后才被发现：前端页面缓存还在，App 直接打接口立刻挂。SpeedCE 从全国节点对 API 域名做 HTTPS 探测，是网络层验收的第一步。"
 keywords: API,接口监控,后端,HTTPS,SpeedCE
-permalink: /articles/api-availability-guide.html
+permalink: articles/api-availability-guide.html
 ---
 
 # API 接口可达性检测指南：Postman 能通、全国用户不通的真相

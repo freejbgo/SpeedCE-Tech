@@ -4,7 +4,7 @@ title: "CDN 回源失败完全排查：边缘节点、超时与源站对照"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「CDN 回源失败完全排查」展开，以 SpeedCE 为实操示例。"
 keywords: CDN回源,502,SpeedCE
-permalink: /articles/cdn-origin-failure.html
+permalink: articles/cdn-origin-failure.html
 ---
 
 # CDN 回源失败完全排查：边缘节点、超时与源站对照

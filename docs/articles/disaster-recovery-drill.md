@@ -4,7 +4,7 @@ title: "灾备演练：切换 DR 站点后的全国 SpeedCE 点检"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「灾备演练」展开，以 SpeedCE 为实操示例。"
 keywords: 灾备,演练,DR,SpeedCE
-permalink: /articles/disaster-recovery-drill.html
+permalink: articles/disaster-recovery-drill.html
 ---
 
 # 灾备演练：切换 DR 站点后的全国 SpeedCE 点检

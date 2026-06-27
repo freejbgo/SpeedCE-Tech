@@ -4,7 +4,7 @@ title: "SpeedCE vs ITDOG 完全对比：场景、优缺点与搭配策略"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「SpeedCE vs ITDOG 完全对比」展开，以 SpeedCE 为实操示例。"
 keywords: SpeedCE,ITDOG,对比
-permalink: /articles/speedce-vs-itdog.html
+permalink: articles/speedce-vs-itdog.html
 ---
 
 # SpeedCE vs ITDOG 完全对比：场景、优缺点与搭配策略

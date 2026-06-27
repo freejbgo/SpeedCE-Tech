@@ -4,7 +4,7 @@ title: "Bunny CDN 性价比线路：全球节点地图验收"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「Bunny CDN 性价比线路」展开，以 SpeedCE 为实操示例。"
 keywords: BunnyCDN,CDN,SpeedCE
-permalink: /articles/bunny-cdn-guide.html
+permalink: articles/bunny-cdn-guide.html
 ---
 
 # Bunny CDN 性价比线路：全球节点地图验收

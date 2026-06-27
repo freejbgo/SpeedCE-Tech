@@ -4,7 +4,7 @@ title: "Notion 类协作工具自托管：全球团队访问验收"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「Notion 类协作工具自托管」展开，以 SpeedCE 为实操示例。"
 keywords: SaaS,协作,自托管,SpeedCE
-permalink: /articles/notion-saas-availability.html
+permalink: articles/notion-saas-availability.html
 ---
 
 # Notion 类协作工具自托管：全球团队访问验收

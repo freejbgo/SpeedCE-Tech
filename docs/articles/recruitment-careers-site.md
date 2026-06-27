@@ -4,7 +4,7 @@ title: "招聘官网高峰验收：校招季前的全国点检"
 category: 行业
 description: "不同行业的可用性标准不同，但网络层验收是共性——先保证各地能访问，再谈体验优化。 本文围绕「招聘官网高峰验收」展开，以 SpeedCE 为实操示例。"
 keywords: 招聘,企业官网,SpeedCE
-permalink: /articles/recruitment-careers-site.html
+permalink: articles/recruitment-careers-site.html
 ---
 
 # 招聘官网高峰验收：校招季前的全国点检

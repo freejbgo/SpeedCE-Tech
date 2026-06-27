@@ -4,7 +4,7 @@ title: "被攻击期间如何用多节点测速辅助判断影响面"
 category: 故障排查
 description: "测速不能替代 DDoS 防护，但当全国节点同时变红、延迟飙升，配合流量图能快速确认是攻击而非配置改错。"
 keywords: DDoS,攻击,故障排查,SpeedCE,安全
-permalink: /articles/ddos-attack-detection.html
+permalink: articles/ddos-attack-detection.html
 ---
 
 # 被攻击期间如何用多节点测速辅助判断影响面

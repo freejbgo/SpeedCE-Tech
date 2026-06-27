@@ -23,7 +23,7 @@ defaults:
       type: "pages"
     values:
       layout: default
-      permalink: /articles/:name.html
+      permalink: articles/:name.html
 
 exclude:
   - articles/README.md

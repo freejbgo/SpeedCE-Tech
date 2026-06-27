@@ -4,7 +4,7 @@ title: "AWS Lightsail 对国内访问：全球绿、中国慢的常见形态"
 category: VPS线路
 description: "多节点测速是现代站长必备技能。 本文围绕「AWS Lightsail 对国内访问」展开，以 SpeedCE 为实操示例。"
 keywords: AWS,Lightsail,云服务器,SpeedCE
-permalink: /articles/aws-lightsail-china.html
+permalink: articles/aws-lightsail-china.html
 ---
 
 # AWS Lightsail 对国内访问：全球绿、中国慢的常见形态

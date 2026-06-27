@@ -4,7 +4,7 @@ title: "全球 API 限流与 Geo 封禁：地图绿但仍 403 的边界"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「全球 API 限流与 Geo 封禁」展开，以 SpeedCE 为实操示例。"
 keywords: API,限流,出海,SpeedCE
-permalink: /articles/api-rate-limit-global.html
+permalink: articles/api-rate-limit-global.html
 ---
 
 # 全球 API 限流与 Geo 封禁：地图绿但仍 403 的边界

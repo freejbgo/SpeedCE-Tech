@@ -4,7 +4,7 @@ title: "东北三省访问质量验收：寒区线路与 CDN 节点覆盖"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「东北三省访问质量验收」展开，以 SpeedCE 为实操示例。"
 keywords: 东北,区域,SpeedCE
-permalink: /articles/northeast-china-access-guide.html
+permalink: articles/northeast-china-access-guide.html
 ---
 
 # 东北三省访问质量验收：寒区线路与 CDN 节点覆盖

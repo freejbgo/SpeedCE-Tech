@@ -4,7 +4,7 @@ title: "给客户季报附地图：B2B 服务商的测速汇报模板"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「给客户季报附地图」展开，以 SpeedCE 为实操示例。"
 keywords: 客户报告,B2B,SpeedCE
-permalink: /articles/client-report-quarterly.html
+permalink: articles/client-report-quarterly.html
 ---
 
 # 给客户季报附地图：B2B 服务商的测速汇报模板

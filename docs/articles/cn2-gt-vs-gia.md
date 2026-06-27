@@ -4,7 +4,7 @@ title: "CN2 GT 与 CN2 GIA 完全对比：商家话术背后的测速验证法"
 category: VPS线路
 description: "差两个字母，体验差一个档次。GT 晚高峰可能堵，GIA 贵但稳。别信文案，信三网地图 + 晚高峰复测。"
 keywords: CN2 GT,CN2 GIA,VPS,线路,SpeedCE
-permalink: /articles/cn2-gt-vs-gia.html
+permalink: articles/cn2-gt-vs-gia.html
 ---
 
 # CN2 GT 与 CN2 GIA 完全对比：商家话术背后的测速验证法

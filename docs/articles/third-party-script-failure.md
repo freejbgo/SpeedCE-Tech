@@ -4,7 +4,7 @@ title: "第三方脚本拖垮页面：主域绿、功能仍异常的边界说明
 category: 故障排查
 description: "支付、统计、客服插件走第三方域——主站绿不代表支付能调起。每个关键第三方域名单独列入 SpeedCE 巡检清单。"
 keywords: 第三方脚本,CDN,前端,SpeedCE,监控
-permalink: /articles/third-party-script-failure.html
+permalink: articles/third-party-script-failure.html
 ---
 
 # 第三方脚本拖垮页面：主域绿、功能仍异常的边界说明

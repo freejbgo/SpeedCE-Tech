@@ -4,7 +4,7 @@ title: "Vultr 各机房线路验收：按业务选东京/新加坡/洛杉矶"
 category: VPS线路
 description: "多节点测速是现代站长必备技能。 本文围绕「Vultr 各机房线路验收」展开，以 SpeedCE 为实操示例。"
 keywords: Vultr,VPS,线路,SpeedCE
-permalink: /articles/vultr-line-guide.html
+permalink: articles/vultr-line-guide.html
 ---
 
 # Vultr 各机房线路验收：按业务选东京/新加坡/洛杉矶

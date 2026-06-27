@@ -4,7 +4,7 @@ title: "禁 Ping 不等于线路差：PING 红 HTTPS 绿的正确解读与验机
 category: VPS线路
 description: "新手见 Ping 超时就慌。云厂商默认禁 ICMP 是常态。验机标准改成 HTTPS 通畅率 ≥ 90%。"
 keywords: 禁Ping,ICMP,VPS,测速,SpeedCE
-permalink: /articles/ping-blocked-not-bad.html
+permalink: articles/ping-blocked-not-bad.html
 ---
 
 # 禁 Ping 不等于线路差：PING 红 HTTPS 绿的正确解读与验机调整

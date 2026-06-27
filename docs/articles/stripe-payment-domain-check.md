@@ -4,7 +4,7 @@ title: "出海支付域名校验：支付页、回调 URL 的独立测速"
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「出海支付域名校验」展开，以 SpeedCE 为实操示例。"
 keywords: 支付,Stripe,出海,SpeedCE
-permalink: /articles/stripe-payment-domain-check.html
+permalink: articles/stripe-payment-domain-check.html
 ---
 
 # 出海支付域名校验：支付页、回调 URL 的独立测速

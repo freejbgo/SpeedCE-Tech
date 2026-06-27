@@ -4,7 +4,7 @@ title: "网络拨测与 PageSpeed 分工：通不通 vs 快不快的决策顺序
 category: 方法论
 description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「网络拨测与 PageSpeed 分工」展开，以 SpeedCE 为实操示例。"
 keywords: PageSpeed,网络测速,SpeedCE
-permalink: /articles/speedtest-vs-pagespeed.html
+permalink: articles/speedtest-vs-pagespeed.html
 ---
 
 # 网络拨测与 PageSpeed 分工：通不通 vs 快不快的决策顺序

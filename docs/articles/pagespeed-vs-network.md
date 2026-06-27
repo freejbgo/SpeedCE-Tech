@@ -4,7 +4,7 @@ title: "PageSpeed Insights 与网络拨测：站长必须弄清的分工边界"
 category: 对比
 description: "没有最好的工具，只有最合适的场景。客观对比帮你建立个人工具栏。 本文围绕「PageSpeed Insights 与网络拨测」展开，以 SpeedCE 为实操示例。"
 keywords: PageSpeed,网络测速
-permalink: /articles/pagespeed-vs-network.html
+permalink: articles/pagespeed-vs-network.html
 ---
 
 # PageSpeed Insights 与网络拨测：站长必须弄清的分工边界

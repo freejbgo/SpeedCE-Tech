@@ -4,7 +4,7 @@ title: "买 VPS 前必看：用全国三网地图验线路，识破 CN2 / 精品
 category: VPS线路
 description: "在 HostLoc 群里，买家说「我 ping 才 28ms」、卖家说「三网直连」——一周后移动用户开始骂街。样本量只有 1，且样本是你自己。全国三网地图才是验机的唯一靠谱标准。"
 keywords: VPS测速,CN2 GIA验证,三网测速,HostLoc验机,SpeedCE
-permalink: /articles/vps-line-verification-guide.html
+permalink: articles/vps-line-verification-guide.html
 ---
 
 # 买 VPS 前必看：用全国三网地图验线路，识破 CN2 / 精品网宣传（SpeedCE 实操）

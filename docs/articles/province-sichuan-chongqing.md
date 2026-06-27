@@ -4,7 +4,7 @@ title: "川渝地区访问验收：西南节点与线路特征"
 category: 进阶
 description: "进阶技巧不是炫技，是减少重复踩坑——把测速嵌入变更、巡检、大促、汇报全流程。 本文围绕「川渝地区访问验收」展开，以 SpeedCE 为实操示例。"
 keywords: 四川,重庆,西南,SpeedCE
-permalink: /articles/province-sichuan-chongqing.html
+permalink: articles/province-sichuan-chongqing.html
 ---
 
 # 川渝地区访问验收：西南节点与线路特征

@@ -4,7 +4,7 @@ title: "负载均衡与健康检查：一半节点绿一半红的典型架构问
 category: 故障排查
 description: "多台后端一台挂——若 DNS 轮询或 LB 配置不当，用户感受是「有时能开有时不能」。多节点测速 + 多次复测能印证。"
 keywords: 负载均衡,健康检查,高可用,SpeedCE,运维
-permalink: /articles/load-balancer-health-check.html
+permalink: articles/load-balancer-health-check.html
 ---
 
 # 负载均衡与健康检查：一半节点绿一半红的典型架构问题

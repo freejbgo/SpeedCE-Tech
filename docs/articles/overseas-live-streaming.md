@@ -4,7 +4,7 @@ title: "海外直播与视频会议节点选型：延迟敏感业务的地图标
 category: 出海
 description: "全球化不是加一个英文版就完事。目标市场的通畅率，决定了你能不能在那里做生意。 本文围绕「海外直播与视频会议节点选型」展开，以 SpeedCE 为实操示例。"
 keywords: 直播,视频会议,出海,SpeedCE
-permalink: /articles/overseas-live-streaming.html
+permalink: articles/overseas-live-streaming.html
 ---
 
 # 海外直播与视频会议节点选型：延迟敏感业务的地图标准

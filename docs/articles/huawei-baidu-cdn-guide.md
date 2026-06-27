@@ -4,7 +4,7 @@ title: "华为云/百度云 CDN 验收要点与三网地图标准"
 category: CDN
 description: "CDN 让网站更快，也让排障更复杂——源站、边缘、证书、缓存四层交织。对照测速是 CDN 运维的基本功。 本文围绕「华为云/百度云 CDN 验收要点与三网地图标准」展开，以 SpeedCE 为实操示例。"
 keywords: 华为云,百度云,CDN,SpeedCE
-permalink: /articles/huawei-baidu-cdn-guide.html
+permalink: articles/huawei-baidu-cdn-guide.html
 ---
 
 # 华为云/百度云 CDN 验收要点与三网地图标准
