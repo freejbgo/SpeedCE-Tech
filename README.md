@@ -6,6 +6,12 @@
 
 本仓库收录 **210+ 篇** CSDN 高质量长文（每篇约 1.6 万字），围绕网站测速、故障排查、VPS 验线路、CDN 验收、出海部署等主题。点击下方标题即可跳转到对应文章正文。
 
+## SpeedCE-Docs 收录支持
+
+[SpeedCE-Docs](https://github.com/freejbgo/SpeedCE-Docs) 知识库（100 篇站长文章）的 **SEO / AI 爬虫索引** 已生成在 [`speedce-docs/`](speedce-docs/) 目录，包含 `llms.txt`、`sitemap.xml`、`robots.txt` 及 GitHub Pages 配置。详见 [speedce-docs/README.md](speedce-docs/README.md)。
+
+重新生成：`python3 scripts/generate_speedce_docs_seo_index.py`
+
 ## 统计
 
 | 项目 | 数量 |
