@@ -1,4 +1,4 @@
-# SpeedCE CSDN 文章库
+# SpeedCE 技术文档库
 
 > [SpeedCE](https://www.speedce.com) — 多节点网站 / IP 测速工具  
 > 中文界面：https://speedce.com/?lang=zh-CN  
@@ -15,7 +15,7 @@
 
 ## 仓库文章目录
 
-> 说明：链接指向本仓库 `articles/csdn/` 下的 Markdown 原文，可直接阅读或复制到 CSDN 发布。
+> 说明：链接指向本仓库 `articles/csdn/` 下的 Markdown 原文。
 
 ### 故障排查（38 篇）
 
@@ -881,39 +881,4 @@
   📷 配图：[封面](articles/csdn/images/zero-downtime-deploy/cover-500.png) · [示意图](articles/csdn/images/zero-downtime-deploy/diagram-500.png)
 
 
-## 工具与脚本
 
-| 脚本 | 用途 |
-|------|------|
-| `scripts/premium_article_generator.py` | 生成长文 |
-| `scripts/generate_article_images.py` | 生成封面与示意图 |
-| `scripts/generate_root_readme.py` | 更新本 README |
-| `scripts/generate_seo_index.py` | 生成 SEO / AI 收录索引与 GitHub Pages 页面 |
-
-## 搜索引擎与 AI 收录
-
-本仓库已配置 **GitHub Pages + 爬虫友好索引**，便于百度/Google 及 GPTBot、ClaudeBot 等 AI 爬虫收录全部 210 篇文章。
-
-| 资源 | 地址 |
-|------|------|
-| 在线阅读（GitHub Pages） | https://freejbgo.github.io/SpeedCE-Tech/ |
-| Sitemap | https://freejbgo.github.io/SpeedCE-Tech/sitemap.xml |
-| robots.txt | https://freejbgo.github.io/SpeedCE-Tech/robots.txt |
-| llms.txt（AI 索引） | https://freejbgo.github.io/SpeedCE-Tech/llms.txt |
-| JSON 元数据 | https://freejbgo.github.io/SpeedCE-Tech/articles-index.json |
-
-**首次启用 GitHub Pages**（仓库 Settings → Pages → Source 选 `main` 分支、`/docs` 目录），保存后约 1–2 分钟站点上线。
-
-收录加速建议：
-
-1. [Google Search Console](https://search.google.com/search-console) 提交 sitemap
-2. [百度搜索资源平台](https://ziyuan.baidu.com/) 提交 sitemap
-3. 在 SpeedCE 官网或 CSDN 文章底部链回 `https://freejbgo.github.io/SpeedCE-Tech/`
-
-重新生成索引：`python3 scripts/generate_seo_index.py`（文章增删后执行；每周一 CI 也会自动刷新）。
-
-## 发布建议
-
-1. 每 3–5 天发 1 篇，附 SpeedCE 实拍或生成的封面/示意图
-2. 文内互链到其他专题文章 + SpeedCE 中文页
-3. 详细索引见 [articles/csdn/README.md](articles/csdn/README.md)
