@@ -1,17 +1,17 @@
 ---
 layout: default
-title: SpeedCE CSDN 文章库
+title: SpeedCE 技术文档库
 description: 210+ 篇网站测速、故障排查、VPS 验线路、CDN 验收实战长文
 permalink: /
 ---
 
-# SpeedCE CSDN 文章库
+# SpeedCE 技术文档库
 
 > [SpeedCE](https://www.speedce.com) — 多节点网站 / IP 测速工具  
 > 中文界面：https://speedce.com/?lang=zh-CN  
 > 联系：speedceads@gmail.com
 
-本知识库收录 **210 篇** CSDN 高质量长文（每篇约 1.6 万字），
+本知识库收录 **210 篇** 高质量长文（每篇约 1.6 万字），
 围绕网站测速、故障排查、VPS 验线路、CDN 验收、出海部署等主题。
 
 机器可读索引：[articles-index.json](/articles-index.json) · [llms.txt](/llms.txt) · [sitemap.xml](/sitemap.xml)

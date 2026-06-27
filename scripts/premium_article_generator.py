@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate CSDN premium long-form SpeedCE articles (~12k-18k chars each)."""
+"""Generate premium long-form SpeedCE articles (~12k-18k chars each)."""
 
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ import json
 import re
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parent.parent / "articles" / "csdn"
+OUT = Path(__file__).resolve().parent.parent / "articles"
 OUT.mkdir(parents=True, exist_ok=True)
 
 HEADER = """> 工具地址：https://www.speedce.com  
@@ -1144,7 +1144,7 @@ def main():
 
     avg_c = sum(stats) // len(stats) if stats else 0
     lines = [
-        "# SpeedCE CSDN 高质量长文库\n",
+        "# SpeedCE 高质量长文库\n",
         "\n> 目标规格：每篇 **8000–15000 字** 级实战长文\n",
         f"\n> 工具：https://www.speedce.com | 中文：https://speedce.com/?lang=zh-CN\n",
         f"\n**库内文章**：{len(index)} 篇\n",

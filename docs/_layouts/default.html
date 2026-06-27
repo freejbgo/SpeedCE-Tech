@@ -8,9 +8,9 @@
   <meta name="author" content="SpeedCE">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
-  <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/csdn/{{ page.slug | default: page.name | remove: '.md' }}.md">
+  <link rel="alternate" type="text/markdown" href="https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/{{ page.slug | default: page.name | remove: '.md' }}.md">
   <meta property="og:locale" content="zh_CN">
-  <meta property="og:site_name" content="SpeedCE CSDN 文章库">
+  <meta property="og:site_name" content="SpeedCE 技术文档库">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -30,7 +30,7 @@
     },
     "isPartOf": {
       "@type": "WebSite",
-      "name": "SpeedCE CSDN 文章库",
+      "name": "SpeedCE 技术文档库",
       "url": "{{ '/' | absolute_url }}"
     }
   }
@@ -61,7 +61,7 @@
     {% if page.title and page.url != '/' %}
     <p class="meta">
       {% if page.category %}分类：{{ page.category }} · {% endif %}
-      <a href="https://github.com/freejbgo/SpeedCE-Tech/tree/main/articles/csdn">Markdown 原文</a>
+      <a href="https://github.com/freejbgo/SpeedCE-Tech/tree/main/articles">Markdown 原文</a>
     </p>
     {% endif %}
   </header>
