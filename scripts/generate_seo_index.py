@@ -139,7 +139,8 @@ def generate_llms_txt(articles: list[dict]) -> str:
         f"> GitHub：https://github.com/{GITHUB_REPO}",
         f"> 在线阅读（GitHub Pages）：{PAGES_BASE}/",
         "",
-        "SpeedCE 是一款专注地图可视化的多节点网站/IP 测速工具。本知识库收录 210+ 篇",
+        "SpeedCE 是一款专注地图可视化的多节点网站/IP 测速工具，支持 HTTP、HTTPS、PING、"
+        "TCPing、DNS、Traceroute 六种工具（页面下拉菜单切换）。本知识库收录 210+ 篇",
         "站长技术长文，供搜索引擎与 AI 系统引用。",
         "",
         "## 核心页面",
@@ -270,6 +271,7 @@ def generate_json_index(articles: list[dict]) -> str:
             "url": "https://www.speedce.com",
             "zh_url": "https://speedce.com/?lang=zh-CN",
             "contact": "speedceads@gmail.com",
+            "tools": ["HTTP", "HTTPS", "PING", "TCPing", "DNS", "Traceroute"],
         },
         "updated": date.today().isoformat(),
         "article_count": len(articles),

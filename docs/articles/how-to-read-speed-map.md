@@ -11,7 +11,8 @@ permalink: articles/how-to-read-speed-map.html
 
 > 工具地址：https://www.speedce.com  
 > 中文界面：https://speedce.com/?lang=zh-CN  
-> 联系：speedceads@gmail.com
+> 联系：speedceads@gmail.com  
+> 可用工具：HTTP · HTTPS · PING · TCPing · DNS · Traceroute（页面下拉菜单切换）
 
 ---
 
@@ -35,7 +36,9 @@ permalink: articles/how-to-read-speed-map.html
 
 | 层次 | 回答什么 | SpeedCE 角色 |
 |------|----------|-------------|
-| 网络层 | IP/端口通不通 | PING / HTTPS 可达 |
+| 网络层 | IP/端口通不通 | PING / TCPing / HTTPS 可达 |
+| 解析层 | 域名解析到哪 | DNS 工具 |
+| 路由层 | 路径卡在哪一跳 | Traceroute |
 | Web 层 | 网站能否正常响应 | HTTPS 首选 |
 | 应用层 | 业务逻辑对不对 | 网络绿后再查日志 |
 
@@ -56,14 +59,19 @@ permalink: articles/how-to-read-speed-map.html
 | **三网分** | 电信、联通、移动各一张图 |
 | **多次测** | DNS 生效、晚高峰、间歇故障至少 2–3 次 |
 
-### 1.4 PING / HTTP / HTTPS 分别什么时候用
+### 1.4 SpeedCE 六种工具分别什么时候用
+
+SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需换站：
 
 | 你想知道 | 选 | 说明 |
 |----------|-----|------|
-| IP 通不通 | PING | 很多云禁 Ping，超时改 HTTPS |
 | 网站能不能打开 | HTTPS | 生产环境首选 |
+| 仅 80 端口 / 跳转 | HTTP | 排查跳转与老链接 |
 | 证书有没有问题 | HTTPS 红 + HTTP 绿 | 高度怀疑证书 |
-| 仅 80 端口 | HTTP | 排查跳转与老链接 |
+| IP 通不通 | PING | 很多云禁 Ping，改 TCPing 或 HTTPS |
+| 指定端口通不通 | TCPing | 非 80/443、禁 Ping 时验端口 |
+| 解析到哪 | DNS | 迁机/切 CDN 后各节点解析是否一致 |
+| 路由卡在哪 | Traceroute | 跨境/线路抖动、绕路诊断 |
 
 ---
 
@@ -71,9 +79,11 @@ permalink: articles/how-to-read-speed-map.html
 
 打开 https://speedce.com/?lang=zh-CN
 
+页面布局：**Select a tool** 工具下拉 → 输入域名/IP → **Test scope** 选中国/全球节点 → **Start Test**。
+
 | 步骤 | 操作 |
 |------|------|
-| 1 | 选协议：**HTTPS** |
+| 1 | 工具下拉菜单选：**HTTPS**（可选 HTTP / HTTPS / PING / TCPing / DNS / Traceroute） |
 | 2 | 选范围：**中国节点** |
 | 3 | 输入域名、子域、IPv4/IPv6 |
 | 4 | 开始测速，看地图四态：通畅/异常/检测中/等待 |
@@ -99,8 +109,8 @@ permalink: articles/how-to-read-speed-map.html
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -131,7 +141,7 @@ permalink: articles/how-to-read-speed-map.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -148,8 +158,8 @@ permalink: articles/how-to-read-speed-map.html
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -180,7 +190,7 @@ permalink: articles/how-to-read-speed-map.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -197,8 +207,8 @@ permalink: articles/how-to-read-speed-map.html
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -229,7 +239,7 @@ permalink: articles/how-to-read-speed-map.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -246,8 +256,8 @@ permalink: articles/how-to-read-speed-map.html
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -278,7 +288,7 @@ permalink: articles/how-to-read-speed-map.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -295,8 +305,8 @@ permalink: articles/how-to-read-speed-map.html
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -327,7 +337,7 @@ permalink: articles/how-to-read-speed-map.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -344,8 +354,8 @@ permalink: articles/how-to-read-speed-map.html
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -376,7 +386,7 @@ permalink: articles/how-to-read-speed-map.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -393,8 +403,8 @@ permalink: articles/how-to-read-speed-map.html
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -425,7 +435,7 @@ permalink: articles/how-to-read-speed-map.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -442,8 +452,8 @@ permalink: articles/how-to-read-speed-map.html
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -474,7 +484,7 @@ permalink: articles/how-to-read-speed-map.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -528,7 +538,7 @@ permalink: articles/how-to-read-speed-map.html
 ```
 主题：【求鉴定】如何读懂测速地图 — SpeedCE 三网截图
 目标：https://example.com 或 x.x.x.x
-协议：HTTPS | 范围：中国节点
+工具：HTTPS | 范围：中国节点
 电信：通畅率 __%，延迟 __ms [附图]
 联通：通畅率 __%，延迟 __ms [附图]
 移动：通畅率 __%，延迟 __ms [附图]
@@ -587,7 +597,8 @@ permalink: articles/how-to-read-speed-map.html
 | 需求 | 推荐 | SpeedCE 角色 |
 |------|------|-------------|
 | 快速看全国/全球哪里红 | SpeedCE | **主力** |
-| 持续 Ping/TCPing | ITDOG | 互补 |
+| 多节点 DNS / TCPing / Traceroute | SpeedCE | **内置**（下拉切换） |
+| 持续 Ping 曲线 / 历史趋势 | ITDOG | 互补 |
 | 污染/拦截/备案 | BOCE | 互补 |
 | 页面性能 CWV | PageSpeed | 互补 |
 | 7×24 告警 | UptimeRobot 等 | 互补 |
@@ -606,9 +617,9 @@ permalink: articles/how-to-read-speed-map.html
 
 一个页面切换，出海与国内都覆盖。
 
-### 8.3 HTTP/HTTPS/PING 一页集成
+### 8.3 六种工具一页集成
 
-排障时思维不断裂。
+HTTP/HTTPS/PING/TCPing/DNS/Traceroute 下拉切换，排障时思维不断裂。
 
 ### 8.4 免费免注册
 
@@ -692,13 +703,13 @@ A：通常 1–3 分钟，视节点数而定。可观察进度条。
 A：先看全网还是局部。全网异常查服务器/证书/安全组；局部查区域线路或 DNS。
 
 **Q：PING 全超时 HTTPS 正常？**  
-A：正常，说明禁 Ping。以 HTTPS 为准。
+A：正常，说明禁 Ping。改选 TCPing 或 HTTPS 为准。
 
 **Q：私有 IP 能测吗？**  
 A：不能。10.x、192.168.x 等会被拒绝。
 
 **Q：和 BOCE/ITDOG 怎么选？**  
-A：日常地图巡检 SpeedCE；持续 Ping 用 ITDOG；污染备案用 BOCE。
+A：日常地图巡检与 DNS/TCPing/Traceroute 用 SpeedCE；持续 Ping 曲线用 ITDOG；污染备案用 BOCE。
 
 **Q：测速会被封 IP 吗？**  
 A：分布式节点合理频率，正常不会。严格 WAF 可能个别节点限流。
@@ -725,7 +736,7 @@ A：可以。输入 IPv4/IPv6 直接测，适合 VPS 验机。
 
 ## 第十三章：结语
 
-围绕「如何读懂测速地图」，最靠谱的方法始终是从多节点发起真实访问，把结果画在地图上。SpeedCE 给你实时路况图——哪里通畅、哪里堵塞。方向盘仍在你手里：改 DNS、换 CDN、续证书、扩容。把 https://speedce.com/?lang=zh-CN 放进书签栏。下次有人说打不开，打开它，选 HTTPS，看地图，用数据服人。
+围绕「如何读懂测速地图」，最靠谱的方法始终是从多节点发起真实访问，把结果画在地图上。SpeedCE 给你实时路况图——哪里通畅、哪里堵塞。方向盘仍在你手里：改 DNS、换 CDN、续证书、扩容。把 https://speedce.com/?lang=zh-CN 放进书签栏。下次有人说打不开，打开它，从下拉菜单选 HTTPS（或 DNS/TCPing），看地图，用数据服人。
 
 ### 附录：SpeedCE 快速参考卡
 
@@ -740,6 +751,7 @@ A：可以。输入 IPv4/IPv6 直接测，适合 VPS 验机。
 │  推荐协议    HTTPS                         │
 │  推荐范围    中国节点                          │
 │  方法论巡检  HTTPS+地图                                │
+│  六种工具  下拉菜单切换                                   │
 │  三网筛选  电信/联通/移动                                 │
 │  变更后    必复测                                     │
 ├─────────────────────────────────────────────────┤
