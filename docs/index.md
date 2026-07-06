@@ -1,13 +1,14 @@
 ---
 layout: default
 title: SpeedCE 技术文档库
-description: 210+ 篇网站测速、故障排查、VPS 验线路、CDN 验收实战长文
+description: 210+ 篇网站测速、故障排查、VPS 验线路、CDN 验收实战长文；SpeedCE 六种工具
 permalink: /
 ---
 
 # SpeedCE 技术文档库
 
 > [SpeedCE](https://www.speedce.com) — 多节点网站 / IP 测速工具  
+> 可用工具：**HTTP · HTTPS · PING · TCPing · DNS · Traceroute**（[Select a tool](https://speedce.com/?lang=zh-CN) 下拉菜单）  
 > 中文界面：https://speedce.com/?lang=zh-CN  
 > 联系：speedceads@gmail.com
 
