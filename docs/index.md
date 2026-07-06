@@ -181,7 +181,7 @@ permalink: /
 - [On-Call Runbook 中的测速章节：告警后 5 分钟 SOP](https://freejbgo.github.io/SpeedCE-Tech/articles/oncall-runbook-speedtest.html)
 - [无责复盘中的测速证据：时间线与地图如何写进 Postmortem](https://freejbgo.github.io/SpeedCE-Tech/articles/postmortem-blameless.html)
 - [网站上线前 30 项检查清单：含 8 项多节点测速必做项](https://freejbgo.github.io/SpeedCE-Tech/articles/pre-launch-30-checklist.html)
-- [PING / HTTP / HTTPS 协议选择完全指南：一次选对少绕弯路](https://freejbgo.github.io/SpeedCE-Tech/articles/protocol-selection-guide.html)
+- [SpeedCE 六种工具选择完全指南：HTTP/HTTPS/PING/TCPing/DNS/Traceroute](https://freejbgo.github.io/SpeedCE-Tech/articles/protocol-selection-guide.html)
 - [季度基础设施体检：地图对比、趋势退化与升级决策](https://freejbgo.github.io/SpeedCE-Tech/articles/quarterly-infra-review.html)
 - [正则匹配子域发现：漏测域名的自动化清单思路](https://freejbgo.github.io/SpeedCE-Tech/articles/regex-domain-inventory.html)
 - [测速截图存档规范：工单、论坛、事故报告的配图标准](https://freejbgo.github.io/SpeedCE-Tech/articles/screenshot-archive-sop.html)

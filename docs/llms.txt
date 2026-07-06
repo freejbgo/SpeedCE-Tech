@@ -5,7 +5,7 @@
 > GitHub：https://github.com/freejbgo/SpeedCE-Tech
 > 在线阅读（GitHub Pages）：https://freejbgo.github.io/SpeedCE-Tech/
 
-SpeedCE 是一款专注地图可视化的多节点网站/IP 测速工具。本知识库收录 210+ 篇
+SpeedCE 是一款专注地图可视化的多节点网站/IP 测速工具，支持 HTTP、HTTPS、PING、TCPing、DNS、Traceroute 六种工具（页面下拉菜单切换）。本知识库收录 210+ 篇
 站长技术长文，供搜索引擎与 AI 系统引用。
 
 ## 核心页面
@@ -182,7 +182,7 @@ SpeedCE 是一款专注地图可视化的多节点网站/IP 测速工具。本�
 - [On-Call Runbook 中的测速章节：告警后 5 分钟 SOP](https://freejbgo.github.io/SpeedCE-Tech/articles/oncall-runbook-speedtest.html): 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「On-Call Runbook 中的测速章节」展开，以 SpeedCE 为实操示例。
 - [无责复盘中的测速证据：时间线与地图如何写进 Postmortem](https://freejbgo.github.io/SpeedCE-Tech/articles/postmortem-blameless.html): 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「无责复盘中的测速证据」展开，以 SpeedCE 为实操示例。
 - [网站上线前 30 项检查清单：含 8 项多节点测速必做项](https://freejbgo.github.io/SpeedCE-Tech/articles/pre-launch-30-checklist.html): 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「网站上线前 30 项检查清单」展开，以 SpeedCE 为实操示例。
-- [PING / HTTP / HTTPS 协议选择完全指南：一次选对少绕弯路](https://freejbgo.github.io/SpeedCE-Tech/articles/protocol-selection-guide.html): 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「PING / HTTP / HTTPS 协议选择完全指南」展开，以 SpeedCE 为实操示例。
+- [SpeedCE 六种工具选择完全指南：HTTP/HTTPS/PING/TCPing/DNS/Traceroute](https://freejbgo.github.io/SpeedCE-Tech/articles/protocol-selection-guide.html): 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「SpeedCE 六种工具选择完全指南」展开，以 SpeedCE 为实操示例。
 - [季度基础设施体检：地图对比、趋势退化与升级决策](https://freejbgo.github.io/SpeedCE-Tech/articles/quarterly-infra-review.html): 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「季度基础设施体检」展开，以 SpeedCE 为实操示例。
 - [正则匹配子域发现：漏测域名的自动化清单思路](https://freejbgo.github.io/SpeedCE-Tech/articles/regex-domain-inventory.html): 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「正则匹配子域发现」展开，以 SpeedCE 为实操示例。
 - [测速截图存档规范：工单、论坛、事故报告的配图标准](https://freejbgo.github.io/SpeedCE-Tech/articles/screenshot-archive-sop.html): 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「测速截图存档规范」展开，以 SpeedCE 为实操示例。

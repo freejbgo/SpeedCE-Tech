@@ -626,8 +626,8 @@
   工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「网站上线前 30 项检查清单」展开，以 SpeedCE 为实操示例。  
   📷 配图：[封面](articles/images/pre-launch-30-checklist/cover-500.png) · [示意图](articles/images/pre-launch-30-checklist/diagram-500.png)
 
-- [**PING / HTTP / HTTPS 协议选择完全指南：一次选对少绕弯路**](articles/protocol-selection-guide.md)  
-  工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「PING / HTTP / HTTPS 协议选择完全指南」展开，以 SpeedCE 为实操示例。  
+- [**SpeedCE 六种工具选择完全指南：HTTP/HTTPS/PING/TCPing/DNS/Traceroute**](articles/protocol-selection-guide.md)  
+  工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「SpeedCE 六种工具选择完全指南」展开，以 SpeedCE 为实操示例。  
   📷 配图：[封面](articles/images/protocol-selection-guide/cover-500.png) · [示意图](articles/images/protocol-selection-guide/diagram-500.png)
 
 - [**季度基础设施体检：地图对比、趋势退化与升级决策**](articles/quarterly-infra-review.md)  
@@ -881,6 +881,14 @@
   📷 配图：[封面](articles/images/zero-downtime-deploy/cover-500.png) · [示意图](articles/images/zero-downtime-deploy/diagram-500.png)
 
 
+## 工具与脚本
+
+| 脚本 | 用途 |
+|------|------|
+| `scripts/premium_article_generator.py` | 生成长文 |
+| `scripts/generate_article_images.py` | 生成封面与示意图 |
+| `scripts/generate_root_readme.py` | 更新本 README |
+| `scripts/generate_seo_index.py` | 生成 SEO / AI 收录索引与 GitHub Pages 页面 |
 
 ## 搜索引擎与 AI 收录
 
@@ -894,4 +902,4 @@
 | llms.txt（AI 索引） | https://freejbgo.github.io/SpeedCE-Tech/llms.txt |
 | JSON 元数据 | https://freejbgo.github.io/SpeedCE-Tech/articles-index.json |
 
-
+重新生成索引：`python3 scripts/generate_seo_index.py`（文章增删后执行；每周一 CI 也会自动刷新）。

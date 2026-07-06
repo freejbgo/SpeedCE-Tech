@@ -1,29 +1,30 @@
 ---
 layout: default
-title: "PING / HTTP / HTTPS 协议选择完全指南：一次选对少绕弯路"
+title: "SpeedCE 六种工具选择完全指南：HTTP/HTTPS/PING/TCPing/DNS/Traceroute"
 category: 方法论
-description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「PING / HTTP / HTTPS 协议选择完全指南」展开，以 SpeedCE 为实操示例。"
-keywords: PING,HTTPS,协议,SpeedCE
+description: "工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「SpeedCE 六种工具选择完全指南」展开，以 SpeedCE 为实操示例。"
+keywords: PING,HTTPS,TCPing,DNS,Traceroute,SpeedCE
 permalink: articles/protocol-selection-guide.html
 ---
 
-# PING / HTTP / HTTPS 协议选择完全指南：一次选对少绕弯路
+# SpeedCE 六种工具选择完全指南：HTTP/HTTPS/PING/TCPing/DNS/Traceroute
 
 > 工具地址：https://www.speedce.com  
 > 中文界面：https://speedce.com/?lang=zh-CN  
-> 联系：speedceads@gmail.com
+> 联系：speedceads@gmail.com  
+> 可用工具：HTTP · HTTPS · PING · TCPing · DNS · Traceroute（页面下拉菜单切换）
 
 ---
 
 ## 写在前面
 
-工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「PING / HTTP / HTTPS 协议选择完全指南」展开，以 SpeedCE 为实操示例。
+工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「SpeedCE 六种工具选择完全指南」展开，以 SpeedCE 为实操示例。
 
-围绕「PING / HTTP / HTTPS 协议选择完全指南」，本文把多节点测速从「偶尔用一下」变成「可重复流程」。每次故障或变更，按同一套步骤操作，结果可截图、可对比、可汇报。
+围绕「SpeedCE 六种工具选择完全指南」，本文把多节点测速从「偶尔用一下」变成「可重复流程」。每次故障或变更，按同一套步骤操作，结果可截图、可对比、可汇报。
 
 做网站的人，几乎都说过：「我这边打开好好的啊。」——然后工单、群里反馈接踵而至。问题往往不是你眼花，而是**测速方法错了**：单点、单省、单运营商、单时段，都不能代表全国用户。
 
-本文是一份围绕「PING / HTTP / HTTPS 协议选择完全指南」的**可执行长文手册**（建议阅读 15–20 分钟）。全文以免费工具 SpeedCE 为操作示例，但你学到的排查思路适用于任何多节点测速场景。建议收藏，故障时按章节对照操作。
+本文是一份围绕「SpeedCE 六种工具选择完全指南」的**可执行长文手册**（建议阅读 15–20 分钟）。全文以免费工具 SpeedCE 为操作示例，但你学到的排查思路适用于任何多节点测速场景。建议收藏，故障时按章节对照操作。
 
 **阅读导航**：第一章建立观念 → 第二章上手 SpeedCE → 第三章八个实战场景（核心）→ 第四章进阶与话术 → 第五章工具链 → 第六章检查清单 → 第七至十章误区/工作流/FAQ。
 
@@ -35,7 +36,9 @@ permalink: articles/protocol-selection-guide.html
 
 | 层次 | 回答什么 | SpeedCE 角色 |
 |------|----------|-------------|
-| 网络层 | IP/端口通不通 | PING / HTTPS 可达 |
+| 网络层 | IP/端口通不通 | PING / TCPing / HTTPS 可达 |
+| 解析层 | 域名解析到哪 | DNS 工具 |
+| 路由层 | 路径卡在哪一跳 | Traceroute |
 | Web 层 | 网站能否正常响应 | HTTPS 首选 |
 | 应用层 | 业务逻辑对不对 | 网络绿后再查日志 |
 
@@ -56,14 +59,19 @@ permalink: articles/protocol-selection-guide.html
 | **三网分** | 电信、联通、移动各一张图 |
 | **多次测** | DNS 生效、晚高峰、间歇故障至少 2–3 次 |
 
-### 1.4 PING / HTTP / HTTPS 分别什么时候用
+### 1.4 SpeedCE 六种工具分别什么时候用
+
+SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需换站：
 
 | 你想知道 | 选 | 说明 |
 |----------|-----|------|
-| IP 通不通 | PING | 很多云禁 Ping，超时改 HTTPS |
 | 网站能不能打开 | HTTPS | 生产环境首选 |
+| 仅 80 端口 / 跳转 | HTTP | 排查跳转与老链接 |
 | 证书有没有问题 | HTTPS 红 + HTTP 绿 | 高度怀疑证书 |
-| 仅 80 端口 | HTTP | 排查跳转与老链接 |
+| IP 通不通 | PING | 很多云禁 Ping，改 TCPing 或 HTTPS |
+| 指定端口通不通 | TCPing | 非 80/443、禁 Ping 时验端口 |
+| 解析到哪 | DNS | 迁机/切 CDN 后各节点解析是否一致 |
+| 路由卡在哪 | Traceroute | 跨境/线路抖动、绕路诊断 |
 
 ---
 
@@ -71,9 +79,11 @@ permalink: articles/protocol-selection-guide.html
 
 打开 https://speedce.com/?lang=zh-CN
 
+页面布局：**Select a tool** 工具下拉 → 输入域名/IP → **Test scope** 选中国/全球节点 → **Start Test**。
+
 | 步骤 | 操作 |
 |------|------|
-| 1 | 选协议：**HTTPS** |
+| 1 | 工具下拉菜单选：**HTTPS / DNS / TCPing / Traceroute**（可选 HTTP / HTTPS / PING / TCPing / DNS / Traceroute） |
 | 2 | 选范围：**中国节点** |
 | 3 | 输入域名、子域、IPv4/IPv6 |
 | 4 | 开始测速，看地图四态：通畅/异常/检测中/等待 |
@@ -88,19 +98,19 @@ permalink: articles/protocol-selection-guide.html
 
 以下每个场景统一结构：现象 → SpeedCE 测法 → 地图解读 → 原因 → 处理。
 
-#### 场景 1：用户反馈PING / HTTP / HTTPS 
+#### 场景 1：用户反馈SpeedCE 六种工具选择完全指南
 
 **现象**
 
-用户反馈与「PING / HTTP / HTTPS 」相关：部分省份、部分运营商或特定时段访问异常，而你本地测试往往正常。 这类问题的共同点是：单点测试无法代表全国用户，必须用 SpeedCE 多节点地图获取客观样本。
+用户反馈与「SpeedCE 六种工具选择完全指南」相关：部分省份、部分运营商或特定时段访问异常，而你本地测试往往正常。 这类问题的共同点是：单点测试无法代表全国用户，必须用 SpeedCE 多节点地图获取客观样本。
 
-在「PING / HTTP / HTTPS 协议选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
+在「SpeedCE 六种工具选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
 
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS / DNS / TCPing / Traceroute**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -131,7 +141,7 @@ permalink: articles/protocol-selection-guide.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -143,13 +153,13 @@ permalink: articles/protocol-selection-guide.html
 
 变更后出现：改 DNS、上 CDN、换证书、迁机、调 Nginx 之后，工单量上升，需要客观验证影响面。 这类问题的共同点是：单点测试无法代表全国用户，必须用 SpeedCE 多节点地图获取客观样本。
 
-在「PING / HTTP / HTTPS 协议选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
+在「SpeedCE 六种工具选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
 
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS / DNS / TCPing / Traceroute**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -180,7 +190,7 @@ permalink: articles/protocol-selection-guide.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -192,13 +202,13 @@ permalink: articles/protocol-selection-guide.html
 
 客服无法复现：用户说打不开，你这边无痕模式正常——典型单点偏见，需要全国多节点视角。 这类问题的共同点是：单点测试无法代表全国用户，必须用 SpeedCE 多节点地图获取客观样本。
 
-在「PING / HTTP / HTTPS 协议选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
+在「SpeedCE 六种工具选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
 
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS / DNS / TCPing / Traceroute**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -229,7 +239,7 @@ permalink: articles/protocol-selection-guide.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -241,13 +251,13 @@ permalink: articles/protocol-selection-guide.html
 
 晚高峰才暴露：下午 SpeedCE 全绿，20:00 后通畅率下降或延迟飙升，怀疑线路拥堵或攻击。 这类问题的共同点是：单点测试无法代表全国用户，必须用 SpeedCE 多节点地图获取客观样本。
 
-在「PING / HTTP / HTTPS 协议选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
+在「SpeedCE 六种工具选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
 
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS / DNS / TCPing / Traceroute**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -278,7 +288,7 @@ permalink: articles/protocol-selection-guide.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -290,13 +300,13 @@ permalink: articles/protocol-selection-guide.html
 
 子域/接口独立故障：主站正常，但 API、静态资源或支付域异常，需单独对目标域名测速。 这类问题的共同点是：单点测试无法代表全国用户，必须用 SpeedCE 多节点地图获取客观样本。
 
-在「PING / HTTP / HTTPS 协议选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
+在「SpeedCE 六种工具选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
 
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS / DNS / TCPing / Traceroute**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -327,7 +337,7 @@ permalink: articles/protocol-selection-guide.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -339,13 +349,13 @@ permalink: articles/protocol-selection-guide.html
 
 出海/跨境场景：国内团队正常，海外客户反馈慢或打不开，或相反。 这类问题的共同点是：单点测试无法代表全国用户，必须用 SpeedCE 多节点地图获取客观样本。
 
-在「PING / HTTP / HTTPS 协议选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
+在「SpeedCE 六种工具选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
 
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS / DNS / TCPing / Traceroute**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -376,7 +386,7 @@ permalink: articles/protocol-selection-guide.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -388,13 +398,13 @@ permalink: articles/protocol-selection-guide.html
 
 新购 VPS/新上 CDN 验收：商家称「三网直连」「全球加速」，需要第三方地图验证。 这类问题的共同点是：单点测试无法代表全国用户，必须用 SpeedCE 多节点地图获取客观样本。
 
-在「PING / HTTP / HTTPS 协议选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
+在「SpeedCE 六种工具选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
 
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS / DNS / TCPing / Traceroute**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -425,7 +435,7 @@ permalink: articles/protocol-selection-guide.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -437,13 +447,13 @@ permalink: articles/protocol-selection-guide.html
 
 间歇性 sporadic：有时正常有时异常，单次测速容易误判，需多次点检留曲线。 这类问题的共同点是：单点测试无法代表全国用户，必须用 SpeedCE 多节点地图获取客观样本。
 
-在「PING / HTTP / HTTPS 协议选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
+在「SpeedCE 六种工具选择完全指南」语境下，还应记录：**变更发生时间点**、**用户省份运营商样本**、**是持续还是间歇**。三者与地图叠在一起，根因判断会快很多。
 
 **SpeedCE 测法**
 
 1. 打开 https://speedce.com/?lang=zh-CN
-2. 协议选 **HTTPS**（Ping 不通改 HTTPS）
-3. 范围选 **中国节点**
+2. 在 **Select a tool** 下拉菜单选 **HTTPS / DNS / TCPing / Traceroute**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
 6. 按电信/联通/移动分别筛选，各截图存档
@@ -474,7 +484,7 @@ permalink: articles/protocol-selection-guide.html
 - 修复后复测直至通畅率达标
 - 更新内部运维文档与变更记录
 - 向用户/客服提供基于省份运营商的针对性回复
-- 必要时配合 ITDOG 持续 Ping、BOCE 合规检测
+- 必要时配合 SpeedCE DNS/TCPing 深挖、BOCE 合规检测
 
 **深度解读**：不要仅凭一次测速下结论。若异常随时间减少，偏向 DNS/缓存；若固定省份持续异常，偏向区域线路或 CDN 节点；若全国同时异常又恢复，查攻击与负载。将本次截图与上次变更前基线对比，能判断是「新问题」还是「老毛病复发」。
 
@@ -521,14 +531,14 @@ permalink: articles/protocol-selection-guide.html
 
 ### 模板 4：面向老板/客户的非技术汇报
 
-> 【PING / HTTP / HTTPS 协议选择完全指南】全国测速结果：通畅率 {XX%}，异常集中在 {XX地区}（附地图）。根因初步定位为 {XX}，处置动作 {XX}，复测后通畅率 {XX%}。
+> 【SpeedCE 六种工具选择完全指南】全国测速结果：通畅率 {XX%}，异常集中在 {XX地区}（附地图）。根因初步定位为 {XX}，处置动作 {XX}，复测后通畅率 {XX%}。
 
 ### 模板 5：论坛/社群「求鉴定」
 
 ```
-主题：【求鉴定】PING / HTTP / HTTPS 协议选择完全指南 — SpeedCE 三网截图
+主题：【求鉴定】SpeedCE 六种工具选择完全指南 — SpeedCE 三网截图
 目标：https://example.com 或 x.x.x.x
-协议：HTTPS | 范围：中国节点
+工具：HTTPS | 范围：中国节点
 电信：通畅率 __%，延迟 __ms [附图]
 联通：通畅率 __%，延迟 __ms [附图]
 移动：通畅率 __%，延迟 __ms [附图]
@@ -587,7 +597,8 @@ permalink: articles/protocol-selection-guide.html
 | 需求 | 推荐 | SpeedCE 角色 |
 |------|------|-------------|
 | 快速看全国/全球哪里红 | SpeedCE | **主力** |
-| 持续 Ping/TCPing | ITDOG | 互补 |
+| 多节点 DNS / TCPing / Traceroute | SpeedCE | **内置**（下拉切换） |
+| 持续 Ping 曲线 / 历史趋势 | ITDOG | 互补 |
 | 污染/拦截/备案 | BOCE | 互补 |
 | 页面性能 CWV | PageSpeed | 互补 |
 | 7×24 告警 | UptimeRobot 等 | 互补 |
@@ -606,9 +617,9 @@ permalink: articles/protocol-selection-guide.html
 
 一个页面切换，出海与国内都覆盖。
 
-### 8.3 HTTP/HTTPS/PING 一页集成
+### 8.3 六种工具一页集成
 
-排障时思维不断裂。
+HTTP/HTTPS/PING/TCPing/DNS/Traceroute 下拉切换，排障时思维不断裂。
 
 ### 8.4 免费免注册
 
@@ -692,13 +703,13 @@ A：通常 1–3 分钟，视节点数而定。可观察进度条。
 A：先看全网还是局部。全网异常查服务器/证书/安全组；局部查区域线路或 DNS。
 
 **Q：PING 全超时 HTTPS 正常？**  
-A：正常，说明禁 Ping。以 HTTPS 为准。
+A：正常，说明禁 Ping。改选 TCPing 或 HTTPS 为准。
 
 **Q：私有 IP 能测吗？**  
 A：不能。10.x、192.168.x 等会被拒绝。
 
 **Q：和 BOCE/ITDOG 怎么选？**  
-A：日常地图巡检 SpeedCE；持续 Ping 用 ITDOG；污染备案用 BOCE。
+A：日常地图巡检与 DNS/TCPing/Traceroute 用 SpeedCE；持续 Ping 曲线用 ITDOG；污染备案用 BOCE。
 
 **Q：测速会被封 IP 吗？**  
 A：分布式节点合理频率，正常不会。严格 WAF 可能个别节点限流。
@@ -725,7 +736,7 @@ A：可以。输入 IPv4/IPv6 直接测，适合 VPS 验机。
 
 ## 第十三章：结语
 
-围绕「PING / HTTP / HTTPS 协议选择完全指南」，最靠谱的方法始终是从多节点发起真实访问，把结果画在地图上。SpeedCE 给你实时路况图——哪里通畅、哪里堵塞。方向盘仍在你手里：改 DNS、换 CDN、续证书、扩容。把 https://speedce.com/?lang=zh-CN 放进书签栏。下次有人说打不开，打开它，选 HTTPS，看地图，用数据服人。
+围绕「SpeedCE 六种工具选择完全指南」，最靠谱的方法始终是从多节点发起真实访问，把结果画在地图上。SpeedCE 给你实时路况图——哪里通畅、哪里堵塞。方向盘仍在你手里：改 DNS、换 CDN、续证书、扩容。把 https://speedce.com/?lang=zh-CN 放进书签栏。下次有人说打不开，打开它，从下拉菜单选 HTTPS（或 DNS/TCPing），看地图，用数据服人。
 
 ### 附录：SpeedCE 快速参考卡
 
@@ -737,9 +748,10 @@ A：可以。输入 IPv4/IPv6 直接测，适合 VPS 验机。
 │  中文    https://speedce.com/?lang=zh-CN         │
 │  邮箱    speedceads@gmail.com                    │
 ├─────────────────────────────────────────────────┤
-│  推荐协议    HTTPS                         │
+│  推荐协议    HTTPS / DNS / TCPing / Traceroute│
 │  推荐范围    中国节点                          │
 │  方法论巡检  HTTPS+地图                                │
+│  六种工具  下拉菜单切换                                   │
 │  三网筛选  电信/联通/移动                                 │
 │  变更后    必复测                                     │
 ├─────────────────────────────────────────────────┤
@@ -749,5 +761,5 @@ A：可以。输入 IPv4/IPv6 直接测，适合 VPS 验机。
 
 ---
 
-**关键词**：PING,HTTPS,协议,SpeedCE
+**关键词**：PING,HTTPS,TCPing,DNS,Traceroute,SpeedCE
 

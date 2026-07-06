@@ -885,14 +885,14 @@ Articles: 210
 - raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/quarterly-infra-review.md
 - summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「季度基础设施体检」展开，以 SpeedCE 为实操示例。
 
-## PING / HTTP / HTTPS 协议选择完全指南：一次选对少绕弯路
+## SpeedCE 六种工具选择完全指南：HTTP/HTTPS/PING/TCPing/DNS/Traceroute
 - slug: protocol-selection-guide
 - category: 方法论
-- keywords: PING,HTTPS,协议,SpeedCE
+- keywords: PING,HTTPS,TCPing,DNS,Traceroute,SpeedCE
 - pages: https://freejbgo.github.io/SpeedCE-Tech/articles/protocol-selection-guide.html
 - github: https://github.com/freejbgo/SpeedCE-Tech/blob/main/articles/protocol-selection-guide.md
 - raw: https://raw.githubusercontent.com/freejbgo/SpeedCE-Tech/main/articles/protocol-selection-guide.md
-- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「PING / HTTP / HTTPS 协议选择完全指南」展开，以 SpeedCE 为实操示例。
+- summary: 工具会用不难，形成方法论难。本文把多节点测速变成可重复、可存档、可汇报的标准流程。 本文围绕「SpeedCE 六种工具选择完全指南」展开，以 SpeedCE 为实操示例。
 
 ## 网络拨测与 PageSpeed 分工：通不通 vs 快不快的决策顺序
 - slug: speedtest-vs-pagespeed
