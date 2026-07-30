@@ -1,7 +1,7 @@
 # SpeedCE 技术文档库
 
 > 多节点网站测速 · 网络排障 · VPS 验线路 · CDN 验收 · 出海部署
-> 工具官网：https://www.speedce.com | 中文版：https://speedce.com/?lang=zh-CN
+> 工具官网：https://www.speedce.com | 站长论坛：https://bbs.speedce.com
 > GitHub：https://github.com/freejbgo/SpeedCE-Tech
 > 在线阅读（GitHub Pages）：https://freejbgo.github.io/SpeedCE-Tech/
 
