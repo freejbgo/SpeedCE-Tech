@@ -2,7 +2,7 @@
 
 > 目标规格：每篇 **8000–15000 字** 级实战长文
 
-> 工具：https://www.speedce.com | 中文：https://speedce.com/?lang=zh-CN
+> 工具：https://www.speedce.com | 论坛：https://bbs.speedce.com
 
 **库内文章**：210 篇
 **生成长文平均字数**：约 17409 字符/篇
@@ -263,5 +263,5 @@
 
 1. **规格**：每篇发布前配 3–5 张 SpeedCE 实拍地图（电信/联通/移动/全球）
 2. **节奏**：每 3–5 天 1 篇，优先故障排查 → VPS/CDN
-3. **互链**：文内互链到其他专题文章 + SpeedCE 中文页
+3. **互链**：文内互链到其他专题文章 + SpeedCE 官网与站长论坛
 4. **标签**：网站测速、CDN、VPS、运维、SpeedCE

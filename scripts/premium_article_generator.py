@@ -11,7 +11,7 @@ OUT = Path(__file__).resolve().parent.parent / "articles"
 OUT.mkdir(parents=True, exist_ok=True)
 
 HEADER = """> 工具地址：https://www.speedce.com  
-> 中文界面：https://speedce.com/?lang=zh-CN  
+> 站长论坛：https://bbs.speedce.com  
 > 联系：speedceads@gmail.com  
 > 可用工具：HTTP · HTTPS · PING · TCPing · DNS · Traceroute（页面下拉菜单切换）
 
@@ -21,9 +21,12 @@ HEADER = """> 工具地址：https://www.speedce.com
 
 SPEEDCE_TOOLS = "HTTP、HTTPS、PING、TCPing、DNS、Traceroute"
 SPEEDCE_TOOLS_SLASH = "HTTP / HTTPS / PING / TCPing / DNS / Traceroute"
+FORUM_URL = "https://bbs.speedce.com"
 
 FOOTER = """
 ---
+
+有拿不准的测速结论？欢迎到 [SpeedCE 站长论坛]({forum_url}) 交流心得、晒三网截图。
 
 **关键词**：{keywords}
 
@@ -93,6 +96,8 @@ def communication_chapter(topic: dict) -> str:
 > 【{t}】全国测速结果：通畅率 {'{'}XX%{'}'}，异常集中在 {'{'}XX地区{'}'}（附地图）。根因初步定位为 {'{'}XX{'}'}，处置动作 {'{'}XX{'}'}，复测后通畅率 {'{'}XX%{'}'}。
 
 ### 模板 5：论坛/社群「求鉴定」
+
+推荐发布到 [SpeedCE 站长论坛]({FORUM_URL})，或用以下模板：
 
 ```
 主题：【求鉴定】{t} — SpeedCE 三网截图
@@ -181,7 +186,7 @@ def appendix_card(protocol: str, scope: str, extra_lines: list[str]) -> str:
         "│  SpeedCE 快速参考                                │\n",
         "├─────────────────────────────────────────────────┤\n",
         "│  官网    https://www.speedce.com                 │\n",
-        "│  中文    https://speedce.com/?lang=zh-CN         │\n",
+        f"│  论坛    {FORUM_URL:<33}│\n",
         "│  邮箱    speedceads@gmail.com                    │\n",
         "├─────────────────────────────────────────────────┤\n",
         f"│  推荐协议    {protocol:<30}│\n",
@@ -928,8 +933,8 @@ def make_scenarios(topic: dict) -> list[dict]:
         f"间歇性 sporadic：有时正常有时异常，单次测速容易误判，需多次点检留曲线。",
     ]
     steps_base = [
-        "打开 https://speedce.com/?lang=zh-CN",
-        f"在 **Select a tool** 下拉菜单选 **{topic['protocol'].split('+')[0]}**（共 {SPEEDCE_TOOLS_SLASH}）",
+        "打开 https://speedce.com",
+        f"在 **选择工具** 下拉菜单选 **{topic['protocol'].split('+')[0]}**（共 {SPEEDCE_TOOLS_SLASH}）",
         f"范围选 **{topic['scope']}**（中国节点 / 全球节点）",
         "输入主域名、子域或 IP，点击开始测速",
         "记录通畅、异常、平均延迟四数字",
@@ -1009,7 +1014,7 @@ def generate_article(topic: dict) -> str:
     parts.append("| **三网分** | 电信、联通、移动各一张图 |\n")
     parts.append("| **多次测** | DNS 生效、晚高峰、间歇故障至少 2–3 次 |\n\n")
     parts.append("### 1.4 SpeedCE 六种工具分别什么时候用\n\n")
-    parts.append("SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需换站：\n\n")
+    parts.append("SpeedCE 页面顶部 **选择工具** 下拉菜单提供六种工具，无需换站：\n\n")
     parts.append("| 你想知道 | 选 | 说明 |\n|----------|-----|------|\n")
     parts.append("| 网站能不能打开 | HTTPS | 生产环境首选 |\n")
     parts.append("| 仅 80 端口 / 跳转 | HTTP | 排查跳转与老链接 |\n")
@@ -1020,8 +1025,8 @@ def generate_article(topic: dict) -> str:
     parts.append("| 路由卡在哪 | Traceroute | 跨境/线路抖动、绕路诊断 |\n\n---\n\n")
 
     parts.append("## 第二章：SpeedCE 标准流程（建议跟着做一遍）\n\n")
-    parts.append("打开 https://speedce.com/?lang=zh-CN\n\n")
-    parts.append("页面布局：**Select a tool** 工具下拉 → 输入域名/IP → **Test scope** 选中国/全球节点 → **Start Test**。\n\n")
+    parts.append("打开 https://speedce.com\n\n")
+    parts.append("页面布局：**选择工具** 下拉 → 输入域名/IP → **测试范围** 选中国/全球节点 → **开始测速**。\n\n")
     parts.append("| 步骤 | 操作 |\n|------|------|\n")
     parts.append(f"| 1 | 工具下拉菜单选：**{topic['protocol'].replace('+', ' / ')}**（可选 {SPEEDCE_TOOLS_SLASH}） |\n")
     parts.append(f"| 2 | 选范围：**{topic['scope']}** |\n")
@@ -1091,7 +1096,7 @@ def generate_article(topic: dict) -> str:
     ]
     for item in checklist:
         parts.append(f"□ {item}\n")
-    parts.append("```\n\n工具：https://speedce.com/?lang=zh-CN\n\n---\n\n")
+    parts.append("```\n\n工具：https://speedce.com\n\n---\n\n")
 
     parts.append("## 第十章：常见误区——别再这样测了\n\n")
     myths = [
@@ -1135,14 +1140,16 @@ def generate_article(topic: dict) -> str:
     parts.append(
         f"围绕「{title.split('：')[0]}」，最靠谱的方法始终是从多节点发起真实访问，把结果画在地图上。"
         "SpeedCE 给你实时路况图——哪里通畅、哪里堵塞。方向盘仍在你手里：改 DNS、换 CDN、续证书、扩容。"
-        f"把 https://speedce.com/?lang=zh-CN 放进书签栏。下次有人说打不开，打开它，从下拉菜单选 HTTPS（或 DNS/TCPing），看地图，用数据服人。\n\n"
+        "把 https://speedce.com 放进书签栏。下次有人说打不开，打开它，从下拉菜单选 HTTPS（或 DNS/TCPing），看地图，用数据服人。"
+        f"测速结果有争议、想请同行帮忙看地图？带上三网截图到 [SpeedCE 站长论坛]({FORUM_URL}) 发帖——"
+        "有图有数据，比群里零散提问更容易得到靠谱回复。\n\n"
     )
     parts.append(appendix_card(
         topic["protocol"].split("+")[0],
         topic["scope"][:12],
         [f"{topic['category']}巡检  HTTPS+地图", "六种工具  下拉菜单切换", "三网筛选  电信/联通/移动", "变更后    必复测"],
     ))
-    parts.append(FOOTER.format(keywords=topic["keywords"]))
+    parts.append(FOOTER.format(keywords=topic["keywords"], forum_url=FORUM_URL))
     return "".join(parts)
 
 
@@ -1173,7 +1180,7 @@ def main():
     lines = [
         "# SpeedCE 高质量长文库\n",
         "\n> 目标规格：每篇 **8000–15000 字** 级实战长文\n",
-        f"\n> 工具：https://www.speedce.com | 中文：https://speedce.com/?lang=zh-CN\n",
+        f"\n> 工具：https://www.speedce.com | 论坛：{FORUM_URL}\n",
         f"\n**库内文章**：{len(index)} 篇\n",
         f"**生成长文平均字数**：约 {avg_c} 字符/篇\n",
     ]
@@ -1191,7 +1198,7 @@ def main():
     lines.append("\n## 发布建议\n\n")
     lines.append("1. **规格**：每篇发布前配 3–5 张 SpeedCE 实拍地图（电信/联通/移动/全球）\n")
     lines.append("2. **节奏**：每 3–5 天 1 篇，优先故障排查 → VPS/CDN\n")
-    lines.append("3. **互链**：文内互链到其他专题文章 + SpeedCE 中文页\n")
+    lines.append("3. **互链**：文内互链到其他专题文章 + SpeedCE 官网与站长论坛\n")
     lines.append("4. **标签**：网站测速、CDN、VPS、运维、SpeedCE\n")
 
     (OUT / "README.md").write_text("".join(lines), encoding="utf-8")

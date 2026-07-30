@@ -10,7 +10,7 @@ permalink: articles/cesu-vs-speedce.html
 # CESU.ai vs SpeedCE：新兴工具站与地图派实测对比
 
 > 工具地址：https://www.speedce.com  
-> 中文界面：https://speedce.com/?lang=zh-CN  
+> 站长论坛：https://bbs.speedce.com  
 > 联系：speedceads@gmail.com  
 > 可用工具：HTTP · HTTPS · PING · TCPing · DNS · Traceroute（页面下拉菜单切换）
 
@@ -61,7 +61,7 @@ permalink: articles/cesu-vs-speedce.html
 
 ### 1.4 SpeedCE 六种工具分别什么时候用
 
-SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需换站：
+SpeedCE 页面顶部 **选择工具** 下拉菜单提供六种工具，无需换站：
 
 | 你想知道 | 选 | 说明 |
 |----------|-----|------|
@@ -77,9 +77,9 @@ SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需�
 
 ## 第二章：SpeedCE 标准流程（建议跟着做一遍）
 
-打开 https://speedce.com/?lang=zh-CN
+打开 https://speedce.com
 
-页面布局：**Select a tool** 工具下拉 → 输入域名/IP → **Test scope** 选中国/全球节点 → **Start Test**。
+页面布局：**选择工具** 工具下拉 → 输入域名/IP → **Test scope** 选中国/全球节点 → **Start Test**。
 
 | 步骤 | 操作 |
 |------|------|
@@ -108,8 +108,8 @@ SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需�
 
 **SpeedCE 测法**
 
-1. 打开 https://speedce.com/?lang=zh-CN
-2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+1. 打开 https://speedce.com
+2. 在 **选择工具** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
 3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
@@ -157,8 +157,8 @@ SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需�
 
 **SpeedCE 测法**
 
-1. 打开 https://speedce.com/?lang=zh-CN
-2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+1. 打开 https://speedce.com
+2. 在 **选择工具** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
 3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
@@ -206,8 +206,8 @@ SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需�
 
 **SpeedCE 测法**
 
-1. 打开 https://speedce.com/?lang=zh-CN
-2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+1. 打开 https://speedce.com
+2. 在 **选择工具** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
 3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
@@ -255,8 +255,8 @@ SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需�
 
 **SpeedCE 测法**
 
-1. 打开 https://speedce.com/?lang=zh-CN
-2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+1. 打开 https://speedce.com
+2. 在 **选择工具** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
 3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
@@ -304,8 +304,8 @@ SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需�
 
 **SpeedCE 测法**
 
-1. 打开 https://speedce.com/?lang=zh-CN
-2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+1. 打开 https://speedce.com
+2. 在 **选择工具** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
 3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
@@ -353,8 +353,8 @@ SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需�
 
 **SpeedCE 测法**
 
-1. 打开 https://speedce.com/?lang=zh-CN
-2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+1. 打开 https://speedce.com
+2. 在 **选择工具** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
 3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
@@ -402,8 +402,8 @@ SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需�
 
 **SpeedCE 测法**
 
-1. 打开 https://speedce.com/?lang=zh-CN
-2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+1. 打开 https://speedce.com
+2. 在 **选择工具** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
 3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
@@ -451,8 +451,8 @@ SpeedCE 页面顶部 **Select a tool** 下拉菜单提供六种工具，无需�
 
 **SpeedCE 测法**
 
-1. 打开 https://speedce.com/?lang=zh-CN
-2. 在 **Select a tool** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
+1. 打开 https://speedce.com
+2. 在 **选择工具** 下拉菜单选 **HTTPS**（共 HTTP / HTTPS / PING / TCPing / DNS / Traceroute）
 3. 范围选 **中国节点**（中国节点 / 全球节点）
 4. 输入主域名、子域或 IP，点击开始测速
 5. 记录通畅、异常、平均延迟四数字
@@ -648,7 +648,7 @@ HTTP/HTTPS/PING/TCPing/DNS/Traceroute 下拉切换，排障时思维不断裂。
 □ 异常省份已记录并跟进至修复
 ```
 
-工具：https://speedce.com/?lang=zh-CN
+工具：https://speedce.com
 
 ---
 
@@ -736,7 +736,7 @@ A：可以。输入 IPv4/IPv6 直接测，适合 VPS 验机。
 
 ## 第十三章：结语
 
-围绕「CESU.ai vs SpeedCE」，最靠谱的方法始终是从多节点发起真实访问，把结果画在地图上。SpeedCE 给你实时路况图——哪里通畅、哪里堵塞。方向盘仍在你手里：改 DNS、换 CDN、续证书、扩容。把 https://speedce.com/?lang=zh-CN 放进书签栏。下次有人说打不开，打开它，从下拉菜单选 HTTPS（或 DNS/TCPing），看地图，用数据服人。
+围绕「CESU.ai vs SpeedCE」，最靠谱的方法始终是从多节点发起真实访问，把结果画在地图上。SpeedCE 给你实时路况图——哪里通畅、哪里堵塞。方向盘仍在你手里：改 DNS、换 CDN、续证书、扩容。把 https://speedce.com 放进书签栏。下次有人说打不开，打开它，从下拉菜单选 HTTPS（或 DNS/TCPing），看地图，用数据服人。测速结果有争议、想请同行帮忙看地图？带上三网截图到 [SpeedCE 站长论坛](https://bbs.speedce.com) 发帖——有图有数据，比群里零散提问更容易得到靠谱回复。
 
 ### 附录：SpeedCE 快速参考卡
 
@@ -745,7 +745,7 @@ A：可以。输入 IPv4/IPv6 直接测，适合 VPS 验机。
 │  SpeedCE 快速参考                                │
 ├─────────────────────────────────────────────────┤
 │  官网    https://www.speedce.com                 │
-│  中文    https://speedce.com/?lang=zh-CN         │
+│  论坛    https://bbs.speedce.com                 │
 │  邮箱    speedceads@gmail.com                    │
 ├─────────────────────────────────────────────────┤
 │  推荐协议    HTTPS                         │
@@ -759,7 +759,9 @@ A：可以。输入 IPv4/IPv6 直接测，适合 VPS 验机。
 └─────────────────────────────────────────────────┘
 ```
 
+
 ---
 
+有拿不准的测速结论？欢迎到 [SpeedCE 站长论坛](https://bbs.speedce.com) 交流心得、晒三网截图。
 **关键词**：CESU,SpeedCE,对比
 

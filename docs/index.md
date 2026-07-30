@@ -8,8 +8,8 @@ permalink: /
 # SpeedCE 技术文档库
 
 > [SpeedCE](https://www.speedce.com) — 多节点网站 / IP 测速工具  
-> 可用工具：**HTTP · HTTPS · PING · TCPing · DNS · Traceroute**（[Select a tool](https://speedce.com/?lang=zh-CN) 下拉菜单）  
-> 中文界面：https://speedce.com/?lang=zh-CN  
+> 可用工具：**HTTP · HTTPS · PING · TCPing · DNS · Traceroute**（[选择工具](https://speedce.com) 下拉菜单）  
+> 站长论坛：https://bbs.speedce.com  
 > 联系：speedceads@gmail.com
 
 本知识库收录 **210 篇** 高质量长文（每篇约 1.6 万字），
